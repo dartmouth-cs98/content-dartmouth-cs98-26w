@@ -1,0 +1,10 @@
+{
+  "modules": {},
+  "general": {
+    "pages": [
+      "logistics",
+      "dartmouth-cs98"
+    ],
+    "slides": []
+  }
+}
