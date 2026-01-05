@@ -1,10 +1,26 @@
 {
-  "modules": {},
+  "modules": {
+    "preproject": {
+      "pages": [],
+      "slides": [],
+      "assignments": {}
+    }
+  },
   "general": {
     "pages": [
       "logistics",
       "dartmouth-cs98"
     ],
-    "slides": []
+    "slides": [
+      "interviews",
+      "hack-a-thing-1",
+      "first-sprint",
+      "design-plus",
+      "code-review",
+      "welcome-back",
+      "existential-duty",
+      "user-personas",
+      "welcome"
+    ]
   }
 }
