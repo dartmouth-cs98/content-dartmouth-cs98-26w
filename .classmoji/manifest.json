@@ -19,7 +19,8 @@
   "general": {
     "pages": [
       "logistics",
-      "dartmouth-cs98"
+      "dartmouth-cs98",
+      "need-finding-interviews"
     ],
     "slides": [
       "interviews",
