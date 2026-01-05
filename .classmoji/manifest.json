@@ -3,7 +3,12 @@
     "preproject": {
       "pages": [],
       "slides": [],
-      "assignments": {}
+      "assignments": {
+        "need-finding-interviews": {
+          "pages": [],
+          "slides": []
+        }
+      }
     },
     "project": {
       "pages": [],
