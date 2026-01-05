@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Review</title>
+  <!-- Reveal.js core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <!-- slides.com full CSS (includes fonts, themes, sl-block styles) -->
+  <link rel="stylesheet" href="/content/dartmouth-cs98/content-dartmouth-cs98-26w/.slidesthemes/cs98-slides-theme/lib/offline-v2.css">
+  <!-- Custom theme CSS (user customizations from slides.com) -->
+  <link rel="stylesheet" href="/content/dartmouth-cs98/content-dartmouth-cs98-26w/.slidesthemes/cs98-slides-theme/custom-theme.css">
+  <style>
+    /* Override slides.com animation system - make all elements fully visible */
+    .sl-block-content,
+    .sl-block-content[data-animation-type],
+    .sl-block-content[data-animation-type="fade-in"],
+    .sl-block-content[data-animation-type="fade-out"] {
+      opacity: 1 !important;
+      visibility: visible !important;
+      pointer-events: auto !important;
+    }
+  </style>
+</head>
+<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+  <div class="reveal" data-theme="shared:cs98-slides-theme">
+    <div class="slides">
+
+				<section class="stack" data-id="ebac8a34e68f61b0ec360d3d51158681"><section data-id="b40c5d7ebd20b362d9a06e7e2fac9f3c"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="2d9332b4b20a47541c3446092793421a"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>CS98.02</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 628.195px; height: 251.278px; left: 165.902px; top: 108.932px; min-width: 1px; min-height: 1px;" data-name="image-8eee54" data-block-id="166733d268ded5535ba85a12d46fde48"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="500" data-natural-height="200" data-evernote-lazy-src="cs98-code-reviews/38fee9aac9a6b507ce1f8b4ee19d0170.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/38fee9aac9a6b507ce1f8b4ee19d0170.gif"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 628.518px; height: 300.636px; left: 165.741px; top: 380.631px; min-width: 1px; min-height: 1px;" data-name="image-145fe3" data-block-id="7cff6cc4a68519f27530eaed7146d9af"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="669" data-natural-height="320" data-evernote-lazy-src="cs98-code-reviews/7688d61f35cedbc6507a8d8a686feabd.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/7688d61f35cedbc6507a8d8a686feabd.gif"></div></div><aside class="notes">* gonna do buddy code reviews
+* who has had official code reviews at in internship or something?
+* how did they go?
+</aside></section><section data-id="796aafbe9ab1f224c3dbf69c1e9081f1"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="f1dacc65962bf01cc7ef2a0a845ca55a"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Buddy Code Reviews</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 877.043px; height: 490px; left: 44.6785px; top: 140px; min-width: 1px; min-height: 1px;" data-name="image-4847f8" data-block-id="7a8512946d659c936d2a58c87a0daf6a"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="460" data-natural-height="257" data-evernote-lazy-src="cs98-code-reviews/f893760937e4da9aafbed550761700b7.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/f893760937e4da9aafbed550761700b7.gif"></div></div><aside class="notes">* gonna do buddy code reviews
+* who has had official code reviews at in internship or something?
+* how did they go?
+* what should a code review look like?
+* or what would you want to get out of a code review?
+</aside></section><section data-id="512f5403851da70dd54f6d938f381d55"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="33bdd140983ec2287889a1042ce9f05f"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Code Review Types</h1>
+</div></div>
+
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 546.617px;" data-name="text-e81e8a" data-block-id="bdc0d6160b81589c71b8b76bc56b448b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>guided walkthroughs / inspections</li>
+	<li>pull request reviews (single / multiple)</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 594.886px; height: 309.376px; left: 182.557px; top: 156.312px;" data-name="image-18b569" data-block-id="75b627e88a7a70f744edcd468fdb1a86"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="673" data-natural-height="350" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/1552c3c08dfbc2298b4a68ef31331dc4.jpeg"></div></div><aside class="notes">* today we'll do in person walkthroughs
+* they are more formal that just chatting
+* less formal than inspections
+* and a bit more civil than this one
+
+</aside></section><section data-id="f83d8f8764f0b5705affe2bcbf642157"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="c3e7c2f5c48244edc7c6801497cec919"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Code Review Types</h1>
+</div></div>
+
+
+<div class="sl-block" data-block-type="image" style="width: 806.4px; height: 403.2px; left: 80px; top: 107.559px; min-width: 1px; min-height: 1px;" data-name="image-479c2e" data-block-id="67fadcb24f63f82c8049b7b127bce744"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="800" data-natural-height="400" data-evernote-lazy-src="cs98-code-reviews/c5cd51c84bb0cfd6d5f0fcc1b403433d.jpg" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/c5cd51c84bb0cfd6d5f0fcc1b403433d.jpg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 546.617px;" data-name="text-e81e8a" data-block-id="f2d2dd49e21fe5149158e0432c605fa8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>guided walkthroughs / inspections</li>
+	<li>pull request reviews (single / multiple)</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div></section><section data-id="5047384de54fee18182ce5935b804afb"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="5ce1d07b022376d119b9a9f4f5acc8ac"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>How They Help</h1>
+</div></div>
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 380px;" data-name="text-e81e8a" data-block-id="7973bd7029daefc46ca68a1435daaa57"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>
+<em>Code Complete</em>&nbsp;research
+	<ul>
+		<li>design/code review: 60% <strong>errors</strong>&nbsp;caught</li>
+		<li>unit/function/integration: 25-45%</li>
+	</ul>
+	</li>
+	<li>"single biggest thing you can do to improve your code"</li>
+	<li>"my code isn't done until I've gone over it with a fellow developer"</li>
+	<li>learn from others</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 468.489px; height: 311.983px; left: 426.41px; top: 108.017px; min-width: 1px; min-height: 1px;" data-name="image-cad009" data-block-id="accfe98ea5f477fee69a7d57dfba22cc"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="455" data-natural-height="303" data-evernote-lazy-src="cs98-code-reviews/bca3c09ac80b8c3c56f96a7c8f3007b9.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/bca3c09ac80b8c3c56f96a7c8f3007b9.gif"></div></div><aside class="notes">* jeff atwood - stackoverflow
+* i enjoy them because it is a great chance to learn from others
+* and be less embarrassed to show my work
+* share your knowledge
+* reading code as a way to learn
+</aside></section><section data-id="feb7a52cda708cde62c20464e0937be4"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="8344fb5bd8a39f2c8e633149405cea06"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Walk through your code</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 527.644px; height: 296.8px; left: 216.178px; top: 123.2px; min-width: 1px; min-height: 1px;" data-name="image-1b94da" data-block-id="373d5128b9c4a0624d0226b380666a92"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="320" data-natural-height="180" data-evernote-lazy-src="cs98-code-reviews/36ad1a14fbac25f00a7e5d7ff08bc521.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/36ad1a14fbac25f00a7e5d7ff08bc521.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 897.397px; left: 6.425px; top: 439px;" data-name="text-2fd2e6" data-block-id="c21d830fd53ad1e37b54a0c4c62ea639"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li style="text-align:left">don't stress it - start high level</li>
+	<li style="text-align:left">brief demo of product</li>
+	<li style="text-align:left">then walk through main user-facing code (main views)</li>
+	<li style="text-align:left">then show server and any data models</li>
+	<li style="text-align:left">share what works and doesn't with current architecture</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div><aside class="notes">* consider it like onboarding a new person to the project
+* what do you want them to know
+</aside></section><section data-id="b7406bc315181c7dfb92253fe710b672"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="3c03c4932c1e146bb71ba85e73424ddf"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Ask Questions</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 511.189px; height: 287.935px; left: 413px; top: 119.76px; min-width: 1px; min-height: 1px;" data-name="image-b8d761" data-block-id="dd1f12bf827f658f3704f0702fa0d345"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="490" data-natural-height="276" data-evernote-lazy-src="cs98-code-reviews/420411450a49e73ac5d590ac4e0917d6.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/420411450a49e73ac5d590ac4e0917d6.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 9.3497px; top: 429px;" data-name="text-cff66c" data-block-id="313078c2cfde60c735979ecd61d94ff0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>how do you store that?</li>
+	<li>did you consider?</li>
+	<li>do you handle the case that?</li>
+	<li>what is best practice?</li>
+	<li>what does thaaat function do?</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div><aside class="notes">* if you see something say something
+</aside></section><section data-id="8583945bde1506f9aa3bad1fa5d5041d"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="c9920288fe52d13f4e1a20a89e71d0e5"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Things to look for</h1>
+</div></div>
+
+
+<div class="sl-block" data-block-type="image" style="width: 560px; height: 420px; left: 400px; top: 181.632px; min-width: 1px; min-height: 1px;" data-name="image-db98c8" data-block-id="4553bd681dd1f313ef6bd4816a8bb962"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="728" data-natural-height="546" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/fa5157636f4d93f81005945fde5cbd34.jpg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 380.479px; left: 36.5966px; top: 289.659px;" data-name="text-7c2b8f" data-block-id="5ff48283858cdf66d46452c12b14aa76"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>overall architecture clear?</li>
+	<li>confusing code/logic</li>
+	<li>best practices (linting, commenting, naming, consistency)</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 658px; left: 180px; top: 630px;" data-name="text-779041" data-block-id="752545783e22413dc84ca171fb963329"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p>"code that it is easy to read is easy to debug"</p>
+</div></div><aside class="notes">* architecture - microservices? data storage?
+* do you understand how the components fit together?
+* if you needed to change something would you know where / how?
+* ** who knows what linting is?
+* **platitude: code that is easy to read is easy to debug
+* what are some thoughts on what makes code easy to read?
+</aside></section><section data-id="5ef631eedb0ce2fa376a7bf2a62f4e1e"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="d97ba8456442bca40ab6e4a23bbd4de3"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Code Style</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 919.922px; left: 9.34969px; top: 478px;" data-name="text-cff66c" data-block-id="2c2d151b1add0272a79171dcb053b541"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li>can be jarring but don't harp on it</li>
+	<li>discussion is good, but not tabs vs spaces</li>
+	<li>are they using a style guide?<br>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 806.399px; height: 281.15px; left: 73.601px; top: 117.532px; min-width: 1px; min-height: 1px;" data-name="image-3faf85" data-block-id="c11221b9842d780753c2d47cc9caa12c"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="740" data-natural-height="258" data-evernote-lazy-src="cs98-code-reviews/30f1c2174e8f538313df2ea1955eea75.png" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/30f1c2174e8f538313df2ea1955eea75.png"></div></div><aside class="notes">* mechanical style issues, like tabs vs spaces, or basic naming rules for variables, shouldn’t even make it to the code review stage.
+* missing linter? 
+* the best code reviews should provoke discussions (not tabs vs spaces)
+* certainly interesting to ask if code style and why?
+
+</aside></section><section data-id="db2207d7794cb1abaf56c13189d32b11"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="ea13d25516b1abe63ef260af3116fbcd"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Error Handling</h1>
+</div></div>
+
+
+<div class="sl-block" data-block-type="image" style="width: 539.057px; height: 518px; left: 11.3705px; top: 140px; min-width: 1px; min-height: 1px;" data-name="image-309823" data-block-id="c2e1771dbec343df04d0de838021ede7"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1024" data-natural-height="984" data-evernote-lazy-src="cs98-code-reviews/f3e1d48e721569288b78e8a5e70e2071.png" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/f3e1d48e721569288b78e8a5e70e2071.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 392.975px; left: 550.428px; top: 309.298px;" data-name="text-9df452" data-block-id="90254f2368760f5df446b016cdbd1770"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>important - but don't go overboard on this just yet</li>
+	<li>some clear cases, input checking for instance</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div><aside class="notes">* sometimes good - but don't go overboard on this just yet
+* some clear cases, input checking for instance
+</aside></section><section data-id="5a492530a0e3d2bc9592a851f1440646"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="4f63d8e60ad3783cf3b05ff26cb1fc33"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Be Kind</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 2.84217e-14px; top: 536px;" data-name="text-cff66c" data-block-id="4c1b48d7dcd92dbe0ecdef32d0765262"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li style="text-align:left">praise cool things</li>
+	<li style="text-align:left">learning opportunity for all</li>
+	<li style="text-align:left">if you like something say something<br>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 907.455px; height: 395.877px; left: 18.7211px; top: 116.245px; min-width: 1px; min-height: 1px;" data-name="image-347be0" data-block-id="75bd3df21aa06989b54587851cff3704"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="800" data-natural-height="349" data-evernote-lazy-src="cs98-code-reviews/a165223b0061f334033d7f391156b7d7.png" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/a165223b0061f334033d7f391156b7d7.png"></div></div><aside class="notes">* i learn more from reading others code than they know, including when i look at all of your code</aside></section><section data-id="d888187cdd50bee181ecd07e8769e84b"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="3065b780fd371a9b515d1592df493fe9"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Comment on GitHub</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 919.922px; left: 11.0514px; top: 447.337px;" data-name="text-cff66c" data-block-id="f0260bd63d42099f78ed0319acf0b442"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li style="text-align:left">make comments on the github</li>
+	<li style="text-align:left">at least 1 issues from each of you</li>
+	<li style="text-align:left">must be on a specific line or range of code</li>
+	<li style="text-align:left">can be a question - doesn't have to be an insightful criticism</li>
+	<li style="text-align:left">plz to engage with them afterwards, for followup</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 450.731px; height: 289.97px; left: 494.635px; top: 157.367px; min-width: 1px; min-height: 1px;" data-name="image-766209" data-block-id="0dea7b988c77374ace8043e668a37d92"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="600" data-natural-height="386" data-evernote-lazy-src="cs98-code-reviews/27c3dce381115c5204ed989735ec9016.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/27c3dce381115c5204ed989735ec9016.gif"></div></div><aside class="notes">* at least 1 issue from each of you
+* must be on a specific line or range of code
+* can be a question - doesn't have to be an insightful criticism.
+* even better - can be a pull request review
+
+</aside></section><section data-id="d0d06a1f7e00bbeb2bee47abf187b60c"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="bc516fe3517fc42fc9fffa9788e95897"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Example</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 695.922px; left: 132.039px; top: 210px;" data-name="text-cff66c" data-block-id="645d4bbf361d0c4f175c9f7d3049c97e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li style="text-align:left">
+<a href="https://github.com/timofei7/boomsync2/blob/f5a0d7bb4413426d087a59b09a260499c8e1fb5a/src/App.js#L144" target="_blank">https://github.com/timofei7/boomsync2/blob/f5a0d7bb4413426d087a59b09a260499c8e1fb5a/src/App.js#L144</a>&nbsp; has some amazing ternary stuff in it</li>
+	<li style="text-align:left">
+<a href="https://github.com/timofei7/boomsync2/blob/f5a0d7bb4413426d087a59b09a260499c8e1fb5a/src/Play.js#L259" target="_blank">https://github.com/timofei7/boomsync2/blob/f5a0d7bb4413426d087a59b09a260499c8e1fb5a/src/Play.js#L259</a> inserts audio with autoplay when necessary<br>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+</div></div><aside class="notes">* https://github.com/timofei7/boomsync2/blob/f5a0d7bb4413426d087a59b09a260499c8e1fb5a/src/App.js#L144  App.js has some amazing ternary stuff in it
+* https://github.com/timofei7/boomsync2/blob/f5a0d7bb4413426d087a59b09a260499c8e1fb5a/src/Play.js#L259 Play.js inserts audio with autoplay when necessary  but also has a setTimeout that can't be cancelled
+</aside></section><section data-id="fbee2b36bc4e6c689c40b869e577e807"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="12e794b66623a81127a7ebb5a545e086"><div class="sl-block-content title" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Todo</h1>
+</div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 400px; height: 245px; left: 560px; top: 455px; min-width: 1px; min-height: 1px;" data-name="image-f3bad8" data-block-id="9e52f5ac16c46ccc38b231a70f782819"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="800" data-natural-height="490" data-evernote-lazy-src="cs98-code-reviews/a1258f99ba7220db5a29825c3222e8a5.gif" src="/content/dartmouth-cs98/content-dartmouth-cs98-26w/slides/code-review-1767609682945/images/a1258f99ba7220db5a29825c3222e8a5.gif"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 776.215px; left: 0px; top: 109.513px;" data-name="text-b6a205" data-block-id="65d3dbbdfb03a7aeb71548a6aa216f4f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>make sure you are set up with the project running and think about what you want to show</li>
+	<li>schedule a time to meet up</li>
+	<li>start with code walkthrough</li>
+	<li>what is the first code that executes</li>
+	<li>go from there through major components and logic</li>
+	<li>ask questions during walkthrough</li>
+	<li>ask to see specific things</li>
+	<li>ask how they handle some specific case</li>
+	<li>learn about architecture</li>
+	<li>take notes</li>
+	<li>then go back and make issue</li>
+	<li>can do this whenever, have a week</li>
+</ul>
+</div></div></section></section>
+			
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      controls: true,
+      progress: true,
+      center: false,
+      transition: 'slide',
+      width: 960,
+      height: 700,
+      plugins: [RevealHighlight]
+    });
+  </script>
+</body>
+</html>
