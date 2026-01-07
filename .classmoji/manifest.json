@@ -5,7 +5,15 @@
       "slides": [],
       "assignments": {
         "need-finding-interviews": {
-          "pages": [],
+          "pages": [
+            "need-finding-interviews"
+          ],
+          "slides": []
+        },
+        "hackathing1": {
+          "pages": [
+            "hackathing1"
+          ],
           "slides": []
         }
       }
@@ -19,13 +27,10 @@
   "general": {
     "pages": [
       "logistics",
-      "dartmouth-cs98",
       "project-proposal",
       "sprint-1-planning-your-first-sprint",
-      "hackathing1",
       "close-out-sprints-for-term",
       "winterim-work",
-      "need-finding-interviews",
       "share-a-paper",
       "user-research",
       "ui-design-mockups",
@@ -47,7 +52,8 @@
       "group-dynamics-worksheet",
       "grayscale-prototype",
       "first-team-meeting-worksheet",
-      "feature-spec-and-roadmap"
+      "feature-spec-and-roadmap",
+      "dartmouth-cs98"
     ],
     "slides": [
       "interviews",
