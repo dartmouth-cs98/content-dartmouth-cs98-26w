@@ -1,5 +1,17 @@
 {
   "modules": {
+    "claude-hacktivity": {
+      "pages": [],
+      "slides": [],
+      "assignments": {
+        "claude-hacktivity": {
+          "pages": [
+            "claudehacktivity"
+          ],
+          "slides": []
+        }
+      }
+    },
     "preproject": {
       "pages": [],
       "slides": [],
@@ -53,8 +65,7 @@
       "grayscale-prototype",
       "first-team-meeting-worksheet",
       "feature-spec-and-roadmap",
-      "dartmouth-cs98",
-      "claudehacktivity"
+      "dartmouth-cs98"
     ],
     "slides": [
       "interviews",
