@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 85%;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #333;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+    h1 {
+      font-size: 2em;
+      margin-top: 2rem;
+      background-color: #FBF3DB;
+      padding: 0.5rem 0.75rem;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-top: 1.5rem;
+      background-color: #DDEBF1;
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    h3 { font-size: 1.25em; margin-top: 1rem; }
+    .heading-block { margin: 0; padding: 0; }
+    .heading-block h1, .heading-block h2, .heading-block h3 { margin-top: 0; }
+    .h1-block { margin-top: 2rem; }
+    .h2-block { margin-top: 1.5rem; }
+    .h3-block { margin-top: 1rem; }
+    p { margin-bottom: 1em; font-size: 16px; }
+    ul, ol {
+      margin-bottom: 1em;
+      padding-left: 1.5em;
+      list-style-position: outside;
+    }
+    ul { list-style-type: disc; }
+    ol { list-style-type: decimal; }
+    li {
+      margin-bottom: 0.25em;
+      display: list-item;
+      font-size: 16px;
+    }
+    ul ul, ol ul { list-style-type: circle; }
+    ul ul ul, ol ul ul { list-style-type: square; }
+    ol ol { list-style-type: lower-alpha; }
+    ol ol ol { list-style-type: lower-roman; }
+    code {
+      background: #f6f8fa;
+      padding: 0.2em 0.4em;
+      border-radius: 3px;
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 85%;
+    }
+    pre {
+      background: #f6f8fa;
+      padding: 1em;
+      border-radius: 6px;
+      overflow-x: auto;
+      margin-bottom: 1em;
+    }
+    pre code {
+      background: none;
+      padding: 0;
+      font-size: 100%;
+    }
+    .code-block {
+      background: #1e1e1e;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 1em;
+    }
+    .code-block .code-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+      background: #161616;
+      border-bottom: 1px solid #333;
+    }
+    .code-block .code-lang {
+      color: #9ca3af;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    .code-block .code-body {
+      display: flex;
+      padding: 1rem 0;
+    }
+    .code-block .line-numbers {
+      display: flex;
+      flex-direction: column;
+      padding: 0 1rem 0 1rem;
+      text-align: right;
+      user-select: none;
+      color: #6b7280;
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 1rem;
+      line-height: 1.625;
+    }
+    .code-block .line-numbers .line-number {
+      display: block;
+    }
+    .code-block pre {
+      flex: 1;
+      background: transparent;
+      margin: 0;
+      padding: 0 1rem 0 0;
+      overflow-x: auto;
+    }
+    .code-block pre code {
+      color: #d4d4d4;
+      font-size: 1rem;
+      line-height: 1.625;
+    }
+    .terminal-block {
+      background: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 1em;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    .terminal-block .terminal-header {
+      background: linear-gradient(180deg, #3c3c3c 0%, #2d2d2d 100%);
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    .terminal-block .terminal-dots {
+      display: flex;
+      gap: 8px;
+    }
+    .terminal-block .terminal-dots span {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    .terminal-block .terminal-dots span:nth-child(1) { background: #ff5f57; }
+    .terminal-block .terminal-dots span:nth-child(2) { background: #febc2e; }
+    .terminal-block .terminal-dots span:nth-child(3) { background: #28c840; }
+    .terminal-block .terminal-title {
+      flex: 1;
+      text-align: center;
+      color: #9ca3af;
+      font-size: 0.8rem;
+      font-weight: 500;
+      margin-right: 60px;
+    }
+    .terminal-block pre {
+      background: transparent;
+      margin: 0;
+      padding: 1rem;
+      font-family: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Menlo', 'Consolas', monospace;
+      font-size: 16px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    .terminal-block pre code {
+      background: transparent;
+      color: #d1d5db;
+      padding: 0;
+      font-size: inherit;
+      font-family: inherit;
+    }
+    .terminal-block .terminal-prompt {
+      color: #4ade80;
+      user-select: none;
+    }
+    blockquote {
+      border-left: 4px solid #ddd;
+      margin: 1em 0;
+      padding-left: 1em;
+      color: #666;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.75em;
+      text-align: left;
+    }
+    th {
+      background: #f6f8fa;
+      font-weight: 600;
+    }
+    a {
+      color: #0969da;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
+    .callout {
+      background: #f7f6f3;
+      padding: 1em;
+      border-radius: 6px;
+      display: flex;
+      gap: 0.75em;
+      margin-bottom: 1em;
+    }
+    .callout-emoji {
+      font-size: 1.25em;
+    }
+    .alert {
+      padding: 1rem;
+      border-radius: 6px;
+      border-left: 4px solid;
+      margin-bottom: 1em;
+      display: flex;
+      gap: 0.75rem;
+    }
+    .alert-info {
+      background: #dbeafe;
+      border-left-color: #3b82f6;
+    }
+    .alert-warning {
+      background: #fef3c7;
+      border-left-color: #f59e0b;
+    }
+    .alert-error {
+      background: #fee2e2;
+      border-left-color: #ef4444;
+    }
+    .alert-success {
+      background: #d1fae5;
+      border-left-color: #10b981;
+    }
+    .alert-note {
+      background: #f3f4f6;
+      border-left-color: #6b7280;
+    }
+    .alert::before {
+      content: '';
+      font-size: 1.25em;
+    }
+    .alert-info::before { content: '💡'; }
+    .alert-warning::before { content: '⚠️'; }
+    .alert-error::before { content: '🚨'; }
+    .alert-success::before { content: '✅'; }
+    .alert-note::before { content: '📌'; }
+    .checklist-item {
+      display: flex;
+      align-items: start;
+      gap: 0.75rem;
+      margin-bottom: 0.5em;
+    }
+    .checklist-item input[type="checkbox"] {
+      margin-top: 0.375rem;
+      width: 1rem;
+      height: 1rem;
+      cursor: not-allowed;
+    }
+    .checklist-item input[type="checkbox"]:checked + span {
+      text-decoration: line-through;
+      color: #9ca3af;
+    }
+    .file-tree {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 1em;
+    }
+    .file-tree::before {
+      content: attr(data-title);
+      display: block;
+      background: #f3f4f6;
+      color: #6b7280;
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .file-tree pre {
+      background: transparent;
+      color: #374151;
+      margin: 0;
+      padding: 1rem;
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .video-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 1em;
+      border-radius: 6px;
+    }
+    .video-embed iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .file-download {
+      background: #f6f8fa;
+      border: 1px solid #e1e4e8;
+      border-radius: 6px;
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+    .file-download a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      color: #0969da;
+      font-weight: 500;
+    }
+    .file-download a::before {
+      content: '📎';
+    }
+    .page-link-block {
+      display: block;
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0 -0.5rem 1em -0.5rem;
+      border-radius: 0.25rem;
+      transition: background-color 0.15s;
+      cursor: pointer;
+    }
+    .page-link-block:hover {
+      background-color: #f3f4f6;
+    }
+    .page-link-block a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #111827;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .page-link-block a:hover {
+      text-decoration: underline;
+    }
+    .page-link-block a::before {
+      content: '📄';
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .profile-card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 1em;
+      background: white;
+      width: 100%;
+    }
+    .columns .profile-card {
+      max-width: 100%;
+    }
+    .profile-card img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      background: #f3f4f6;
+      margin: 0;
+    }
+    .profile-card > div {
+      padding: 1rem;
+    }
+    .profile-card strong {
+      display: block;
+      font-size: 16px;
+      font-weight: 600;
+      color: #111827;
+    }
+    .profile-card em {
+      display: block;
+      font-size: 14px;
+      font-style: normal;
+      color: #6b7280;
+      margin-top: 0.25rem;
+    }
+    .embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 1em;
+      border-radius: 6px;
+      border: 1px solid #e1e4e8;
+    }
+    .embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .columns {
+      display: grid;
+      gap: 1.5rem;
+      margin-bottom: 1em;
+    }
+    .columns[data-columns="2"] {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .columns[data-columns="3"] {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .columns[data-columns="4"] {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .column {
+      min-height: 50px;
+    }
+    @media (max-width: 768px) {
+      .columns {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="heading-block h1-block"><h1>Claude Hacktivity</h1></div>
+
+<p><em>Work in pairs for this activity (~1 hour)</em></p>
+
+<div class="alert alert-info">
+  <p>In this activity, you'll use Claude Code to brainstorm solutions based on your need finding interviews and build a quick frontend prototype.</p>
+</div>
+
+<div class="alert alert-note">
+  <p>This activity will largely be in the terminal. If you don't have a good terminal app, consider: <a href="https://ghostty.org">Ghostty</a>, <a href="https://sw.kovidgoyal.net/kitty/">Kitty</a>, or <a href="https://www.warp.dev">Warp</a>.</p>
+</div>
+
+<div class="callout">
+  <span class="callout-emoji">💻</span>
+  <div>You're free to use a code editor like VS Code or Cursor, but for this activity try going <strong>terminal first</strong>. Use Claude Code to explore the codebase, ask it to explain things to you, and work with it as if you're pair programming — where Claude is the one typing.</div>
+</div>
+
+<div class="heading-block h2-block"><h2>To Start</h2></div>
+
+<ul>
+  <li>Find a partner to work with</li>
+  <li>Clone the starter repo provided in Classmoji</li>
+  <li>Submit by commenting on the GitHub issue with your repo link, then close the issue</li>
+</ul>
+
+<div class="heading-block h2-block"><h2>Setup Claude Code</h2></div>
+
+<p>You should have received an invite to Claude Console. Follow these steps to get set up:</p>
+
+<ol>
+  <li><strong>Accept the invite</strong> sent to your Dartmouth email</li>
+  <li><strong>Log into Claude Console</strong> at <a href="https://console.anthropic.com">console.anthropic.com</a></li>
+  <li><strong>Install Claude Code CLI</strong>:</li>
+</ol>
+
+<div class="terminal-block">
+  <div class="terminal-header">
+    <div class="terminal-dots"><span></span><span></span><span></span></div>
+    <span class="terminal-title">Terminal</span>
+  </div>
+  <pre><code class="language-bash">npm install -g @anthropic-ai/claude-code</code></pre>
+</div>
+
+<p>Or download from: <a href="https://claude.ai/code">claude.ai/code</a></p>
+
+<ol start="4">
+  <li><strong>Authenticate</strong> by running <code>claude</code> and following the prompts</li>
+</ol>
+
+<div class="heading-block h2-block"><h2>Setup Chrome Integration</h2></div>
+
+<div class="alert alert-warning">
+  <p>This step is critical! Chrome integration lets Claude test your prototype as it builds.</p>
+</div>
+
+<ol>
+  <li><strong>Install the Claude in Chrome extension</strong> from the Chrome Web Store:<br>
+    <a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">chromewebstore.google.com/detail/claude</a></li>
+  <li><strong>Start Claude Code with Chrome enabled</strong>:</li>
+</ol>
+
+<div class="terminal-block">
+  <div class="terminal-header">
+    <div class="terminal-dots"><span></span><span></span><span></span></div>
+    <span class="terminal-title">Terminal</span>
+  </div>
+  <pre><code class="language-bash">claude --chrome</code></pre>
+</div>
+
+<ol start="3">
+  <li><strong>Verify the connection</strong> by running <code>/chrome</code> inside Claude Code</li>
+  <li><strong>Test it</strong> by asking Claude to navigate to a website</li>
+</ol>
+
+<p>Docs: <a href="https://code.claude.com/docs/en/chrome">code.claude.com/docs/en/chrome</a></p>
+
+<div class="heading-block h2-block"><h2>Tips for Using Claude Code</h2></div>
+
+<ul>
+  <li><strong>Set your style to "explainer"</strong> - Run <code>/config</code> and set the style to <code>explainer</code>. This helps Claude explain what it's doing as it works.</li>
+  <li><strong>Use plan mode heavily</strong> - Before building, ask Claude to plan first. This helps you understand the approach before code gets written. You can enter plan mode by typing <code>/plan</code> or asking Claude to "plan this out first".</li>
+  <li><strong>Use CLAUDE.md for memory</strong> - If you need Claude to remember something for future sessions, ask it to add it to <code>CLAUDE.md</code>. This is a special file that Claude reads at the start of every conversation — it's like giving Claude persistent notes about your project, preferences, or conventions.</li>
+</ul>
+
+<div class="heading-block h2-block"><h2>The Activity</h2></div>
+
+<div class="heading-block h3-block"><h3>Step 1: Discuss (5-10 min)</h3></div>
+
+<p>With your partner, discuss your need finding interviews:</p>
+<ul>
+  <li>What problems did you uncover?</li>
+  <li>What patterns or insights stood out?</li>
+  <li>What surprised you?</li>
+</ul>
+
+<div class="heading-block h3-block"><h3>Step 2: Brainstorm with Claude (10-15 min)</h3></div>
+
+<p>Open Claude Code in your cloned repo and start a conversation:</p>
+<ul>
+  <li>Share your need finding insights with Claude</li>
+  <li>Ask it to help brainstorm potential solutions</li>
+  <li>Explore different approaches together</li>
+  <li>Narrow down to <strong>one idea</strong> to prototype</li>
+</ul>
+
+<div class="callout">
+  <span class="callout-emoji">💬</span>
+  <div>Try prompts like: "Based on these user interviews, what problems could we solve?" or "Help me brainstorm solutions for [specific pain point]"</div>
+</div>
+
+<div class="heading-block h3-block"><h3>Step 3: Build a Quick Prototype (30-40 min)</h3></div>
+
+<p>Use Claude Code to build a frontend-only prototype:</p>
+<ul>
+  <li><strong>No backend, no database</strong> - just UI</li>
+  <li>Claude can test it in the browser as you go (via Chrome integration)</li>
+  <li>Focus on the <strong>core user experience</strong></li>
+  <li>It doesn't need to be perfect - this is a quick exploration</li>
+</ul>
+
+<div class="alert alert-info">
+  <p><strong>Install the frontend-design plugin first!</strong> Run <code>/plugin</code> and add <code>frontend-design</code>. This helps Claude build better-looking UIs with solid design patterns.</p>
+</div>
+
+<div class="callout">
+  <span class="callout-emoji">🚀</span>
+  <div>
+    <strong>Starter prompt to get going:</strong><br>
+    "Set up a Vite + React project with Tailwind CSS. Then build a simple frontend prototype for [your idea] — just UI, no backend. Start with a basic layout and we'll iterate from there."
+  </div>
+</div>
+
+<div class="alert alert-info">
+  <p>Claude can open your prototype in Chrome, click around, and help you iterate on the design in real-time.</p>
+</div>
+
+<div class="heading-block h2-block"><h2>To Turn In</h2></div>
+
+<p>Close the GitHub issue with a comment that includes:</p>
+
+<div class="checklist-item">
+  <input type="checkbox" disabled>
+  <span>Brief description of the problem you're solving</span>
+</div>
+<div class="checklist-item">
+  <input type="checkbox" disabled>
+  <span>Screenshots of your prototype</span>
+</div>
+<div class="checklist-item">
+  <input type="checkbox" disabled>
+  <span>What worked well / what didn't with Claude Code</span>
+</div>
+
+<p><em>If you worked with a partner, only one of you needs to submit — but please include your partner's GitHub username in your comment.</em></p>
+
+</body>
+</html>
