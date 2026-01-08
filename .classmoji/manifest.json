@@ -4,15 +4,15 @@
       "pages": [],
       "slides": [],
       "assignments": {
-        "need-finding-interviews": {
-          "pages": [
-            "need-finding-interviews"
-          ],
-          "slides": []
-        },
         "hackathing1": {
           "pages": [
             "hackathing1"
+          ],
+          "slides": []
+        },
+        "need-finding-interviews": {
+          "pages": [
+            "need-finding-interviews"
           ],
           "slides": []
         }
@@ -53,7 +53,8 @@
       "grayscale-prototype",
       "first-team-meeting-worksheet",
       "feature-spec-and-roadmap",
-      "dartmouth-cs98"
+      "dartmouth-cs98",
+      "claudehacktivity"
     ],
     "slides": [
       "interviews",
