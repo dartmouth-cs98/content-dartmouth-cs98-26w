@@ -34,6 +34,7 @@
       display: inline-block;
     }
     h3 { font-size: 1.25em; margin-top: 1rem; }
+    /* Heading block wrappers */
     .heading-block { margin: 0; padding: 0; }
     .heading-block h1, .heading-block h2, .heading-block h3 { margin-top: 0; }
     .h1-block { margin-top: 2rem; }
@@ -75,6 +76,7 @@
       padding: 0;
       font-size: 100%;
     }
+    /* Code block with header and line numbers */
     .code-block {
       background: #1e1e1e;
       border-radius: 8px;
@@ -460,165 +462,74 @@
   </style>
 </head>
 <body>
-<div class="heading-block h1-block"><h1>Claude Hacktivity</h1></div>
-
 <p><em>Work in pairs for this activity (~1 hour)</em></p>
-
-<div class="callout">
+<div class="callout"><span class="callout-emoji">💡</span><span>
   <span class="callout-emoji">💡</span>
   <div>In this activity, you'll use Claude Code to brainstorm solutions based on your need finding interviews and build a quick frontend prototype.</div>
-</div>
-
-<div class="callout">
+</span></div>
+<div class="callout"><span class="callout-emoji">📌</span><span>
   <span class="callout-emoji">📌</span>
   <div>This activity will largely be in the terminal. If you don't have a good terminal app, consider: <a href="https://ghostty.org">Ghostty</a>, <a href="https://sw.kovidgoyal.net/kitty/">Kitty</a>, or <a href="https://www.warp.dev">Warp</a>.</div>
-</div>
-
-<div class="callout">
+</span></div>
+<div class="callout"><span class="callout-emoji">💡</span><span>this is something</span></div>
+<div class="callout"><span class="callout-emoji">💻</span><span>
   <span class="callout-emoji">💻</span>
   <div>You're free to use a code editor like VS Code or Cursor, but for this activity try going <strong>terminal first</strong>. Use Claude Code to explore the codebase, ask it to explain things to you, and work with it as if you're pair programming — where Claude is the one typing.</div>
-</div>
-
+</span></div>
 <div class="heading-block h2-block"><h2>To Start</h2></div>
-
-<ul>
-  <li>Find a partner to work with</li>
-  <li>Clone the starter repo provided in Classmoji</li>
-  <li>Submit by commenting on the GitHub issue with your repo link, then close the issue</li>
-</ul>
-
+<ul><li>Find a partner to work with</li><li>Clone the starter repo provided in Classmoji</li><li>Submit by commenting on the GitHub issue with your repo link, then close the issue</li></ul>
 <div class="heading-block h2-block"><h2>Setup Claude Code</h2></div>
-
 <p>You should have received an invite to Claude Console. Follow these steps to get set up:</p>
-
-<ol>
-  <li><strong>Accept the invite</strong> sent to your Dartmouth email</li>
-  <li><strong>Log into Claude Console</strong> at <a href="https://console.anthropic.com">console.anthropic.com</a></li>
-  <li><strong>Install Claude Code CLI</strong>:</li>
-</ol>
-
-<div class="terminal-block">
-  <div class="terminal-header">
-    <div class="terminal-dots"><span></span><span></span><span></span></div>
-    <span class="terminal-title">Terminal</span>
-  </div>
-  <pre><code class="language-bash">npm install -g @anthropic-ai/claude-code</code></pre>
-</div>
-
+<ol start="1"><li><strong>Accept the invite</strong> sent to your Dartmouth email</li><li><strong>Log into Claude Console</strong> at <a href="https://console.anthropic.com">console.anthropic.com</a></li><li><strong>Install Claude Code CLI</strong>:</li></ol>
+<div class="terminal-block"><div class="terminal-header"><div class="terminal-dots"><span></span><span></span><span></span></div><span class="terminal-title">Terminal</span></div><pre><code class="language-bash">npm install -g @anthropic-ai/claude-code</code></pre></div>
 <p>Or download from: <a href="https://claude.ai/code">claude.ai/code</a></p>
-
-<ol start="4">
-  <li><strong>Authenticate</strong> by running <code>claude</code> and following the prompts</li>
-</ol>
-
+<ol start="4"><li><strong>Authenticate</strong> by running <code>claude</code> and following the prompts</li></ol>
 <div class="heading-block h2-block"><h2>Setup Chrome Integration</h2></div>
-
-<div class="callout">
+<div class="callout"><span class="callout-emoji">⚠️</span><span>
   <span class="callout-emoji">⚠️</span>
   <div>This step is critical! Chrome integration lets Claude test your prototype as it builds.</div>
-</div>
-
-<ol>
-  <li><strong>Install the Claude in Chrome extension</strong> from the Chrome Web Store:<br>
-    <a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">chromewebstore.google.com/detail/claude</a></li>
-  <li><strong>Start Claude Code with Chrome enabled</strong>:</li>
-</ol>
-
-<div class="terminal-block">
-  <div class="terminal-header">
-    <div class="terminal-dots"><span></span><span></span><span></span></div>
-    <span class="terminal-title">Terminal</span>
-  </div>
-  <pre><code class="language-bash">claude --chrome</code></pre>
-</div>
-
-<ol start="3">
-  <li><strong>Verify the connection</strong> by running <code>/chrome</code> inside Claude Code</li>
-  <li><strong>Test it</strong> by asking Claude to navigate to a website</li>
-</ol>
-
+</span></div>
+<ol start="1"><li><strong>Install the Claude in Chrome extension</strong> from the Chrome Web Store:<br>
+    <a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn">chromewebstore.google.com/detail/claude</a></li><li><strong>Start Claude Code with Chrome enabled</strong>:</li></ol>
+<div class="terminal-block"><div class="terminal-header"><div class="terminal-dots"><span></span><span></span><span></span></div><span class="terminal-title">Terminal</span></div><pre><code class="language-bash">claude --chrome</code></pre></div>
+<ol start="3"><li><strong>Verify the connection</strong> by running <code>/chrome</code> inside Claude Code</li><li><strong>Test it</strong> by asking Claude to navigate to a website</li></ol>
 <p>Docs: <a href="https://code.claude.com/docs/en/chrome">code.claude.com/docs/en/chrome</a></p>
-
 <div class="heading-block h2-block"><h2>Tips for Using Claude Code</h2></div>
-
-<ul>
-  <li><strong>Set your style to "explainer"</strong> - Run <code>/config</code> and set the style to <code>explainer</code>. This helps Claude explain what it's doing as it works.</li>
-  <li><strong>Use plan mode heavily</strong> - Before building, ask Claude to plan first. This helps you understand the approach before code gets written. You can enter plan mode by typing <code>/plan</code> or asking Claude to "plan this out first".</li>
-  <li><strong>Use CLAUDE.md for memory</strong> - If you need Claude to remember something for future sessions, ask it to add it to <code>CLAUDE.md</code>. This is a special file that Claude reads at the start of every conversation — it's like giving Claude persistent notes about your project, preferences, or conventions.</li>
-</ul>
-
+<ul><li><strong>Set your style to "explainer"</strong> - Run <code>/config</code> and set the style to <code>explainer</code>. This helps Claude explain what it's doing as it works.</li><li><strong>Use plan mode heavily</strong> - Before building, ask Claude to plan first. This helps you understand the approach before code gets written. You can enter plan mode by typing <code>/plan</code> or asking Claude to "plan this out first".</li><li><strong>Use CLAUDE.md for memory</strong> - If you need Claude to remember something for future sessions, ask it to add it to <code>CLAUDE.md</code>. This is a special file that Claude reads at the start of every conversation — it's like giving Claude persistent notes about your project, preferences, or conventions.</li></ul>
 <div class="heading-block h2-block"><h2>The Activity</h2></div>
-
 <div class="heading-block h3-block"><h3>Step 1: Discuss (5-10 min)</h3></div>
-
 <p>With your partner, discuss your need finding interviews:</p>
-<ul>
-  <li>What problems did you uncover?</li>
-  <li>What patterns or insights stood out?</li>
-  <li>What surprised you?</li>
-</ul>
-
+<ul><li>What problems did you uncover?</li><li>What patterns or insights stood out?</li><li>What surprised you?</li></ul>
 <div class="heading-block h3-block"><h3>Step 2: Brainstorm with Claude (10-15 min)</h3></div>
-
 <p>Open Claude Code in your cloned repo and start a conversation:</p>
-<ul>
-  <li>Share your need finding insights with Claude</li>
-  <li>Ask it to help brainstorm potential solutions</li>
-  <li>Explore different approaches together</li>
-  <li>Narrow down to <strong>one idea</strong> to prototype</li>
-</ul>
-
-<div class="callout">
+<ul><li>Share your need finding insights with Claude</li><li>Ask it to help brainstorm potential solutions</li><li>Explore different approaches together</li><li>Narrow down to <strong>one idea</strong> to prototype</li></ul>
+<div class="callout"><span class="callout-emoji">💬</span><span>
   <span class="callout-emoji">💬</span>
   <div>Try prompts like: "Based on these user interviews, what problems could we solve?" or "Help me brainstorm solutions for [specific pain point]"</div>
-</div>
-
+</span></div>
 <div class="heading-block h3-block"><h3>Step 3: Build a Quick Prototype (30-40 min)</h3></div>
-
 <p>Use Claude Code to build a frontend-only prototype:</p>
-<ul>
-  <li><strong>No backend, no database</strong> - just UI</li>
-  <li>Claude can test it in the browser as you go (via Chrome integration)</li>
-  <li>Focus on the <strong>core user experience</strong></li>
-  <li>It doesn't need to be perfect - this is a quick exploration</li>
-</ul>
-
-<div class="callout">
+<ul><li><strong>No backend, no database</strong> - just UI</li><li>Claude can test it in the browser as you go (via Chrome integration)</li><li>Focus on the <strong>core user experience</strong></li><li>It doesn't need to be perfect - this is a quick exploration</li></ul>
+<div class="callout"><span class="callout-emoji">💡</span><span>
   <span class="callout-emoji">💡</span>
   <div><strong>Install the frontend-design plugin first!</strong> Run <code>/plugin</code> and add <code>frontend-design</code>. This helps Claude build better-looking UIs with solid design patterns.</div>
-</div>
-
-<div class="callout">
+</span></div>
+<div class="callout"><span class="callout-emoji">🚀</span><span>
   <span class="callout-emoji">🚀</span>
   <div>
     <strong>Starter prompt to get going:</strong><br>
     "Set up a Vite + React project with Tailwind CSS. Then build a simple frontend prototype for [your idea] — just UI, no backend. Start with a basic layout and we'll iterate from there."
   </div>
-</div>
-
-<div class="callout">
+</span></div>
+<div class="callout"><span class="callout-emoji">💡</span><span>
   <span class="callout-emoji">💡</span>
   <div>Claude can open your prototype in Chrome, click around, and help you iterate on the design in real-time.</div>
-</div>
-
+</span></div>
 <div class="heading-block h2-block"><h2>To Turn In</h2></div>
-
 <p>Close the GitHub issue with a comment that includes:</p>
-
-<div class="checklist-item">
-  <input type="checkbox" disabled>
-  <span>Brief description of the problem you're solving</span>
-</div>
-<div class="checklist-item">
-  <input type="checkbox" disabled>
-  <span>Screenshots of your prototype</span>
-</div>
-<div class="checklist-item">
-  <input type="checkbox" disabled>
-  <span>What worked well / what didn't with Claude Code</span>
-</div>
-
+<div class="checklist-item"><input type="checkbox"  disabled><span>Brief description of the problem you're solving</span></div>
+<div class="checklist-item"><input type="checkbox"  disabled><span>Screenshots of your prototype</span></div>
+<div class="checklist-item"><input type="checkbox"  disabled><span>What worked well / what didn't with Claude Code</span></div>
 <p><em>If you worked with a partner, only one of you needs to submit — but please include your partner's GitHub username in your comment.</em></p>
-
 </body>
 </html>
