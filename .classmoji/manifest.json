@@ -16,15 +16,15 @@
       "pages": [],
       "slides": [],
       "assignments": {
-        "need-finding-interviews": {
-          "pages": [
-            "need-finding-interviews"
-          ],
-          "slides": []
-        },
         "hackathing1": {
           "pages": [
             "hackathing1"
+          ],
+          "slides": []
+        },
+        "need-finding-interviews": {
+          "pages": [
+            "need-finding-interviews"
           ],
           "slides": []
         },
