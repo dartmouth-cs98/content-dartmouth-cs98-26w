@@ -79,14 +79,14 @@
     ],
     "slides": [
       "interviews",
-      "hack-a-thing-1",
       "first-sprint",
       "design-plus",
       "code-review",
       "welcome-back",
       "existential-duty",
       "user-personas",
-      "welcome"
+      "welcome",
+      "hack-a-thing-1"
     ]
   }
 }
