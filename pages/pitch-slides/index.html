@@ -213,6 +213,26 @@
       max-width: 100%;
       height: auto;
     }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
     .callout {
       background: #f7f6f3;
       padding: 1em;
@@ -442,59 +462,22 @@
   </style>
 </head>
 <body>
-
-<p>Date: September 13, 2023 → September 18, 2023<br>Term: Term 1<br>Week: Week 1<br>Type: individual assignment</p>
-<p><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/pitch-slides/assets/pitch-1767624082700.gif" alt=""></p>
+<p></p>
+<figure class="image-block"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/pitch-slides/assets/pitch-1767624082700.gif" alt=""></figure>
 <p>A MAX 2 minute presentation with a little bit of Q&amp;A to pitch your idea to the class. You can pitch with <strong>at most 1</strong> other person.</p>
-<h2 style="background-color: #FBF3DB;">The Pitch:</h2>
-<ul>
-<li>Motivate idea / the problem, tell a story! Everyone loves stories.</li>
-<li>Propose either:<ul>
-<li>a potential solution</li>
-<li>OR pose a problem you want to attempt to solve without a solution</li>
-<li>OR even just a topic that you think might be interesting to brainstorm around</li>
-</ul>
-</li>
-<li>Discuss any insights you might have into the problem</li>
-</ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">The Pitch:</h2></div>
+<ul><li>Motivate idea / the problem, tell a story! Everyone loves stories.</li><li>Propose either:<ul><li>a potential solution</li><li>OR pose a problem you want to attempt to solve without a solution</li><li>OR even just a topic that you think might be interesting to brainstorm around</li></ul></li><li>Discuss any insights you might have into the problem</li></ul>
 <p>You can use a short slide deck but keep it very visual with <em>at most 10 words</em> on any individual slide!</p>
 <p>Please, don’t be shy, your idea is great! Pitch cause you care. Pitch for the practice. Pitch to make a difference. Pitch to inspire!</p>
 <p>Some thoughts:</p>
-<ul>
-<li>Games, could you take some known game and make it a site or mobile app? Could you make a game for education or poverty or other behavior change?</li>
-<li>Is there an existing product that you want to clone but with a special take. Uber for puppies, Airbnb for breakfast sandwiches, cryptocurrencies for goldfish?</li>
-<li>Your ideas can be <strong>serious</strong>, <strong>world-changing</strong>, or <strong>completely silly</strong>. The point is to enjoy building something cool.</li>
-<li>There are <a href="https://www.programmableweb.com/">lots of fascinating apis</a> out there: from beer reviews to machine learning, and vision apis, to fictional datasets. Could you integrate some of these to enhance your idea?</li>
-<li><a href="https://www.youtube.com/embed/AwXzt2CV7is?start=230">Change in the Nature of Change</a> talk on Monolithic -&gt; Decentralized -&gt; Distributed industries</li>
-<li>Other inspiration sources<ul>
-<li><a href="https://80000hours.org/problem-profiles/#potentially_promising">https://80000hours.org/problem-profiles/#potentially_promising</a></li>
-<li><a href="http://www.ycombinator.com/resources/">http://www.ycombinator.com/resources/</a></li>
-<li><a href="https://www.startupschool.org/library">https://www.startupschool.org/library</a></li>
-<li><a href="http://www.paulgraham.com/startupideas.html">http://www.paulgraham.com/startupideas.html</a></li>
-<li><a href="https://www.producthunt.com/">https://www.producthunt.com</a></li>
-<li><a href="https://www.ycombinator.com/rfs/">https://www.ycombinator.com/rfs/</a></li>
-<li><a href="https://www.npr.org/podcasts/510313/how-i-built-this">https://www.npr.org/podcasts/510313/how-i-built-this</a></li>
-<li><a href="https://dribbble.com/">https://dribbble.com/</a></li>
-<li><a href="http://abc.go.com/shows/shark-tank">http://abc.go.com/shows/shark-tank</a></li>
-</ul>
-</li>
-</ul>
+<ul><li>Games, could you take some known game and make it a site or mobile app? Could you make a game for education or poverty or other behavior change?</li><li>Is there an existing product that you want to clone but with a special take. Uber for puppies, Airbnb for breakfast sandwiches, cryptocurrencies for goldfish?</li><li>Your ideas can be <strong>serious</strong>, <strong>world-changing</strong>, or <strong>completely silly</strong>. The point is to enjoy building something cool.</li><li>There are <a href="https://www.programmableweb.com/">lots of fascinating apis</a> out there: from beer reviews to machine learning, and vision apis, to fictional datasets. Could you integrate some of these to enhance your idea?</li><li><a href="https://www.youtube.com/embed/AwXzt2CV7is?start=230">Change in the Nature of Change</a> talk on Monolithic -&gt; Decentralized -&gt; Distributed industries</li><li>Other inspiration sources<ul><li><a href="https://80000hours.org/problem-profiles/#potentially_promising">https://80000hours.org/problem-profiles/#potentially_promising</a></li><li><a href="http://www.ycombinator.com/resources/">http://www.ycombinator.com/resources/</a></li><li><a href="https://www.startupschool.org/library">https://www.startupschool.org/library</a></li><li><a href="http://www.paulgraham.com/startupideas.html">http://www.paulgraham.com/startupideas.html</a></li><li><a href="https://www.producthunt.com/">https://www.producthunt.com</a></li><li><a href="https://www.ycombinator.com/rfs/">https://www.ycombinator.com/rfs/</a></li><li><a href="https://www.npr.org/podcasts/510313/how-i-built-this">https://www.npr.org/podcasts/510313/how-i-built-this</a></li><li><a href="https://dribbble.com/">https://dribbble.com/</a></li><li><a href="http://abc.go.com/shows/shark-tank">http://abc.go.com/shows/shark-tank</a></li></ul></li></ul>
 <p>Once teams are created around these pitches, you will have an opportunity to brainstorm/pivot/contribute a bit more as a team so these <strong>don’t lock you in</strong>.</p>
-<h2 style="background-color: #FBF3DB;">Background Research</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Background Research</h2></div>
 <p>Don’t forget to do some background research. Sometimes a brief google will show lots of other approaches to the problem. That does not mean your approach isn’t valuable. However the first questions people ask are: doesn’t that already exist? isn’t that just instagram?</p>
 <p>You need to be prepared to defend why your approach is better/different/revolutionary/etc.</p>
-<h2 style="background-color: #FBF3DB;">To Start:</h2>
-<p>🚀 Add your slides to the <a href="https://docs.google.com/presentation/d/1W7fD0Q63tmqZ5tyTAb05_XUqu15wTrX_DnH0fuRsF8g/edit#slide=id.g9c7a2c7953_4_0">shared google presentation!</a></p>
-<h2 style="background-color: #FBF3DB;">To Turn In:</h2>
-<ul>
-<li>slides created in shared google presentation</li>
-<li>must include at minimum:<ul>
-<li>name of your pitch partner if you have one</li>
-<li>working title</li>
-<li>max 8 word tagline</li>
-</ul>
-</li>
-</ul>
-
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Start:</h2></div>
+<p>🚀&nbsp;Add your slides to the<a href="https://docs.google.com/presentation/d/1Bf922J_cw2vcE_IATNwqc5ejn2KDXQIrvc7s156H8Xg/edit?usp=sharing"> shared google presentation!</a></p>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Turn In:</h2></div>
+<ul><li>slides created in shared google presentation</li><li>must include at minimum:<ul><li>name of your pitch partner if you have one</li><li>working title</li><li>max 8 word tagline</li></ul></li></ul>
 </body>
 </html>
