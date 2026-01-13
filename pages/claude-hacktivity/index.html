@@ -478,7 +478,7 @@
 <div class="callout"><span class="callout-emoji">⚠️</span><span>This step is critical! Chrome integration lets Claude test your prototype as it builds.</span></div>
 <p>We'll use the <strong>Chrome DevTools MCP server</strong> to let Claude control Chrome:</p>
 <ol start="1"><li><strong>Add the MCP server to Claude Code</strong>:</li></ol>
-<div class="terminal-block"><div class="terminal-header"><div class="terminal-dots"><span></span><span></span><span></span></div><span class="terminal-title">Terminal</span></div><pre><code class="language-bash">claude mcp add chrome-devtools -- npx chrome-devtools-mcp@latest</code></pre></div>
+<div class="terminal-block"><div class="terminal-header"><div class="terminal-dots"><span></span><span></span><span></span></div><span class="terminal-title">Terminal</span></div><pre><code class="language-bash">claude mcp add chrome-devtools --scope user npx chrome-devtools-mcp@latest</code></pre></div>
 <ol start="2"><li><strong>Restart Claude Code</strong> to load the new server</li><li><strong>Test it</strong> by asking Claude to open a browser and navigate to a website</li></ol>
 <p>Docs: <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">GitHub</a> · <a href="https://www.npmjs.com/package/chrome-devtools-mcp">npm</a></p>
 <div class="heading-block h2-block"><h2>Tips for Using Claude Code</h2></div>
