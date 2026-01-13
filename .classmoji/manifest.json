@@ -33,6 +33,12 @@
             "share-a-paper"
           ],
           "slides": []
+        },
+        "pitch-idea": {
+          "pages": [
+            "pitch-slides"
+          ],
+          "slides": []
         }
       }
     },
@@ -64,7 +70,6 @@
       "sprint-3-main-features-progress",
       "sprint-23-transition",
       "scaffolding",
-      "pitch-slides",
       "hackathing2",
       "group-dynamics-worksheet",
       "grayscale-prototype",
