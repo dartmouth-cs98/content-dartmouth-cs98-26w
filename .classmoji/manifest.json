@@ -78,7 +78,6 @@
       "dartmouth-cs98"
     ],
     "slides": [
-      "interviews",
       "first-sprint",
       "design-plus",
       "code-review",
@@ -86,7 +85,8 @@
       "existential-duty",
       "user-personas",
       "welcome",
-      "hack-a-thing-1"
+      "hack-a-thing-1",
+      "interviews"
     ]
   }
 }
