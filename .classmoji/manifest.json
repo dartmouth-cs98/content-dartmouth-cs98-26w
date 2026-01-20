@@ -45,12 +45,46 @@
     "project": {
       "pages": [],
       "slides": [],
-      "assignments": {}
+      "assignments": {
+        "first-team-meeting-worksheet": {
+          "pages": [
+            "first-team-meeting-worksheet"
+          ],
+          "slides": []
+        },
+        "group-dynamics-worksheet": {
+          "pages": [
+            "group-dynamics-worksheet"
+          ],
+          "slides": []
+        },
+        "state-of-the-art-research": {
+          "pages": [
+            "state-of-the-art-research"
+          ],
+          "slides": []
+        },
+        "watch-ux-research": {
+          "pages": [],
+          "slides": []
+        },
+        "hack-a-thing-2": {
+          "pages": [
+            "hackathing2"
+          ],
+          "slides": []
+        },
+        "project-proposal": {
+          "pages": [
+            "project-proposal"
+          ],
+          "slides": []
+        }
+      }
     }
   },
   "general": {
     "pages": [
-      "project-proposal",
       "sprint-1-planning-your-first-sprint",
       "close-out-sprints-for-term",
       "logistics",
@@ -59,7 +93,6 @@
       "ui-design-mockups",
       "term-demos-and-testing",
       "term-1-summary",
-      "state-of-the-art-research",
       "sprint-2-implementation-data-wiring",
       "sprint-12-transition",
       "sprint-56-transition",
@@ -70,10 +103,7 @@
       "sprint-3-main-features-progress",
       "sprint-23-transition",
       "scaffolding",
-      "hackathing2",
-      "group-dynamics-worksheet",
       "grayscale-prototype",
-      "first-team-meeting-worksheet",
       "feature-spec-and-roadmap",
       "dartmouth-cs98"
     ],
