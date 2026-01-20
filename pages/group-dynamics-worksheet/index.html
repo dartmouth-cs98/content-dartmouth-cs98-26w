@@ -213,6 +213,26 @@
       max-width: 100%;
       height: auto;
     }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
     .callout {
       background: #f7f6f3;
       padding: 1em;
@@ -442,44 +462,28 @@
   </style>
 </head>
 <body>
-
-<p>Date: September 25, 2023 → September 26, 2023<br>Term: Term 1<br>Week: Week 3<br>Type: group assignment</p>
-<p><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/group-dynamics-worksheet/assets/successville-1767624097780.gif" alt=""></p>
-<h2 style="background-color: #FBF3DB;">Part A</h2>
+<p></p>
+<figure class="image-block image-align-center"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/group-dynamics-worksheet/assets/successville-1767624097780.gif" alt="" style="width: 485px" width="485" data-align="center"></figure>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Part A</h2></div>
 <p>Instructions:</p>
-<ul>
-<li>Complete all of Part A by yourself (this should take ~10 minutes).</li>
-<li>Once everyone on your team is finished with Part A, go around and share your responses to the two Role questions.</li>
-<li>You may use <a href="https://hackmd.io/">HackMD</a> to work with the templates below and then you’ll upload them to github wiki per the directions below. Simply copy/paste the markdown template into hackmd and you’ll see what it looks like.</li>
-</ul>
-<h3>I. Why are you making me do this?</h3>
+<ul><li>Complete all of Part A by yourself (this should take ~10 minutes).</li><li>Once everyone on your team is finished with Part A, go around and share your responses to the two Role questions.</li><li>You may use <a href="https://hackmd.io/">HackMD</a> to work with the templates below and then you’ll upload them to github wiki per the directions below. Simply copy/paste the markdown template into hackmd and you’ll see what it looks like.</li></ul>
+<div class="heading-block h3-block"><h3>I. Why are you making me do this?</h3></div>
 <p>This is a loooong 🕐 project. Ideally, you will enjoy working on this project. While the content of the project will certainly factor into your enjoyment, team dynamics will play an equal part.</p>
 <p>The purpose of this worksheet is to prime you to consider ways in which you can actively contribute to your team beyond just doing the tasks assigned to you. Beyond technical experience, you as a person, your life experiences, perspectives, and energy, will all contribute to your team.</p>
 <p>This worksheet also acts as a charter: a mutually-agreed-upon set of rules for team operation and “algorithms” for resolving team conflicts.</p>
 <p>As you work with your team going forward, I want you to be mindful of being <strong>inclusive</strong>. If you are friends with some of your teammates, be especially mindful of this, since friends tend to form subgroups. When you have an idea to share, try to address the entire group. When you need feedback, seek opinions from the entire group.</p>
 <p>There will naturally be louder and quieter members of your group. If someone isn’t contributing their thoughts, they may feel like they can’t get a word in edgewise or no one cares what they think (even if it seems like they are just shy from your perspective). <strong>Ask them what they think!</strong> If others interrupt, intervene and give the first person back “the talking stick,” so to speak. Think of it as <strong>your</strong> responsibility that everyone’s voice is heard.</p>
-<h3>II. Roles</h3>
+<div class="heading-block h3-block"><h3>II. Roles</h3></div>
 <p>Your team is like an ecosystem: every team member will find a niche, or an environment where they are most energized and productive.</p>
 <p>First, I’d like you to think about your technical niche. These are areas where you think you can make substantial contributions to the product. Try to think broader than specific frameworks or languages (though you can use them to elaborate on a broader point): think about what types of problems you enjoy solving or what skills you want to get out of this class.</p>
 <p>Remember there are many faces to developing a finished product: research, hardware, software, user interface design, user testing, marketing, etc.</p>
 <p>Here are some examples:</p>
-<ul>
-<li><em>Since I like drawing and painting in my free time, I want to take responsibility for making sure our user interface is beautiful. I have skills in Adobe Photoshop and Illustrator, so I can also make any images or icons we need.</em></li>
-<li><em>I enjoy gathering tools for my toolbelt, so I want to be the first one to volunteer to learn new web frameworks and find their quirks.</em></li>
-<li><em>I think the web is a hellscape, and I want to stay as far away from it as possible. I will volunteer for any offline tasks, like machine learning or computer graphics.</em></li>
-<li><em>I’m a neat freak, so I want to make sure our code is well-organized and that my team members use proper code etiquette. I can write up a “best practices” document for our team to abide by.</em></li>
-<li><em>I’m a masochist, and I want to be the one who helps my teammate track down a really tough bug they’ve been stuck on for a week.</em></li>
-</ul>
+<ul><li><em>Since I like drawing and painting in my free time, I want to take responsibility for making sure our user interface is beautiful. I have skills in Adobe Photoshop and Illustrator, so I can also make any images or icons we need.</em></li><li><em>I enjoy gathering tools for my toolbelt, so I want to be the first one to volunteer to learn new web frameworks and find their quirks.</em></li><li><em>I think the web is a hellscape, and I want to stay as far away from it as possible. I will volunteer for any offline tasks, like machine learning or computer graphics.</em></li><li><em>I’m a neat freak, so I want to make sure our code is well-organized and that my team members use proper code etiquette. I can write up a “best practices” document for our team to abide by.</em></li><li><em>I’m a masochist, and I want to be the one who helps my teammate track down a really tough bug they’ve been stuck on for a week.</em></li></ul>
 <p>Next, I’d like you to think about your personal niche. These are areas where you think you can make substantial contributions to your team.</p>
 <p>Here are some examples:</p>
-<ul>
-<li><em>I want to be a mediator in team disagreements or conflicts, making sure both sides are heard and a fair resolution is made.</em></li>
-<li><em>I want to be a source of inspiration, bringing big ideas to the table and forcing us to think outside our laptops once in a while.</em></li>
-<li><em>I want to be the one who surprises my team by bringing pizza to our team meeting after a rough week.</em></li>
-<li><em>I want to be a ghost, quiet for most of the day but reliably haunting the repo with my contributions.</em></li>
-</ul>
+<ul><li><em>I want to be a mediator in team disagreements or conflicts, making sure both sides are heard and a fair resolution is made.</em></li><li><em>I want to be a source of inspiration, bringing big ideas to the table and forcing us to think outside our laptops once in a while.</em></li><li><em>I want to be the one who surprises my team by bringing pizza to our team meeting after a rough week.</em></li><li><em>I want to be a ghost, quiet for most of the day but reliably haunting the repo with my contributions.</em></li></ul>
 <p>Copy the form and fill it out for yourself! We’ll add these to the <a href="https://cs98.me/projects/milestones/group-dynamics-worksheet#part-b">Part B</a> after you are done.</p>
-<div class="code-block"><div class="code-header"><span class="code-lang">Code</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span><span class="line-number">7</span><span class="line-number">8</span><span class="line-number">9</span><span class="line-number">10</span><span class="line-number">11</span></div><pre><code>**Team Member Name**
+<div class="code-block"><div class="code-header"><span class="code-lang">JavaScript</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span><span class="line-number">7</span><span class="line-number">8</span><span class="line-number">9</span><span class="line-number">10</span><span class="line-number">11</span></div><pre><code class="language-javascript">**Team Member Name**
 My leadership style (**bold** one):
 Analyst &amp; Architect  /  Driver  /  Spontaneous Motivator  /  Relationship Master
 
@@ -490,10 +494,10 @@ What technical niche would you like to fill?
 What personal niche would you like to fill?
 (1-3 bullets)
 * TODO: Write here...</code></pre></div></div>
-<h2 style="background-color: #FBF3DB;">Part B</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Part B</h2></div>
 <p>Instructions: Complete all of Part B as a team.</p>
-<p>Create this as a wiki page titled <code>Group Dynamics Worksheet</code> in github (more directions below).</p>
-<div class="code-block"><div class="code-header"><span class="code-lang">Code</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span><span class="line-number">7</span><span class="line-number">8</span><span class="line-number">9</span><span class="line-number">10</span><span class="line-number">11</span><span class="line-number">12</span><span class="line-number">13</span><span class="line-number">14</span><span class="line-number">15</span><span class="line-number">16</span><span class="line-number">17</span><span class="line-number">18</span><span class="line-number">19</span><span class="line-number">20</span><span class="line-number">21</span><span class="line-number">22</span><span class="line-number">23</span><span class="line-number">24</span><span class="line-number">25</span><span class="line-number">26</span><span class="line-number">27</span><span class="line-number">28</span><span class="line-number">29</span><span class="line-number">30</span><span class="line-number">31</span><span class="line-number">32</span><span class="line-number">33</span><span class="line-number">34</span><span class="line-number">35</span><span class="line-number">36</span><span class="line-number">37</span><span class="line-number">38</span><span class="line-number">39</span><span class="line-number">40</span><span class="line-number">41</span><span class="line-number">42</span><span class="line-number">43</span></div><pre><code># Group Dynamics Worksheet
+<p>Add this to the&nbsp;<code>Group Dynamics Worksheet</code>&nbsp; Issue in github (more directions below).</p>
+<div class="code-block"><div class="code-header"><span class="code-lang">JavaScript</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span><span class="line-number">7</span><span class="line-number">8</span><span class="line-number">9</span><span class="line-number">10</span><span class="line-number">11</span><span class="line-number">12</span><span class="line-number">13</span><span class="line-number">14</span><span class="line-number">15</span><span class="line-number">16</span><span class="line-number">17</span><span class="line-number">18</span><span class="line-number">19</span><span class="line-number">20</span><span class="line-number">21</span><span class="line-number">22</span><span class="line-number">23</span><span class="line-number">24</span><span class="line-number">25</span><span class="line-number">26</span><span class="line-number">27</span><span class="line-number">28</span><span class="line-number">29</span><span class="line-number">30</span><span class="line-number">31</span><span class="line-number">32</span><span class="line-number">33</span><span class="line-number">34</span><span class="line-number">35</span><span class="line-number">36</span><span class="line-number">37</span><span class="line-number">38</span><span class="line-number">39</span><span class="line-number">40</span><span class="line-number">41</span><span class="line-number">42</span><span class="line-number">43</span></div><pre><code class="language-javascript"># Group Dynamics Worksheet
 
 ## Team Members:
 
@@ -536,23 +540,18 @@ Try to be as specific as possible.
 *What will your group do in order to resolve each type of conflict? (include the levels of escalation)*
 
 The End!</code></pre></div></div>
-<h2 style="background-color: #FBF3DB;">Github Repo</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Github Repo</h2></div>
 <p>We’ll use this opportunity to get your first project repo started (if you haven’t already)! We’ll be using github classroom to autoprovision repositories and set up teams.</p>
 <p><em>Every member</em> on your team <strong>must</strong> use github classroom to set up the teams correctly and automatically.  </p>
-<p>🚀 Each person on your team follow this link: <a href="https://classroom.github.com/a/aujhcYiB">https://classroom.github.com/a/aujhcYiB</a></p>
+<p>🚀&nbsp;Each person on your team follow this link: <a href="https://classroom.github.com/a/aujhcYiB">https://classroom.github.com/a/aujhcYiB</a></p>
 <p>The first person on your team will name the repo and the team name. Each consecutive person will click on the same github classroom link above and simply choose the repo and team to be granted permissions. Please use this as it keeps everything organized and in one place. Once your team is created and you have all gone through the classroom link you will be able to create additional repositories as necessary within the cs98 github organization. <strong>Do not</strong> simply create your own repos - always make them in the <code>dartmouth-cs98-23f</code> org.</p>
-<h2 style="background-color: #FBF3DB;">GitHub Issues</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">GitHub Issues</h2></div>
 <p>We’ll be using GitHub Issues to keep track of pretty much all project documentation and tasks. If you haven’t used GitHub issues before <a href="https://github.com/features/issues">here is what they</a> are and <a href="https://docs.github.com/en/issues">some docs</a>. And some tips on using <a href="https://guides.github.com/features/mastering-markdown/">markdown</a>.</p>
-<p>🚀 Go ahead and start a new issue in your new GitHub repository and use the template above to get started on the content! </p>
-<p>🚀 Add a label <code>documentation</code> to the issue.  All issues that are related to assignments and documentation should have this label set otherwise we may not see them!</p>
-<h2 style="background-color: #FBF3DB;">Realtime Collaboration?</h2>
+<p>🚀&nbsp;Go ahead and start a new issue in your new GitHub repository and use the template above to get started on the content! </p>
+<p>🚀&nbsp;Add a label <code>documentation</code> to the issue.  All issues that are related to assignments and documentation should have this label set otherwise we may not see them!</p>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Realtime Collaboration?</h2></div>
 <p>If you want to collaborate together on markdown files in realtime — rather than having one person type everything in, here’s a cool free tool: <a href="https://hackmd.io/">HackMD</a>. Just copy/paste from here into github wiki when you are done.  <strong>DO</strong> make sure to double check your formatting with the <em>Preview</em> feature.  Sometimes folks submit very malformed markdown somehow and it is hard to read. </p>
-<h2 style="background-color: #FBF3DB;">To Turn In:</h2>
-<ul>
-<li>Your GitHub issue (make sure it is correctly titled!) is your submission.</li>
-<li>Add a label <code>documentation</code> to the issue.</li>
-<li>Make sure everyone on your team has clicked the github classroom link and is on the github team</li>
-</ul>
-
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Turn In:</h2></div>
+<ul><li>Your GitHub issue (make sure it is correctly titled!) is your submission.</li><li>Add a label <code>documentation</code> to the issue.</li><li>Make sure everyone on your team has clicked the github classroom link and is on the github team</li></ul>
 </body>
 </html>
