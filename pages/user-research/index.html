@@ -213,6 +213,26 @@
       max-width: 100%;
       height: auto;
     }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
     .callout {
       background: #f7f6f3;
       padding: 1em;
@@ -442,90 +462,20 @@
   </style>
 </head>
 <body>
-
-<p>Date: September 27, 2023 → October 1, 2023<br>Term: Term 1<br>Week: Week 3<br>Type: group assignment</p>
-<h1 style="background-color: #DDEBF1;">Instructions:</h1>
+<div class="heading-block h1-block" data-bg-color="#DDEBF1"><h1 style="background-color: #DDEBF1">Instructions:</h1></div>
 <p>You have done some user interviews and some state-of-the-art research. </p>
 <p>Now you will define your user, map their journey, and choose a HMW question. </p>
 <p>From there, you will brainstorm a wide array of options for solutions and sketch some possibilities.</p>
 <p><em>Trust the process; these defining and sketching steps prepare you for creating a testable prototype.</em></p>
-<h2 style="background-color: #FBF3DB;">Figma Setup</h2>
-<ul>
-<li><p><strong>Join</strong> the <a href="https://www.figma.com/team_invite/redeem/OzJ9cmYtA08AXmUehZcHTN">CS98 Figma Team</a> &amp; <a href="https://www.figma.com/student/apply">verify your student status</a></p>
-</li>
-<li><p><strong>Find your team’s project</strong> in the CS98 Team Figma (these are created for you).</p>
-<ul>
-<li>Star this project to add it to the sidebar in Figma for quick access in the future.</li>
-</ul>
-</li>
-<li><p>Assign one person from your team to <strong>duplicate</strong> the “<a href="https://www.figma.com/file/qaWYoNlMLPKP0hRI2kM1fI/User-Research?node-id=0%3A1">User Research</a>” FigJam file (in the Figma “Templates” team).</p>
-</li>
-<li><p>Title the FigJam file <code>UXR: First names of each team member</code>.</p>
-</li>
-<li><p>Move it out of your drafts to your team’s Figma project (from the file name at the top).</p>
-<p>  <img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/user-research/assets/screen-shot-2022-09-23-at-4-1767623962716.png" alt="Screen Shot 2022-09-23 at 4.17.10 PM.png"></p>
-</li>
-</ul>
-<h2 style="background-color: #FBF3DB;"><strong>Part 1:  Define (as a team)</strong></h2>
-<ul>
-<li><strong>User Persona</strong><ul>
-<li>Create a User Persona that focuses on the needs you observed in your interviews. This Persona should generalize a specific user or a compilation from a couple of your interviews.</li>
-<li>Don’t name them or give them an image - instead, focus on their experiential traits as a way to minimize bias. A good title is one that describes these traits, such as “The Overworked Educator” or “The Gardening Grandma.”</li>
-<li>The Dimensions of Difference section pulls out the most memorable traits of the user (e.g. they like to plan every detail in advance vs. they like to be totally spontaneous.)</li>
-<li>Write out a paragraph for this persona based on your interviews. Use primary quotes and details. Remember it’s ok to blend a few different interviews together to get a full picture.</li>
-</ul>
-</li>
-<li><strong>User Journey Map</strong><ul>
-<li>With your Persona in mind, be as specific as possible as you map out their current journey to achieve their goal.</li>
-<li>Include the full range of actions: from preparation to the conclusion.</li>
-<li>Identify places in the user journey where their feelings dipped below baseline (a poached experience) and where their expectations were exceeded (an enriched experience).</li>
-<li>Note the opportunities - these are areas you believe a digital tool might help.</li>
-</ul>
-</li>
-<li><strong>How Might We Questions</strong><ul>
-<li>Write down 2 HMW questions each.</li>
-<li>Follow <a href="https://designsprintkit.withgoogle.com/methodology/phase1-understand/hmw-voting/generate-a-broad-range-of-solutions-to-a-small-challenge">these directions on dot voting</a> to select the best HMW question for your team to focus on.</li>
-<li>If you think the chosen HMW could use some tweaking, work on that together.</li>
-</ul>
-</li>
-</ul>
-<h2 style="background-color: #FBF3DB;"><strong>Part 2:</strong>  Ideate (as a team)</h2>
-<ul>
-<li><strong>Brainstorm</strong><ul>
-<li>As a team, brainstorm a variety of digital solutions to the selected HMW question.</li>
-<li>Use any method you prefer as a group. Remember to build on each other’s ideas, focusing on using “and” instead of “but,” and “yes” instead of “no” to encourage each other to keep thinking and contributing.</li>
-<li>Record the brainstorm. You can audio record as you chat, designate one person as a note taker (please take turns!), use physical Post-Its, or work directly in FigJam (please talk out loud as you work).<ul>
-<li>However you choose to record your brainstorm, keep it to <strong>one idea per post-it.</strong></li>
-</ul>
-</li>
-<li>Cluster the ideas by theme.</li>
-</ul>
-</li>
-<li><strong>Crazy 8’s</strong> (team)<ul>
-<li>Follow the Google Sprint technique for <a href="https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s">Crazy 8’s</a>.</li>
-<li><em>Drawing is a fun part of UX design! It’s an opportunity for brainstorming and finding solutions - don’t worry about how pretty your sketches look. The goal is to visualize your ideas.</em></li>
-<li>You might try the “thick marker” technique to keep each concept short and sweet.</li>
-<li>Take quality scans or photos and upload them to FigJam.</li>
-</ul>
-</li>
-<li><strong>Vote</strong> (team)<ul>
-<li>Decide as a team on the main features (you might need to sketch a bit to gain clarity or list out the capabilities of this solution).</li>
-<li>By now you should have a good idea of what you are creating and a few key features.</li>
-</ul>
-</li>
-</ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Figma Setup</h2></div>
+<ul><li><p><strong>Join</strong> the <a href="https://www.figma.com/team_invite/redeem/OzJ9cmYtA08AXmUehZcHTN">CS98 Figma Team</a> &amp; <a href="https://www.figma.com/student/apply">verify your student status</a></p></li><li><p><strong>Create a project</strong> in the CS98 Team Figma named for your project.</p><ul><li>Star this project to add it to the sidebar in Figma for quick access in the future.</li></ul></li><li><p>Assign one person from your team to <strong>duplicate</strong> the “<a href="https://www.figma.com/file/qaWYoNlMLPKP0hRI2kM1fI/User-Research?node-id=0%3A1">User Research</a>” FigJam file (in the Figma “Templates” team).</p></li><li><p>Title the FigJam file <code>UXR: First names of each team member</code>.</p></li><li><p>Move it out of your drafts to your team’s Figma project (from the file name at the top).</p>
+<p>  <img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/user-research/assets/screen-shot-2022-09-23-at-4-1767623962716.png" alt="Screen Shot 2022-09-23 at 4.17.10 PM.png"></p></li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB"><strong>Part 1:  Define (as a team)</strong></h2></div>
+<ul><li><strong>User Persona</strong><ul><li>Create a User Persona that focuses on the needs you observed in your interviews. This Persona should generalize a specific user or a compilation from a couple of your interviews.</li><li>Don’t name them or give them an image - instead, focus on their experiential traits as a way to minimize bias. A good title is one that describes these traits, such as “The Overworked Educator” or “The Gardening Grandma.”</li><li>The Dimensions of Difference section pulls out the most memorable traits of the user (e.g. they like to plan every detail in advance vs. they like to be totally spontaneous.)</li><li>Write out a paragraph for this persona based on your interviews. Use primary quotes and details. Remember it’s ok to blend a few different interviews together to get a full picture.</li></ul></li><li><strong>User Journey Map</strong><ul><li>With your Persona in mind, be as specific as possible as you map out their current journey to achieve their goal.</li><li>Include the full range of actions: from preparation to the conclusion.</li><li>Identify places in the user journey where their feelings dipped below baseline (a poached experience) and where their expectations were exceeded (an enriched experience).</li><li>Note the opportunities - these are areas you believe a digital tool might help.</li></ul></li><li><strong>How Might We Questions</strong><ul><li>Write down 2 HMW questions each.</li><li>Follow <a href="https://designsprintkit.withgoogle.com/methodology/phase1-understand/hmw-voting/generate-a-broad-range-of-solutions-to-a-small-challenge">these directions on dot voting</a> to select the best HMW question for your team to focus on.</li><li>If you think the chosen HMW could use some tweaking, work on that together.</li></ul></li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB"><strong>Part 2:</strong>  Ideate (as a team)</h2></div>
+<ul><li><strong>Brainstorm</strong><ul><li>As a team, brainstorm a variety of digital solutions to the selected HMW question.</li><li>Use any method you prefer as a group. Remember to build on each other’s ideas, focusing on using “and” instead of “but,” and “yes” instead of “no” to encourage each other to keep thinking and contributing.</li><li>Record the brainstorm. You can audio record as you chat, designate one person as a note taker (please take turns!), use physical Post-Its, or work directly in FigJam (please talk out loud as you work).<ul><li>However you choose to record your brainstorm, keep it to <strong>one idea per post-it.</strong></li></ul></li><li>Cluster the ideas by theme.</li></ul></li><li><strong>Crazy 8’s</strong> (team)<ul><li>Follow the Google Sprint technique for <a href="https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s">Crazy 8’s</a>.</li><li><em>Drawing is a fun part of UX design! It’s an opportunity for brainstorming and finding solutions - don’t worry about how pretty your sketches look. The goal is to visualize your ideas.</em></li><li>You might try the “thick marker” technique to keep each concept short and sweet.</li><li>Take quality scans or photos and upload them to FigJam.</li></ul></li><li><strong>Vote</strong> (team)<ul><li>Decide as a team on the main features (you might need to sketch a bit to gain clarity or list out the capabilities of this solution).</li><li>By now you should have a good idea of what you are creating and a few key features.</li></ul></li></ul>
 <hr>
-<h2 style="background-color: #FBF3DB;">To Turn In:</h2>
-<ul>
-<li><p><strong>Add the URL</strong> for the Figjam file to the GitHub issue (be sure the file is saved in the CS98 Figma team)</p>
-</li>
-<li><p>Your GitHub issue (name it with this assignment’s title) is your submission.</p>
-</li>
-<li><p>Add the label <code>documentation</code> to the issue.</p>
-</li>
-<li><p>When you’re done, move it to <code>review</code> for the graders.</p>
-</li>
-</ul>
-
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Turn In:</h2></div>
+<ul><li><p><strong>Add the URL</strong> for the Figjam file to the GitHub issue (be sure the file is saved in the CS98 Figma team)</p></li><li><p>Your GitHub issue (name it with this assignment’s title) is your submission.</p></li><li><p>Add the label <code>documentation</code> to the issue.</p></li><li><p>When you’re done, move it to <code>review</code> for the graders.</p></li></ul>
 </body>
 </html>
