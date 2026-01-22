@@ -213,6 +213,26 @@
       max-width: 100%;
       height: auto;
     }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
     .callout {
       background: #f7f6f3;
       padding: 1em;
@@ -442,41 +462,27 @@
   </style>
 </head>
 <body>
-
-<p>Date: September 25, 2023 → October 8, 2023<br>Term: Term 1<br>Week: Week 3, Week 4<br>Type: individual assignment</p>
-<p><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/hack-a-thing-2/assets/hack-a-thing-1767624091759.gif" alt=""></p>
-<h2 style="background-color: #FBF3DB;">Overview</h2>
+<p></p>
+<figure class="image-block"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/hack-a-thing-2/assets/hack-a-thing-1767624091759.gif" alt="" style="width: 404px" width="404"></figure>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Overview</h2></div>
 <p>Goal: Hack on something potentially related to your project</p>
-<p>Similarly to <a href="https://cs98.me/projects/milestones/hack-a-thing-1">Hack-A-Thing-1</a>, we’ll spend a week hacking on some technology. However, now you can try out something that is more relevant to a potential project.</p>
+<p>Similarly to Hack-a-thing-1&nbsp;we’ll spend a week hacking on some technology. However, now you can try out something that is more relevant to a potential project.</p>
 <p>You should attempt to hack on something related to your project. Use this as an opportunity to brush up on needed skills, or to hack a small technology demo of some particular functionality. Don’t worry about merging it in later, these are standalone hacks, but they might help you figure out how to do it better once you are implementing it for real later.</p>
-<h2 style="background-color: #FBF3DB;">Time Commitment/complexity</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Time Commitment/complexity</h2></div>
 <p>You should plan to spend at least 10 hours on this.</p>
-<h2 style="background-color: #FBF3DB;">Build</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Build</h2></div>
 <p>Choose some technology and build a thing. This can be as simple as finding a good tutorial and following it or get your hands dirty with a problem that is related to your project and try to see if you can get it working. For instance, you think you want to build a webapp where image uploading will be an integral part. For this you could get a standalone page up that has image uploading. Or if you think your product will be an iOS app but you’ve never coded one, for this you could follow an online tutorial to get a sample iOS app up and running.</p>
-<h2 style="background-color: #FBF3DB;">Tutorials</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Tutorials</h2></div>
 <p>If you follow a tutorial or two just remember to acknowledge this fact in your README file.</p>
-<h2 style="background-color: #FBF3DB;">To Start</h2>
-<p>🚀 setup and clone a github repo using github classroom here: <a href="https://classroom.github.com/a/9fdLTW7R">https://classroom.github.com/a/9fdLTW7R</a>. </p>
-<p>If working in a team, the first person to accept the invite via the link above should name the repo, the “team” in GitHub Classroom. The second person should still use the same link above but then select the name of the team already created. GitHub Classroom will then generate a repository for you from a template that includes a README.md file to fill out.</p>
-<p>🚀 Clone this repository and then do all your hack-a-thing work in the repository. To submit your hack-a-thing simply commit and push, and then submit the link to the repo on Canvas.</p>
-<h2 style="background-color: #FBF3DB;">README</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Start</h2></div>
+<p></p>
+<p>🚀 Clone the repository from Classmoji and then do all your hack-a-thing work in the repository. To submit your hack-a-thing simply commit and push, and close the assignment issue.</p>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">README</h2></div>
 <p>All your projects on github should include a README.md file. For this milestone all it needs is:</p>
-<ul>
-<li>Short description of what you attempted to build</li>
-<li>Who did what (if you worked with someone else)</li>
-<li>What you learned</li>
-<li>How does this hack-a-thing inspire you or relate to your possible project ideas?</li>
-<li>What didn’t work</li>
-</ul>
-<h2 style="background-color: #FBF3DB;">GitHub</h2>
+<ul><li>Short description of what you attempted to build</li><li>Who did what (if you worked with someone else)</li><li>What you learned</li><li>How does this hack-a-thing inspire you or relate to your possible project ideas?</li><li>What didn’t work</li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">GitHub</h2></div>
 <p>This is also a time to figure out how to use git flow. On your final project you’ll be required to use git flow with feature branch style <a href="https://yangsu.github.io/pull-request-tutorial/">pull requests</a>. You should make sure you have github set up with your <a href="https://help.github.com/articles/setting-your-email-in-git/">correct github email</a> so that your commits are recognized as belonging to you. Make sure you have at least 1 commit connected to your github email on this.</p>
-<h2 style="background-color: #FBF3DB;">To Turn In</h2>
-<ul>
-<li>👉 The GitHub Feedback PR will be considered your submission! <strong>To officially turn it in, please comment on the Feedback PR in the repository when you have completed the assignment.</strong></li>
-<li>🙏 In your comment please include what went well/what didn’t.  Any hosted URLs or screenshots you want us to view.</li>
-<li>README.md file included in repo per above</li>
-<li>at least 2 commits (per person) with <a href="https://help.github.com/articles/why-are-my-commits-linked-to-the-wrong-user/#commits-are-not-linked-to-any-user">author recognized by github</a>.</li>
-</ul>
-
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Turn In</h2></div>
+<ul><li>👉&nbsp;The Github Assignment Issue is the official thing, just close the issue with a comment to submit!&nbsp;</li><li>🙏&nbsp;In your comment please include what went well/what didn’t.  Any hosted URLs or screenshots you want us to view.</li><li>README.md file included in repo per above</li><li>at least 2 commits (per person) with <a href="https://help.github.com/articles/why-are-my-commits-linked-to-the-wrong-user/#commits-are-not-linked-to-any-user">author recognized by github</a>.</li></ul>
 </body>
 </html>
