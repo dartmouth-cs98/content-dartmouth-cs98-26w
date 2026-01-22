@@ -68,15 +68,15 @@
           "pages": [],
           "slides": []
         },
-        "hack-a-thing-2": {
-          "pages": [
-            "hackathing2"
-          ],
-          "slides": []
-        },
         "project-proposal": {
           "pages": [
             "project-proposal"
+          ],
+          "slides": []
+        },
+        "hack-a-thing-2": {
+          "pages": [
+            "hackathing2"
           ],
           "slides": []
         }
