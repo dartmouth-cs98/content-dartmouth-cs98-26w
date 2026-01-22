@@ -213,6 +213,26 @@
       max-width: 100%;
       height: auto;
     }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
     .callout {
       background: #f7f6f3;
       padding: 1em;
@@ -442,10 +462,8 @@
   </style>
 </head>
 <body>
-
-<p>Date: September 27, 2023 → October 1, 2023<br>Term: Term 1<br>Week: Week 3<br>Type: group assignment</p>
-<p><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/state-of-the-art-research/assets/wheel-1767623986937.gif" alt=""></p>
-<h2 style="background-color: #FBF3DB;">Overview</h2>
+<figure class="image-block"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/state-of-the-art-research/assets/wheel-1767623986937.gif" alt="" style="width: 372px" width="372"></figure>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Overview</h2></div>
 <p>As we work on an idea, the first thing is to do some research. 📝 What is the state of the art?</p>
 <p>All too often people jump on an idea and skip doing any due diligence on it. This is not to say that if the product or idea already exists it is time to abandon it, but that there are lessons to be learned from any previous work done in related areas.</p>
 <p>🔬This is a critical stage in any project.</p>
@@ -453,23 +471,18 @@
 <p>Once you have a direction for your product. Each of you should do some research. Even if you feel that you know exactly what you are doing — you need to show that you have thought it through.</p>
 <p>❓ Wait how does this relate to competitive research or market research?</p>
 <p>Good q! What we want is a more generalized research phase that encompasses market + competitive + scientific methods + background.</p>
-<h2 style="background-color: #FBF3DB;">Go Forth and Find Sources</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Go Forth and Find Sources</h2></div>
 <p>Your mission is to <strong>each</strong> <strong>find <code>&gt;=5</code> unique sources</strong>: articles, research papers, white papers, blog posts, competing products, and apps, all count.</p>
 <p>Each should relate to your idea in some of the following ways:</p>
-<ul>
-<li><strong>Method</strong>: this source contains methods that relate to the problem you are trying to address. This does not necessarily need to be a technical method (e.g. computational technique) and can include things such as particular user interactions (e.g. swipes are shown to be better than clicks in certain applications).</li>
-<li><strong>Competition</strong>: a product that is similar to what you might propose to build or in the same field. If you want to build an app for kids to promote financial literacy this might include apps/other solutions for adults or kids that might have similar goals or are just good examples of products for the same audience.</li>
-<li><strong>Market</strong>: materials on the specific market or problem might fit this category. This could be a source that discusses the scope of the problem you are trying to solve or the number of end users.</li>
-<li><strong>Background</strong>: any source that provides background on your problem/approach. You want to create an AR game that helps autistic children feel closer to their caregivers, and find sources about autism, oxytocin, and what causes feelings of attachment.</li>
-</ul>
-<h2 style="background-color: #FBF3DB;">Relate Thy Sources</h2>
+<ul><li><strong>Method</strong>: this source contains methods that relate to the problem you are trying to address. This does not necessarily need to be a technical method (e.g. computational technique) and can include things such as particular user interactions (e.g. swipes are shown to be better than clicks in certain applications).</li><li><strong>Competition</strong>: a product that is similar to what you might propose to build or in the same field. If you want to build an app for kids to promote financial literacy this might include apps/other solutions for adults or kids that might have similar goals or are just good examples of products for the same audience.</li><li><strong>Market</strong>: materials on the specific market or problem might fit this category. This could be a source that discusses the scope of the problem you are trying to solve or the number of end users.</li><li><strong>Background</strong>: any source that provides background on your problem/approach. You want to create an AR game that helps autistic children feel closer to their caregivers, and find sources about autism, oxytocin, and what causes feelings of attachment.</li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Relate Thy Sources</h2></div>
 <p>Don’t just describe related work, relate it! For each source, <strong>write a couple of sentences</strong> about how it specifically relates to your problem. What are the differences from your approach, and what are the similarities? How does this technique help you?</p>
-<h2 style="background-color: #FBF3DB;">Compile It</h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Compile It</h2></div>
 <p>🚀 Create a GitHub Issue entitled: <code>State Of The Art Research</code></p>
 <div class="code-block"><div class="code-header"><span class="code-lang">Markdown</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span></div><pre><code class="language-markdown"># State Of The Art Research
 
 ## Your Problem Topic</code></pre></div></div>
-<p>🚀 Each of your sources will be a comment on this issue following the below format:</p>
+<p>🚀&nbsp;Each of your sources will be a comment on this issue following the below format:</p>
 <div class="code-block"><div class="code-header"><span class="code-lang">Markdown</span></div><div class="code-body"><div class="line-numbers"><span class="line-number">1</span><span class="line-number">2</span><span class="line-number">3</span><span class="line-number">4</span><span class="line-number">5</span><span class="line-number">6</span><span class="line-number">7</span></div><pre><code class="language-markdown">### Source Name | [method|competitive|market|background]
 
 [link name](http://link/to/source)
@@ -477,12 +490,7 @@
 _image if applicable_
 
 A couple of sentences about how it relates to your project</code></pre></div></div>
-<h2 style="background-color: #FBF3DB;">To Turn In:</h2>
-<ul>
-<li>Your GitHub issue (make sure it is correctly titled!) is your submission.</li>
-<li>When you’re done, move it to review for the graders.</li>
-<li>There should be ~ 5 comments for each person on the team!</li>
-</ul>
-
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Turn In:</h2></div>
+<ul><li>Your GitHub issue (make sure it is correctly titled!) is your submission.</li><li>When you’re done, move it to review for the graders.</li><li>There should be ~ 5 comments for each person on the team!</li></ul>
 </body>
 </html>
