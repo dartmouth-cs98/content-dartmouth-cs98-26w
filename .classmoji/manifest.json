@@ -89,7 +89,6 @@
       "close-out-sprints-for-term",
       "logistics",
       "winterim-work",
-      "user-research",
       "ui-design-mockups",
       "term-demos-and-testing",
       "term-1-summary",
@@ -104,19 +103,20 @@
       "sprint-23-transition",
       "scaffolding",
       "grayscale-prototype",
+      "user-research",
       "feature-spec-and-roadmap",
       "dartmouth-cs98"
     ],
     "slides": [
       "first-sprint",
-      "design-plus",
       "code-review",
       "welcome-back",
       "existential-duty",
       "user-personas",
       "welcome",
       "hack-a-thing-1",
-      "interviews"
+      "interviews",
+      "design-plus"
     ]
   }
 }
