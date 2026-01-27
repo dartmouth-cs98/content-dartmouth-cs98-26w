@@ -46,12 +46,6 @@
       "pages": [],
       "slides": [],
       "assignments": {
-        "sprint-3-main-features-progress": {
-          "pages": [
-            "sprint-3-main-features-progress"
-          ],
-          "slides": []
-        },
         "sprint-4-testable-mvp": {
           "pages": [
             "sprint-4-testable-mvp"
@@ -61,18 +55,6 @@
         "sprint-5-user-testing-plan": {
           "pages": [
             "sprint-5-user-testing-plan"
-          ],
-          "slides": []
-        },
-        "sprint-4-5-transition": {
-          "pages": [
-            "sprint-45-transition"
-          ],
-          "slides": []
-        },
-        "sprint-5-6-transition": {
-          "pages": [
-            "sprint-56-transition"
           ],
           "slides": []
         },
@@ -86,28 +68,6 @@
           "pages": [
             "ui-design-mockups"
           ],
-          "slides": []
-        },
-        "first-team-meeting-worksheet": {
-          "pages": [
-            "first-team-meeting-worksheet"
-          ],
-          "slides": []
-        },
-        "group-dynamics-worksheet": {
-          "pages": [
-            "group-dynamics-worksheet"
-          ],
-          "slides": []
-        },
-        "state-of-the-art-research": {
-          "pages": [
-            "state-of-the-art-research"
-          ],
-          "slides": []
-        },
-        "watch-ux-research": {
-          "pages": [],
           "slides": []
         },
         "project-proposal": {
@@ -144,10 +104,42 @@
           ],
           "slides": []
         },
+        "sprint-2-implementation-and-data-wiring": {
+          "pages": [
+            "sprint-2-implementation-data-wiring"
+          ],
+          "slides": []
+        },
+        "first-team-meeting-worksheet": {
+          "pages": [
+            "first-team-meeting-worksheet"
+          ],
+          "slides": []
+        },
+        "group-dynamics-worksheet": {
+          "pages": [
+            "group-dynamics-worksheet"
+          ],
+          "slides": []
+        },
+        "state-of-the-art-research": {
+          "pages": [
+            "state-of-the-art-research"
+          ],
+          "slides": []
+        },
+        "watch-ux-research": {
+          "pages": [],
+          "slides": []
+        },
         "scaffolding": {
           "pages": [
             "scaffolding"
           ],
+          "slides": []
+        },
+        "watch-ui-design": {
+          "pages": [],
           "slides": []
         },
         "prototype": {
@@ -156,19 +148,27 @@
           ],
           "slides": []
         },
-        "watch-ui-design": {
-          "pages": [],
-          "slides": []
-        },
         "sprint-2-3-transition": {
           "pages": [
             "sprint-23-transition"
           ],
           "slides": []
         },
-        "sprint-2-implementation-and-data-wiring": {
+        "sprint-3-main-features-progress": {
           "pages": [
-            "sprint-2-implementation-data-wiring"
+            "sprint-3-main-features-progress"
+          ],
+          "slides": []
+        },
+        "sprint-4-5-transition": {
+          "pages": [
+            "sprint-45-transition"
+          ],
+          "slides": []
+        },
+        "sprint-5-6-transition": {
+          "pages": [
+            "sprint-56-transition"
           ],
           "slides": []
         },
