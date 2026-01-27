@@ -22,9 +22,9 @@
           ],
           "slides": []
         },
-        "hackathing1": {
+        "pitch-idea": {
           "pages": [
-            "hackathing1"
+            "pitch-slides"
           ],
           "slides": []
         },
@@ -34,9 +34,9 @@
           ],
           "slides": []
         },
-        "pitch-idea": {
+        "hackathing1": {
           "pages": [
-            "pitch-slides"
+            "hackathing1"
           ],
           "slides": []
         }
@@ -46,6 +46,48 @@
       "pages": [],
       "slides": [],
       "assignments": {
+        "sprint-3-main-features-progress": {
+          "pages": [
+            "sprint-3-main-features-progress"
+          ],
+          "slides": []
+        },
+        "sprint-4-testable-mvp": {
+          "pages": [
+            "sprint-4-testable-mvp"
+          ],
+          "slides": []
+        },
+        "sprint-5-user-testing-plan": {
+          "pages": [
+            "sprint-5-user-testing-plan"
+          ],
+          "slides": []
+        },
+        "sprint-4-5-transition": {
+          "pages": [
+            "sprint-45-transition"
+          ],
+          "slides": []
+        },
+        "sprint-5-6-transition": {
+          "pages": [
+            "sprint-56-transition"
+          ],
+          "slides": []
+        },
+        "term-demo-session-and-user-testing": {
+          "pages": [
+            "term-demos-and-testing"
+          ],
+          "slides": []
+        },
+        "ui-design-and-mockups": {
+          "pages": [
+            "ui-design-mockups"
+          ],
+          "slides": []
+        },
         "first-team-meeting-worksheet": {
           "pages": [
             "first-team-meeting-worksheet"
@@ -79,32 +121,83 @@
             "hackathing2"
           ],
           "slides": []
+        },
+        "sprint-1-planning-your-first-sprint": {
+          "pages": [
+            "sprint-1-planning-your-first-sprint"
+          ],
+          "slides": []
+        },
+        "watch-agile": {
+          "pages": [],
+          "slides": []
+        },
+        "sprint-1-2-transition": {
+          "pages": [
+            "sprint-12-transition"
+          ],
+          "slides": []
+        },
+        "feature-spect-and-roadmap": {
+          "pages": [
+            "feature-spec-and-roadmap"
+          ],
+          "slides": []
+        },
+        "scaffolding": {
+          "pages": [
+            "scaffolding"
+          ],
+          "slides": []
+        },
+        "prototype": {
+          "pages": [
+            "grayscale-prototype"
+          ],
+          "slides": []
+        },
+        "watch-ui-design": {
+          "pages": [],
+          "slides": []
+        },
+        "sprint-2-3-transition": {
+          "pages": [
+            "sprint-23-transition"
+          ],
+          "slides": []
+        },
+        "sprint-2-implementation-and-data-wiring": {
+          "pages": [
+            "sprint-2-implementation-data-wiring"
+          ],
+          "slides": []
+        },
+        "close-out-sprints-for-term": {
+          "pages": [
+            "close-out-sprints-for-term"
+          ],
+          "slides": []
+        },
+        "term-1-summary": {
+          "pages": [
+            "term-1-summary"
+          ],
+          "slides": []
+        },
+        "sprint-3-4-transition": {
+          "pages": [
+            "sprint-34-transition"
+          ],
+          "slides": []
         }
       }
     }
   },
   "general": {
     "pages": [
-      "sprint-1-planning-your-first-sprint",
-      "close-out-sprints-for-term",
       "logistics",
       "winterim-work",
-      "ui-design-mockups",
-      "term-demos-and-testing",
-      "term-1-summary",
-      "sprint-2-implementation-data-wiring",
-      "sprint-12-transition",
-      "sprint-56-transition",
-      "sprint-5-user-testing-plan",
-      "sprint-45-transition",
-      "sprint-4-testable-mvp",
-      "sprint-34-transition",
-      "sprint-3-main-features-progress",
-      "sprint-23-transition",
-      "scaffolding",
-      "grayscale-prototype",
       "user-research",
-      "feature-spec-and-roadmap",
       "dartmouth-cs98"
     ],
     "slides": [
