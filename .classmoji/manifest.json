@@ -64,44 +64,10 @@
           ],
           "slides": []
         },
-        "feature-spect-and-roadmap": {
+        "scaffolding": {
           "pages": [
-            "feature-spec-and-roadmap"
+            "scaffolding"
           ],
-          "slides": []
-        },
-        "prototype": {
-          "pages": [
-            "grayscale-prototype"
-          ],
-          "slides": []
-        },
-        "first-team-meeting-worksheet": {
-          "pages": [
-            "first-team-meeting-worksheet"
-          ],
-          "slides": []
-        },
-        "project-proposal": {
-          "pages": [
-            "project-proposal"
-          ],
-          "slides": []
-        },
-        "group-dynamics-worksheet": {
-          "pages": [
-            "group-dynamics-worksheet"
-          ],
-          "slides": []
-        },
-        "hack-a-thing-2": {
-          "pages": [
-            "hackathing2"
-          ],
-          "slides": []
-        },
-        "watch-agile": {
-          "pages": [],
           "slides": []
         },
         "sprint-2-3-transition": {
@@ -110,31 +76,17 @@
           ],
           "slides": []
         },
-        "state-of-the-art-research": {
-          "pages": [
-            "state-of-the-art-research"
-          ],
-          "slides": []
-        },
         "watch-ux-research": {
           "pages": [],
           "slides": []
         },
-        "scaffolding": {
-          "pages": [
-            "scaffolding"
-          ],
+        "watch-agile": {
+          "pages": [],
           "slides": []
         },
-        "sprint-1-2-transition": {
+        "project-proposal": {
           "pages": [
-            "sprint-12-transition"
-          ],
-          "slides": []
-        },
-        "sprint-2-implementation-and-data-wiring": {
-          "pages": [
-            "sprint-2-implementation-data-wiring"
+            "project-proposal"
           ],
           "slides": []
         },
@@ -144,8 +96,80 @@
           ],
           "slides": []
         },
+        "sprint-1-2-transition": {
+          "pages": [
+            "sprint-12-transition"
+          ],
+          "slides": []
+        },
+        "first-team-meeting-worksheet": {
+          "pages": [
+            "first-team-meeting-worksheet"
+          ],
+          "slides": []
+        },
+        "hack-a-thing-2": {
+          "pages": [
+            "hackathing2"
+          ],
+          "slides": []
+        },
+        "feature-spect-and-roadmap": {
+          "pages": [
+            "feature-spec-and-roadmap"
+          ],
+          "slides": []
+        },
+        "group-dynamics-worksheet": {
+          "pages": [
+            "group-dynamics-worksheet"
+          ],
+          "slides": []
+        },
+        "state-of-the-art-research": {
+          "pages": [
+            "state-of-the-art-research"
+          ],
+          "slides": []
+        },
+        "sprint-2-implementation-and-data-wiring": {
+          "pages": [
+            "sprint-2-implementation-data-wiring"
+          ],
+          "slides": []
+        },
+        "prototype": {
+          "pages": [
+            "grayscale-prototype"
+          ],
+          "slides": []
+        },
         "watch-ui-design": {
           "pages": [],
+          "slides": []
+        },
+        "sprint-5-6-transition": {
+          "pages": [
+            "sprint-56-transition"
+          ],
+          "slides": []
+        },
+        "close-out-sprints-for-term": {
+          "pages": [
+            "close-out-sprints-for-term"
+          ],
+          "slides": []
+        },
+        "term-1-summary": {
+          "pages": [
+            "term-1-summary"
+          ],
+          "slides": []
+        },
+        "user-research": {
+          "pages": [
+            "user-research"
+          ],
           "slides": []
         },
         "sprint-3-main-features-progress": {
@@ -171,24 +195,6 @@
             "sprint-5-user-testing-plan"
           ],
           "slides": []
-        },
-        "sprint-5-6-transition": {
-          "pages": [
-            "sprint-56-transition"
-          ],
-          "slides": []
-        },
-        "close-out-sprints-for-term": {
-          "pages": [
-            "close-out-sprints-for-term"
-          ],
-          "slides": []
-        },
-        "term-1-summary": {
-          "pages": [
-            "term-1-summary"
-          ],
-          "slides": []
         }
       }
     }
@@ -197,7 +203,6 @@
     "pages": [
       "logistics",
       "winterim-work",
-      "user-research",
       "dartmouth-cs98"
     ],
     "slides": [
