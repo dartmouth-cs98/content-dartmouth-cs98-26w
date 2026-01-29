@@ -52,12 +52,6 @@
           ],
           "slides": []
         },
-        "sprint-5-user-testing-plan": {
-          "pages": [
-            "sprint-5-user-testing-plan"
-          ],
-          "slides": []
-        },
         "term-demo-session-and-user-testing": {
           "pages": [
             "term-demos-and-testing"
@@ -70,43 +64,15 @@
           ],
           "slides": []
         },
-        "project-proposal": {
-          "pages": [
-            "project-proposal"
-          ],
-          "slides": []
-        },
-        "hack-a-thing-2": {
-          "pages": [
-            "hackathing2"
-          ],
-          "slides": []
-        },
-        "sprint-1-planning-your-first-sprint": {
-          "pages": [
-            "sprint-1-planning-your-first-sprint"
-          ],
-          "slides": []
-        },
-        "watch-agile": {
-          "pages": [],
-          "slides": []
-        },
-        "sprint-1-2-transition": {
-          "pages": [
-            "sprint-12-transition"
-          ],
-          "slides": []
-        },
         "feature-spect-and-roadmap": {
           "pages": [
             "feature-spec-and-roadmap"
           ],
           "slides": []
         },
-        "sprint-2-implementation-and-data-wiring": {
+        "prototype": {
           "pages": [
-            "sprint-2-implementation-data-wiring"
+            "grayscale-prototype"
           ],
           "slides": []
         },
@@ -116,9 +82,31 @@
           ],
           "slides": []
         },
+        "project-proposal": {
+          "pages": [
+            "project-proposal"
+          ],
+          "slides": []
+        },
         "group-dynamics-worksheet": {
           "pages": [
             "group-dynamics-worksheet"
+          ],
+          "slides": []
+        },
+        "hack-a-thing-2": {
+          "pages": [
+            "hackathing2"
+          ],
+          "slides": []
+        },
+        "watch-agile": {
+          "pages": [],
+          "slides": []
+        },
+        "sprint-2-3-transition": {
+          "pages": [
+            "sprint-23-transition"
           ],
           "slides": []
         },
@@ -138,20 +126,26 @@
           ],
           "slides": []
         },
+        "sprint-1-2-transition": {
+          "pages": [
+            "sprint-12-transition"
+          ],
+          "slides": []
+        },
+        "sprint-2-implementation-and-data-wiring": {
+          "pages": [
+            "sprint-2-implementation-data-wiring"
+          ],
+          "slides": []
+        },
+        "sprint-1-planning-your-first-sprint": {
+          "pages": [
+            "sprint-1-planning-your-first-sprint"
+          ],
+          "slides": []
+        },
         "watch-ui-design": {
           "pages": [],
-          "slides": []
-        },
-        "prototype": {
-          "pages": [
-            "grayscale-prototype"
-          ],
-          "slides": []
-        },
-        "sprint-2-3-transition": {
-          "pages": [
-            "sprint-23-transition"
-          ],
           "slides": []
         },
         "sprint-3-main-features-progress": {
@@ -160,9 +154,21 @@
           ],
           "slides": []
         },
+        "sprint-3-4-transition": {
+          "pages": [
+            "sprint-34-transition"
+          ],
+          "slides": []
+        },
         "sprint-4-5-transition": {
           "pages": [
             "sprint-45-transition"
+          ],
+          "slides": []
+        },
+        "sprint-5-user-testing-plan": {
+          "pages": [
+            "sprint-5-user-testing-plan"
           ],
           "slides": []
         },
@@ -181,12 +187,6 @@
         "term-1-summary": {
           "pages": [
             "term-1-summary"
-          ],
-          "slides": []
-        },
-        "sprint-3-4-transition": {
-          "pages": [
-            "sprint-34-transition"
           ],
           "slides": []
         }
