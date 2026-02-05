@@ -213,6 +213,26 @@
       max-width: 100%;
       height: auto;
     }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
     .callout {
       background: #f7f6f3;
       padding: 1em;
@@ -442,63 +462,25 @@
   </style>
 </head>
 <body>
-
-<h2 style="background-color: #FBF3DB;"><strong>Step 1: Choose Your AI Prototyping Tool</strong></h2>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB"><strong>Step 1: Choose Your AI Prototyping Tool</strong></h2></div>
 <p>Your team will use AI to rapidly generate and iterate on your prototype. Choose one of the following tools:</p>
-
-<h3><a href="https://www.magicpatterns.com/"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/grayscale-prototype/assets/magicpatterns-logo.svg" alt="MagicPatterns" style="height: 28px; vertical-align: middle;"></a></h3>
-<ul>
-<li>Text-to-UI generation - describe what you need and get instant layouts</li>
-<li>Upload your own design system for consistent branding</li>
-<li>Export to React/Tailwind code or Figma</li>
-<li>Multiplayer canvas for real-time team collaboration</li>
-<li>Chrome extension to capture UI inspiration from any website</li>
-</ul>
+<div class="heading-block h2-block"><h2>Magic Patterns</h2></div>
+<figure class="image-block"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/grayscale-prototype/assets/1770289376280-magic-patterns-logo-light.svg" alt=""></figure>
+<ul><li>Text-to-UI generation - describe what you need and get instant layouts</li><li>Upload your own design system for consistent branding</li><li>Export to React/Tailwind code or Figma</li><li>Multiplayer canvas for real-time team collaboration</li><li>Chrome extension to capture UI inspiration from any website</li></ul>
 <p><em>Fun fact: MagicPatterns was built by Dartmouth alums Teddy Ni and Alex Danilowicz (CS52 and CS98). It's now a YC-backed company used by thousands of product teams.</em></p>
-
-<h3><a href="https://www.figma.com/make/"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/grayscale-prototype/assets/figma-make-logo.png" alt="Figma Make" style="height: 28px; vertical-align: middle;"></a></h3>
-<ul>
-<li>Built into Figma - stays in your existing workflow</li>
-<li>Natural language to interactive prototypes</li>
-<li>"Pilot not co-pilot" philosophy - everything stays fully editable</li>
-<li>Pull styling from your existing Figma libraries</li>
-<li>Automatically creates component states, interactions, and user flows</li>
-</ul>
-
-<h2 style="background-color: #FBF3DB;"><strong>Step 2: Generate Your Screens</strong></h2>
+<div class="heading-block h2-block"><h2>Figma Make</h2></div>
+<ul><li>Built into Figma - stays in your existing workflow</li><li>Natural language to interactive prototypes</li><li>"Pilot not co-pilot" philosophy - everything stays fully editable</li><li>Pull styling from your existing Figma libraries</li><li>Automatically creates component states, interactions, and user flows</li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB"><strong>Step 2: Generate Your Screens</strong></h2></div>
 <p>Use your AI tool to generate screens for all the views and functionality in your feature spec.</p>
-<ul>
-<li><strong>Start from your feature spec</strong> - don't just generate random screens. Use the user flows and features you already defined to guide your prompts.</li>
-<li><strong>Cover all key screens</strong> - onboarding, main views, detail views, settings, error states, empty states, etc.</li>
-<li><strong>Think about the user journey</strong> - what is the action on each screen? What screens are missing to make the experience complete?</li>
-</ul>
-
-<h2 style="background-color: #FBF3DB;"><strong>Step 3: Iterate and Refine</strong></h2>
+<ul><li><strong>Start from your feature spec</strong> - don't just generate random screens. Use the user flows and features you already defined to guide your prompts.</li><li><strong>Cover all key screens</strong> - onboarding, main views, detail views, settings, error states, empty states, etc.</li><li><strong>Think about the user journey</strong> - what is the action on each screen? What screens are missing to make the experience complete?</li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB"><strong>Step 3: Iterate and Refine</strong></h2></div>
 <p>AI-generated designs are a starting point, not the final product. Your job is to shape them.</p>
-<ul>
-<li><strong>Iterate, don't accept the first output</strong> - run at least 2-3 iterations per major screen. Refine your prompts, adjust layouts, and improve the UX.</li>
-<li><strong>Critique the AI output</strong> - what did it get wrong? Are the touch targets big enough? Is the information hierarchy clear? Does the flow make sense?</li>
-<li><strong>Edit directly</strong> - both tools let you modify the generated designs. Move things around, change copy, fix spacing.</li>
-<li><strong>Discuss with your team</strong> - get feedback from teammates on what works and what doesn't.</li>
-</ul>
-
-<h2 style="background-color: #FBF3DB;"><strong>Step 4: Make It Interactive</strong></h2>
+<ul><li><strong>Iterate, don't accept the first output</strong> - run at least 2-3 iterations per major screen. Refine your prompts, adjust layouts, and improve the UX.</li><li><strong>Critique the AI output</strong> - what did it get wrong? Are the touch targets big enough? Is the information hierarchy clear? Does the flow make sense?</li><li><strong>Edit directly</strong> - both tools let you modify the generated designs. Move things around, change copy, fix spacing.</li><li><strong>Discuss with your team</strong> - get feedback from teammates on what works and what doesn't.</li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB"><strong>Step 4: Make It Interactive</strong></h2></div>
 <p>Connect your screens into a clickable, playable prototype.</p>
-<ul>
-<li><strong>Link screens together</strong> - buttons should navigate to the appropriate views</li>
-<li><strong>Show the core user flows</strong> - someone should be able to click through your main use cases</li>
-<li><strong>Test on device</strong> - if it's a mobile app, test the prototype on an actual phone to check touch targets and overall feel</li>
-</ul>
-<div class="alert alert-warning">
-<div><strong>Remember: This is a prototype, not production code.</strong> The goal is to validate your concept and get feedback, not to ship. Focus on demonstrating the experience, not pixel-perfect polish.</div>
-</div>
-
-<h2 style="background-color: #FBF3DB;">To Turn In:</h2>
-<ul>
-<li><strong>Submit the URL to your playable prototype</strong> in your GitHub issue.</li>
-<li>Add the label <code>documentation</code> to the issue.</li>
-<li>When you're done, move it to <code>review</code> for the graders.</li>
-</ul>
-
+<ul><li><strong>Link screens together</strong> - buttons should navigate to the appropriate views</li><li><strong>Show the core user flows</strong> - someone should be able to click through your main use cases</li><li><strong>Test on device</strong> - if it's a mobile app, test the prototype on an actual phone to check touch targets and overall feel</li></ul>
+<div class="alert alert-info" data-type="info"><span></span></div>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Turn In:</h2></div>
+<ul><li><strong>Submit the URL to your playable prototype</strong> in your GitHub issue.</li><li>Add the label <code>documentation</code> to the issue.</li><li>When you're done, move it to <code>review</code> for the graders.</li></ul>
 </body>
 </html>
