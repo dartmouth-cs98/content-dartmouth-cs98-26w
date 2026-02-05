@@ -213,6 +213,26 @@
       max-width: 100%;
       height: auto;
     }
+    .image-block {
+      margin: 1em 0;
+      padding: 0;
+    }
+    .image-block img {
+      display: block;
+    }
+    .image-align-center {
+      text-align: center;
+    }
+    .image-align-center img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .image-align-right {
+      text-align: right;
+    }
+    .image-align-right img {
+      margin-left: auto;
+    }
     .callout {
       background: #f7f6f3;
       padding: 1em;
@@ -442,31 +462,23 @@
   </style>
 </head>
 <body>
-
-<p>Date: October 15, 2023 → October 21, 2023<br>Term: Term 1<br>Week: Week 6<br>Type: sprint</p>
-<p><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/sprint-2-implementation-data-wiring/assets/3o6mbng1lpwif5stb6-1767623992995.gif" alt=""></p>
-<h2 style="background-color: #FBF3DB;">Overview</h2>
+<p></p>
+<figure class="image-block"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/sprint-2-implementation-data-wiring/assets/3o6mbng1lpwif5stb6-1767623992995.gif" alt=""></figure>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Overview</h2></div>
 <p>For this sprint the main idea is to get a “deep” wiring of your project components. If you have a frontend and backend, make sure they can talk to each other. If you have computational elements and display elements, this is the time to move past mockup data and have the display use the computed data. You should have the full data path demonstrated and working.</p>
 <p>The idea is to have all rudimentary functionality in place. For instance if you were building a web or mobile app there should be frontend components hitting api endpoints that are pulling data from the database. You should have all the components/views planned out and started in code even if they are simple placeholders. You should be at the point where you have some of your presentational components (UI) laid out and have started on wiring things together with any data sources such as your api server (or computational/algorithmic logic depending on your project).</p>
-<ul>
-<li>If you have an <em>api/client setup</em>, then client should be able to make requests to server</li>
-<li>If there is a <em>database</em>, then it is storing real data and your code uses results of queries</li>
-<li>If some <em>computational or sensor components</em> they should be wired in and have working input/output that you handle.</li>
-</ul>
-<h2 style="background-color: #FBF3DB;">And a couple of small things</h2>
-<h3>README.md</h3>
+<ul><li>If you have an <em>api/client setup</em>, then client should be able to make requests to server</li><li>If there is a <em>database</em>, then it is storing real data and your code uses results of queries</li><li>If some <em>computational or sensor components</em> they should be wired in and have working input/output that you handle.</li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">And a couple of small things</h2></div>
+<div class="heading-block h3-block"><h3>README.md</h3></div>
 <p>Make sure your README.md files are updated with the current installation and deployment instructions as well as any architecture changes. This will be a small part of every sprint, you should always keep it up to date as the README is where your graders start to get it running locally for testing.</p>
-<h3>Continuous Integration / Testing Releases (optional)</h3>
+<div class="heading-block h3-block"><h3>Continuous Integration / Testing Releases (optional)</h3></div>
 <p>You could set up <a href="https://docs.github.com/en/actions/quickstart">GitHub Actions</a> for your project with automatic linting / build checking. If you are writing for the web - set up your project with <a href="https://eslint.org/">eslint</a>. Whenever you push to github it will automatically run eslint. There are automatic build runners for most languages. This is optional but can be helpful - especially linting. You can have CI run other stuff/tests. It is easiest to set up for auto-deploying web projects - but can be helpful with other types of projects as well. Here’s <a href="https://lab.github.com/githubtraining/github-actions:-continuous-integration">a course from github</a> about actions.</p>
 <p>Overall though the point is that whenever you merge into your <code>main</code> branch your code is automatically tested and also deployed somewhere. For some projects this doesn’t apply, but for those where it is possible it will save a lot of time.</p>
 <p>The idea generally is that it is helpful to always have a recent-ish version that folks can test with.  With web this is easy. With mobile, if you use expo it is also fairly easy. With VR or desktop, the recommendation is that at least once a week you make a build that you upload to <a href="https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository">github releases</a>.  This would all us / the class / your teammates even test a recent version easily.  Hardware… have a demo device that you keep updated. </p>
 <p> Ask us if you have questions about this.</p>
-<h2 style="background-color: #FBF3DB;">To Turn In:</h2>
-<ul>
-<li>In your sprint retrospective and the end of this sprint, just mention what you did in terms of making sure you have a deep connection test of your components, if api/client that they are making requests to each other, if database that it is storing something and your api uses it somehow, if some computational or sensor components make sure you are getting inputs.</li>
-</ul>
-<h2 style="background-color: #FBF3DB;">Keep up the good work, you’re all rockstars</h2>
-<p><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/sprint-2-implementation-data-wiring/assets/notarockstar-1767623992995.gif" alt=""></p>
-
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">To Turn In:</h2></div>
+<ul><li>In your sprint retrospective and the end of this sprint, just mention what you did in terms of making sure you have a deep connection test of your components, if api/client that they are making requests to each other, if database that it is storing something and your api uses it somehow, if some computational or sensor components make sure you are getting inputs.</li></ul>
+<div class="heading-block h2-block" data-bg-color="#FBF3DB"><h2 style="background-color: #FBF3DB">Keep up the good work, you’re all rockstars</h2></div>
+<figure class="image-block"><img src="https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/sprint-2-implementation-data-wiring/assets/notarockstar-1767623992995.gif" alt=""></figure>
 </body>
 </html>
