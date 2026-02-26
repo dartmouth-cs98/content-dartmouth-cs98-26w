@@ -323,14 +323,14 @@
         },
         {
           "type": "text",
-          "text": "@timofei7, @nataliesvoboda,",
+          "text": "@timofei7",
           "styles": {
             "code": true
           }
         },
         {
           "type": "text",
-          "text": " to the issue so we can review and give feedback. Thanks!",
+          "text": "to the issue so we can review and give feedback. Thanks!",
           "styles": {}
         }
       ],
