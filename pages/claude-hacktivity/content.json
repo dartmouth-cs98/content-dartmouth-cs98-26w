@@ -1,0 +1,1426 @@
+{
+  "blocks": [
+    {
+      "id": "5b3bdc7f-3bee-486a-8d67-eba700ab4b73",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Work in pairs for this activity (~1 hour)",
+          "styles": {
+            "italic": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a963d218-d41d-43e5-a698-eee73fd88047",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "💡In this activity, you'll use Claude Code to brainstorm solutions based on your need finding interviews and build a quick frontend prototype.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "816aa84f-c1fe-4530-b953-be4b707d3407",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "📌 This activity will largely be in the terminal. If you don't have a good terminal app, consider: ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://ghostty.org",
+          "content": [
+            {
+              "type": "text",
+              "text": "Ghostty",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://sw.kovidgoyal.net/kitty/",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kitty",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", or ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://www.warp.dev",
+          "content": [
+            {
+              "type": "text",
+              "text": "Warp",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "976100cb-19c5-4b72-88c0-7fd00967e833",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "💻You're free to use a code editor like VS Code or Cursor, but for this activity try going ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "terminal first",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". Use Claude Code to explore the codebase, ask it to explain things to you, and work with it as if you're pair programming — where Claude is the one typing.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "987b644d-43cb-4b43-953e-e81b8a8672e8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "157edf7c-252a-4c72-a1bb-c3d1b453184d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Start",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dbd83fd1-fc89-439f-89a7-0f29d94a3f39",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Find a partner to work with",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3b944938-3e8d-4187-a025-9ed3d7f571a8",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Clone the starter repo provided in Classmoji",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6a3629e3-38c6-4faf-98b3-b4a3864234e9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Submit by commenting on the GitHub issue with your repo link, then close the issue",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "175e4488-c249-472d-b9ab-ffefba47b5db",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "cf2c44a9-928d-4934-8aac-78565cc786ed",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Setup Claude Code",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "eeae6f9a-0eaf-4567-871d-94052ad66398",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You should have received an invite to Claude Console. Follow these steps to get set up:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cb2c4aea-c63e-4bd3-9e57-05767043c5c0",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Accept the invite",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " sent to your Dartmouth email",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "741f7e9a-e76a-4348-b9d4-d077a01909ec",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Log into Claude Console",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " at ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://console.anthropic.com",
+          "content": [
+            {
+              "type": "text",
+              "text": "console.anthropic.com",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c98e22a0-17e0-41bb-91b0-4a48aa7c54a0",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Install Claude Code CLI",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ":",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "70b21151-e79c-4520-8486-ae285d72ef45",
+      "type": "terminal",
+      "props": {
+        "code": "npm install -g @anthropic-ai/claude-code",
+        "title": "Terminal"
+      },
+      "children": []
+    },
+    {
+      "id": "c3165aae-d6bf-42a8-8342-ef1da2a784a1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Or download from: ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://claude.ai/code",
+          "content": [
+            {
+              "type": "text",
+              "text": "claude.ai/code",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c7914680-ea01-435a-a3ad-48036101de2e",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "start": 4
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Authenticate",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " by running ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "claude",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and following the prompts",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f6183d81-d251-424c-9766-cf74c312c230",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "62018639-693c-4eaa-af2a-2a44ea561f0a",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Setup Chrome Integration",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a96593ac-7e94-4a09-b0b1-e9d714efd13d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "⚠️This step is critical! Chrome integration lets Claude test your prototype as it builds.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "09d82d7d-ff93-45ac-9328-17fcec330bd6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "We'll use the ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Chrome DevTools MCP server",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to let Claude control Chrome:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "09cd23ed-8cfd-4fc1-80ea-24cc1e129ea5",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the MCP server to Claude Code",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ":",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "08c0d285-a9e6-454b-a3e1-97c4f3a54cfd",
+      "type": "terminal",
+      "props": {
+        "code": "claude mcp add chrome-devtools --scope user npx chrome-devtools-mcp@latest",
+        "title": "Terminal"
+      },
+      "children": []
+    },
+    {
+      "id": "2d3a415d-229e-45b3-8c86-5e0acd789a4e",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "start": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Restart Claude Code",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to load the new server",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9887f864-8967-4ff2-905b-4a146af8e37a",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Test it",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " by asking Claude to open a browser and navigate to a website",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "40f54e3f-9e48-4505-b2ff-56b3559d6df5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Docs: ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "content": [
+            {
+              "type": "text",
+              "text": "GitHub",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " · ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://www.npmjs.com/package/chrome-devtools-mcp",
+          "content": [
+            {
+              "type": "text",
+              "text": "npm",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ea53ff32-ba12-484d-811e-f417f55e0af4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "31c359e5-ce10-438d-9f54-15549de0980d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Tips for Using Claude Code",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "76f9b03c-6026-4e3d-a023-0f6927eb6b42",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Set your style to \"explainer\"",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - Run ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/config",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and set the style to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "explainer",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". This helps Claude explain what it's doing as it works.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "55d4e068-ccbc-4be1-a3a2-773f303b3746",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Use plan mode heavily",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - Before building, ask Claude to plan first. This helps you understand the approach before code gets written. You can enter plan mode by typing ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/plan",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " or asking Claude to \"plan this out first\".",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a5dca5b4-b73f-4765-a15d-b4a22509dd87",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Use CLAUDE.md for memory",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - If you need Claude to remember something for future sessions, ask it to add it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "CLAUDE.md",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". This is a special file that Claude reads at the start of every conversation — it's like giving Claude persistent notes about your project, preferences, or conventions.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2cccf048-55dd-4a4c-a7d8-214862ba5132",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "6bd46776-3375-4431-82b0-a14a187a175b",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The Activity",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fa3da20b-fd68-4bc9-bd1f-8e9c7ecbcbbd",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "76363563-0075-468d-84a6-1ef6d8b57c49",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 1: Discuss (5-10 min)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bfe6ead6-861c-486c-9af0-33c500f5de93",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "With your partner, discuss your need finding interviews:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bab026e4-3c73-4014-a2ca-2224793f7a0d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What problems did you uncover?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2283c2c0-64fd-489c-b399-1ef30483ccbe",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What patterns or insights stood out?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a4f9124e-0d5d-404e-9906-1de2eace762a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What surprised you?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ea73ca32-d58d-4b6b-8632-b40c285ceea3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "733569f7-1aef-4488-98ef-68514165a588",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 2: Brainstorm with Claude (10-15 min)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "be093dab-24ed-44d7-a7d9-838cdcf28e34",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Open Claude Code in your cloned repo and start a conversation:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "436b5cf3-c027-4c52-b404-095a4a57729d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Share your need finding insights with Claude",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1e57ae3c-e51f-45b0-969b-7d38f182f5a1",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Ask it to help brainstorm potential solutions",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dfee3c84-bf28-4fe6-89bf-bd2547e1228d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Explore different approaches together",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bd65b1a9-d65f-4749-bb61-df5a3cbfe5e2",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Narrow down to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "one idea",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to prototype",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cfdfc751-068c-4e0b-9ac9-067d88155202",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "💬Try prompts like: \"Based on these user interviews, what problems could we solve?\" or \"Help me brainstorm solutions for [specific pain point]\"",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fedff858-9c03-4e55-9787-db3405ff21bd",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "01cc6dd4-e25c-4636-8ef9-b960f2f4b8e3",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 3: Build a Quick Prototype (30-40 min)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "51571cde-84d4-4d95-8b36-a1a653254d71",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Use Claude Code to build a frontend-only prototype:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9d777840-03a1-48fa-8ba6-6c2b913c828c",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "No backend, no database",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - just UI",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ff8cd572-d1d1-4f2a-89e3-10ca7cc82aef",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Claude can test it in the browser as you go (via Chrome integration)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dcf64ad0-9ce7-4a98-a08c-c4c448700bd1",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Focus on the ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "core user experience",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "94ffaa64-74c5-4e3d-a24d-41e59ee7627b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "It doesn't need to be perfect - this is a quick exploration",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "713083bf-d081-4dea-9543-7d82696f3633",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "💡",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Install the frontend-design plugin first!",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " Run ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "/plugin add frontend-design",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". This helps Claude build better-looking UIs with solid design patterns.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2e22c025-22a3-407f-abdf-6dedeeb8b13d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Starter prompt to get going:\n",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "\"Set up a Vite + React project with Tailwind CSS. Then build a simple frontend prototype for [your idea] — just UI, no backend. Start with a basic layout and we'll iterate from there.\"",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d78c2cfd-0d20-44b0-aa41-f12a4fcff842",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "💡Claude can open your prototype in Chrome, click around, and help you iterate on the design in real-time.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3629ee97-ce93-43b6-bc36-c6140da8e6f9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "f685c574-07a4-4914-b189-80b042574868",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "36f67133-d26d-4c00-a3d5-ac15397f5905",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Close the GitHub issue with a comment that includes:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8941cc5f-9a76-42a9-8db8-5107e1ad1e09",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Brief description of the problem you're solving",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d651d3c7-7b2e-4005-a352-35b415b52a43",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Screenshots of your prototype",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bc93859d-2df5-418e-9eda-9ea14419b9e6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What worked well / what didn't with Claude Code",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1f3441ae-6699-4578-9bab-c0bd3dc84cd3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "If you worked with a partner, only one of you needs to submit — but please include your partner's GitHub username in your comment.",
+          "styles": {
+            "italic": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2b6486e6-0771-4099-9267-c18551524a1e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Note: if you worked inside of the claude-hacktivity-* repository we built a small app that shows you some feedback on your usage. Check it out ",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "link",
+          "href": "https://aioji.brunchlabs.com",
+          "content": [
+            {
+              "type": "text",
+              "text": "here",
+              "styles": {
+                "italic": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {
+            "italic": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9eb98733-448b-47b8-83d0-09f0057a0fbf",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
