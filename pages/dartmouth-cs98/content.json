@@ -727,57 +727,72 @@
       "children": []
     },
     {
-      "id": "278a2e07-eabf-4c40-86a5-d4381c53e745",
-      "type": "image",
-      "props": {
-        "textAlignment": "left",
-        "backgroundColor": "default",
-        "name": "Tim Tregubov ",
-        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/dartmouth-cs98/assets/1767560667029-tim-profile.jpg",
-        "caption": "",
-        "showPreview": true,
-        "previewWidth": 203
-      },
-      "children": []
-    },
-    {
-      "id": "e2291561-a7b3-4bfc-a5c9-afb94a1dcd57",
+      "id": "1978826b-867d-4bbb-a25f-7dabec462ad0",
       "type": "paragraph",
       "props": {
         "backgroundColor": "default",
         "textColor": "default",
         "textAlignment": "left"
       },
-      "content": [
-        {
-          "type": "text",
-          "text": "Tim Tregubov ",
-          "styles": {
-            "bold": true
-          }
-        },
-        {
-          "type": "text",
-          "text": "Head Coach",
-          "styles": {
-            "italic": true
-          }
-        }
-      ],
+      "content": [],
       "children": []
     },
     {
-      "id": "5a9a7ce2-ae70-4ee6-b195-bd6aebd24b09",
-      "type": "image",
+      "id": "d578b380-0640-4838-acf6-0efa39f90943",
+      "type": "columnList",
+      "props": {},
+      "children": [
+        {
+          "id": "668ed706-3dba-4048-93b7-1f23a6c3bcf7",
+          "type": "column",
+          "props": {
+            "width": 1
+          },
+          "children": [
+            {
+              "id": "189c0163-cdc5-4148-b972-ad77c8051a1e",
+              "type": "profile",
+              "props": {
+                "name": "Tim Tregubov",
+                "title": "Head Coach",
+                "imageUrl": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/dartmouth-cs98/assets/1772114138035-tim-cooking-profile.png",
+                "links": ""
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "b76660f7-6b1d-485f-ac9e-62e631f29213",
+          "type": "column",
+          "props": {
+            "width": 1
+          },
+          "children": [
+            {
+              "id": "e66174e5-0f77-404a-8258-43ea420cde6b",
+              "type": "profile",
+              "props": {
+                "name": "Pape Sow Traore",
+                "title": "Teaching Assistant and CTO",
+                "imageUrl": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/dartmouth-cs98/assets/1772114175245-pape-profile.jpg",
+                "links": ""
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39f6a872-819b-4359-b2d4-44e800c2f71d",
+      "type": "paragraph",
       "props": {
-        "textAlignment": "left",
         "backgroundColor": "default",
-        "name": "Pape Sow Traore",
-        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/dartmouth-cs98/assets/1767560706198-pape-profile.jpg",
-        "caption": "",
-        "showPreview": true,
-        "previewWidth": 206
+        "textColor": "default",
+        "textAlignment": "left"
       },
+      "content": [],
       "children": []
     },
     {
@@ -788,22 +803,7 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "content": [
-        {
-          "type": "text",
-          "text": "Pape Sow Traore ",
-          "styles": {
-            "bold": true
-          }
-        },
-        {
-          "type": "text",
-          "text": "Teaching Assistant and CTO",
-          "styles": {
-            "italic": true
-          }
-        }
-      ],
+      "content": [],
       "children": []
     },
     {
