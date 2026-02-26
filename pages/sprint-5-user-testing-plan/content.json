@@ -1,0 +1,575 @@
+{
+  "blocks": [
+    {
+      "id": "f386fa84-9fb1-4d49-834f-e15e649cf176",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Date: November 5, 2023 → November 11, 2023\nTerm: Term 1\nWeek: Week 9\nType: sprint",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "type": "paragraph",
+      "content": []
+    },
+    {
+      "id": "3032bc58-de2f-44a6-bf04-1bf27e614ebe",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your Mission for THE LAST SPRINT OF THIS TERM!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "57523346-6643-4963-b726-bde4349fe1bb",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is the last sprint of the term! Soon your product will be put through its paces at Technigala! A working, testable demo is the requirement. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "73d3562b-1e6c-4ee7-89b5-8b856d2bcb90",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This will be your opportunity to test your product and get feedback, so have a testing plan in place. Don’t worry about other documentation until ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "after",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " demos.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "type": "paragraph",
+      "content": []
+    },
+    {
+      "id": "c6492de5-3ea9-4d59-83ab-239bf461b457",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Testing Plan",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f0ef1408-2e6d-4fef-8e96-918cf18bf675",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "In preparation for the DEMOs at the end of Term 1, we will need a plan! You should consider the demos as your final exam for the term, and it is worth a ton of points. This is the moment you are working up to — your time to shine. During the expo you will present your work to various people, including your instructor.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "73a064bb-536c-4cf0-9801-ce041ea12b98",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "So, are there any assumptions about your product that you might want to test?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2d761daf-d3da-438f-801f-a0070d2f197f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Create an Issue ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Term 1 Testing Plan",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and write down a testing plan. This is not a long document - terse but thoughtful is good.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "66d0352f-78b2-4628-8ba5-7ca7fbd435ed",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "List the features you want people to try out during the demos.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d91516c2-47e7-4110-b30b-5234ba0968be",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "How will you measure their feedback?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9ba826e2-221b-4ce1-9e8b-92601989a1e6",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "How will you validate your approach?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "type": "paragraph",
+      "content": []
+    },
+    {
+      "id": "58ff1b18-0f52-4f57-8bb8-07f8f73b8912",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Some Tips",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "type": "paragraph",
+      "content": []
+    },
+    {
+      "id": "de99311a-0c90-4c1d-8dac-ae643096b3b6",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Observation",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "59c99ac5-ad6b-4d83-ac09-97381e911026",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You’ll want to be able to observe and keep notes on how people use what you’ve built. Keep good observational notes that are ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "more",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " than “it seemed people liked it”, and more like, “30% of users used the side filters”. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f74bfc16-db65-42ca-9a41-9e4e2df70894",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Be creepy",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", watch people interact with your product.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "type": "paragraph",
+      "content": []
+    },
+    {
+      "id": "b1e02c3e-a86f-4e7d-a48c-ec4bec0ed55a",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dc5d4f9d-74e3-434e-8bea-5524cc095ad2",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Ask users questions, verbally or with a form.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5ad936bf-5abb-421d-8c38-462e8941c56e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://en.wikipedia.org/wiki/Likert_scale",
+          "content": [
+            {
+              "type": "text",
+              "text": "Likert scale",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " questions are often used in surveys (usually these are 5 point scales from strongly disagree to agree). Sometimes you can avoid the middle undecided value and force subjects to either agree or disagree which can be helpful if your subjects are timid. Good Likert questions might look like: “I prefer functionality X over Y”, “Would feature X improve the product”, “logging in is important for this app”. Try to avoid leading questions and have a mix of questions where some you can evaluate numerically and some free form comments.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fe7b8734-ea94-40cc-a9d3-2f8be7033132",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Don’t ask general questions like “would you use this?”. Ask more specific questions that you want resolved. Do you prefer a slider or a dropdown? How would you use this product? ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5f000d38-f091-4997-98d6-3bbdd4c73425",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Avoid asking questions like: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "“did you enjoy our product / find it useful”",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". These types of questions often suffer from various ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://en.wikipedia.org/wiki/Response_bias",
+          "content": [
+            {
+              "type": "text",
+              "text": "response biases",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". Survey subjects often suffer from acquiescence bias and try to give you the answer they think you want. So the trick is to construct questions that are balanced and ask for specifics.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "53bb4de5-7804-454d-8845-a4a67fa9082d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The goal is to inform your further development — what would be useful to know at the start of next term?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "type": "paragraph",
+      "content": []
+    },
+    {
+      "id": "57baee56-0524-4124-abfa-074693fe454f",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "aaf11c6c-8b19-40e4-8f6f-ad8b7086764c",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your GitHub issue (name it with this assignment’s title) is your submission.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9cc6a5fc-2857-40e3-bd1b-48599235f142",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the label ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "665e42ec-75a3-4762-9162-12639b973dd4",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you’re done, move it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for the graders.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    }
+  ],
+  "coverImage": {
+    "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/sprint-5-user-testing-plan/assets/1772113517484-photo-2026-02-04-19-33-21.jpeg",
+    "position": 50
+  }
+}
