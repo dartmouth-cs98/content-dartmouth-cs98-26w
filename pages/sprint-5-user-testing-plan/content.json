@@ -167,14 +167,22 @@
         },
         {
           "type": "text",
-          "text": "Term 1 Testing Plan",
+          "text": "Sprint 5: User Testing Plan",
           "styles": {
             "code": true
           }
         },
         {
           "type": "text",
-          "text": " and write down a testing plan. This is not a long document - terse but thoughtful is good.",
+          "text": " and ",
+          "styles": {
+            "textColor": "rgba(55, 65, 81, 0.88)",
+            "backgroundColor": "rgb(255, 255, 255)"
+          }
+        },
+        {
+          "type": "text",
+          "text": "write down a testing plan. This is not a long document - terse but thoughtful is good.",
           "styles": {}
         }
       ],
