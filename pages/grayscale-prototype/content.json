@@ -1,0 +1,1208 @@
+{
+  "blocks": [
+    {
+      "id": "dff5098b-02e8-4999-9fd5-3f9cf1b4b48d",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs52/content-dartmouth-cs52-26w/main/pages/project-3-mockups-and-sketches/assets/giphy-1767578197114.gif",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 325
+      },
+      "children": []
+    },
+    {
+      "id": "0064a7f1-a92f-4646-b369-d5f2c3fbe77b",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "293bcc36-72d9-4686-a52c-ef1695e10a53",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 1: Paper Sketch",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b69140be-0d9d-4bb9-a08b-3738decd8a18",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Based on the various features and pages you described in the feature spec, draw up sketches of each view. Napkin style quick sketches are a good place to start. Focus more on thinking through the common actions that the users will be making rather than how and where the buttons go. As you draw out these sketches with your team several things will come to light, features you might have missed or interactions that need to be changed. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8b43c0ce-c59d-4bea-a86f-d084a730bdde",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Time to take the abstract to concrete. Sketch rough layouts of screens focused on ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "features",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "df55fdac-78ad-4c9e-9c59-840b7d1c7cc3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "b1d3f034-b882-47a2-b257-6a04cbb6361f",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Generate options as a group",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9cb05721-b265-4cf7-bb91-4f0ebe2252a9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Determine which ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "(2-5) main features",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " you will sketch that are essential to your product (e.g. the feed, leaderboard, comments, etc)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6f1d5f30-4a21-4910-8650-103ef10f9f92",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Get thick markers, printer paper, and designate a timekeeper",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6fff2240-bd2f-4290-bdd8-82c8d381dd4c",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Allow for ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "5 minutes of individual sketching per feature",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", working on as many unfiltered iterations as possible in that time limit. Treat this much like improv - try not to self-edit or rule out anything just yet.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c04bb4a8-e40a-4969-bbfe-098a822d2145",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "After each round, compare sketches and create a few group versions that incorporates the best of all the ideas. Actively agree/disagree with specific elements. Aim for ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "2-3 versions per feature",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "989db380-207e-4392-9517-a60a2a01c38a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "0180a974-8540-4e07-ba8d-e04ed700fece",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Rules",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7fcbe028-4683-4a8c-9fba-8f10d6ddd1a3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Use the \"thick marker trick\" - the thicker the marker, the more you force yourself to keep the designs at a conceptual level the better. Whiteboard markers are great here too, just take photos!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c07393d8-2aaa-4ffb-b895-c97360a9f464",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Include little or no specific content",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b89bf271-6b3c-492b-a03a-729bd8b8bc8d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Drop any worries about scale, straight lines, grids, etc.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "64e82f9f-8cf1-4a1c-9d99-8f3c44a8f382",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Think in flows whenever possible (what views or steps come after?)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ca9c8f7d-da6a-4b79-9a10-d2ad4d09de00",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Match your sketches with your flow diagram - what part of the flow is not yet in the sketch?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "019c0f8c-174c-4765-818a-de2393d90fd9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Never settle for your first idea!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1b119e76-0d7f-4314-b64d-b197cf0c7c17",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs52/content-dartmouth-cs52-26w/main/pages/project-3-mockups-and-sketches/assets/papersketch-1767578197114.png",
+        "caption": "",
+        "showPreview": true
+      },
+      "children": []
+    },
+    {
+      "id": "fe7ac4ae-92d8-4745-8360-3ee9c3154258",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You can ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "http://sneakpeekit.com/",
+          "content": [
+            {
+              "type": "text",
+              "text": "download all sorts of device paper",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " to help.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e13b8559-35ad-4cc9-ab4e-412a25a2d1d8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "03797148-5cb1-4a02-8cc2-b5cb9c96974c",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 2: Choose Your AI Prototyping Tool",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "38eca51e-024d-4f77-a275-aaa3126d413c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your team will use AI to rapidly generate and iterate on your prototype. Choose one of the following tools:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fe18b377-53a4-43b6-9a53-67e3e8279c79",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/grayscale-prototype/assets/1770289376280-magic-patterns-logo-light.svg",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 243
+      },
+      "children": []
+    },
+    {
+      "id": "80285ca1-6435-4c7f-a8e2-d43f818eed44",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Text-to-UI generation - describe what you need and get instant layouts",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c82398ca-1a30-4500-9f36-385f901812b3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Upload your own design system for consistent branding",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "32b1e228-fe7a-444b-85b0-c61b75e7e651",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Export to React/Tailwind code or Figma",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f331beca-2ff8-4fda-afa1-82ac2241a6a1",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Multiplayer canvas for real-time team collaboration",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "366c867e-7824-44aa-819a-e8b6d52fcdb8",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Chrome extension to capture UI inspiration from any website",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "71cb2f30-e2fd-439f-92f1-6575a447bd3a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Fun fact: MagicPatterns was built by Dartmouth alums Teddy Ni and Alex Danilowicz (CS52 and CS98). It's now a YC-backed company used by thousands of product teams.",
+          "styles": {
+            "italic": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f412f7af-29b7-4988-be74-cf8cd7373457",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/grayscale-prototype/assets/1770289425211-figma-make.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 222
+      },
+      "children": []
+    },
+    {
+      "id": "548f7a55-2d1e-4a4f-ad11-d62ff01641b5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Built into Figma - stays in your existing workflow",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "01ab587f-a6db-4751-8fdf-1a692b1a094b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Natural language to interactive prototypes",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "987a05ac-431c-4f5a-9989-99c0fd3f7644",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "\"Pilot not co-pilot\" philosophy - everything stays fully editable",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4d4d3e1d-d3e5-4030-9699-f9b6f0380db9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Pull styling from your existing Figma libraries",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ae2b5609-4ee2-49cc-ae32-1aadcdef1535",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Automatically creates component states, interactions, and user flows",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a32c1402-355c-4a7c-b03d-6be93ead89e0",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "05599d81-3243-41a2-ba20-1294da7a2cae",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 3: Generate Your Screens",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2d6ba9c3-d140-4de7-9629-b85cc6ad972e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Use your AI tool to generate screens for all the views and functionality in your feature spec.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1f394de2-53e3-4c34-8edb-43e688d20029",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Start from your feature spec",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - don't just generate random screens. Use the user flows and features you already defined to guide your prompts.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "37b823ec-947e-4a51-8634-6a7231d1a3b8",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Cover all key screens",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - onboarding, main views, detail views, settings, error states, empty states, etc.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "829d0fac-6a1c-4e2c-afd6-efba54ec755c",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Think about the user journey",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - what is the action on each screen? What screens are missing to make the experience complete?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e4d4acf0-a757-47ee-a021-9711499c6a50",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "8a66987a-a327-4ad7-a49c-5cf3cc0335ea",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 4: Iterate and Refine",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "44227c74-061c-418c-afc6-417e70f1abf1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "AI-generated designs are a starting point, not the final product. Your job is to shape them.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "78f32ba3-1d97-4a12-b6bf-0ec442b7a865",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Iterate, don't accept the first output",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - run at least 2-3 iterations per major screen. Refine your prompts, adjust layouts, and improve the UX.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "49f58ea7-f6b8-4bf6-a8af-7318aaf201c3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Critique the AI output",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - what did it get wrong? Are the touch targets big enough? Is the information hierarchy clear? Does the flow make sense?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1f898712-e634-4306-bf9e-233049afc54a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Edit directly",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - both tools let you modify the generated designs. Move things around, change copy, fix spacing.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fb2f04d4-bd55-4238-9a19-2aa770cccdc4",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Discuss with your team",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - get feedback from teammates on what works and what doesn't.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a8a1a224-84de-4a67-a173-f02a5dc10031",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "95dbcb19-59de-4001-99df-96dcbf065f91",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Step 5: Make It Interactive",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9848cff9-ab5e-46c9-b188-10e1c726a388",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Connect your screens into a clickable, playable prototype.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bd9ec937-064c-44a9-9b48-daa39a93cd6e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Link screens together",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - buttons should navigate to the appropriate views",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "19387958-30e8-40f8-9371-076ae1b1192e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Show the core user flows",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - someone should be able to click through your main use cases",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "988111f1-70da-444b-86d9-e4aac11aec16",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Test on device",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " - if it's a mobile app, test the prototype on an actual phone to check touch targets and overall feel",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "373f198d-9bea-47b6-af62-fe5976a460d8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Remember: This is a prototype, not production code.",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " The goal is to validate your concept and get feedback, not to ship. Focus on demonstrating the experience, not pixel-perfect polish.\n",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "17e679a3-fcae-4603-a37a-6a51d9de81a6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "b78c93f0-1b2d-4606-9ce7-e9a2d02a33a0",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "33d68fab-f154-4be5-b583-78b4d88c0add",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Submit the URL to your playable prototype",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " in your GitHub issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "caa385bc-61cb-4e0f-8510-4a23225103a5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the label ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "97fea0b8-3a63-40d3-812a-e4451440749e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you're done, move it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " in your project.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d7968e3f-872d-41a7-b398-fb6d10c3422c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
