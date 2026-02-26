@@ -52,53 +52,21 @@
           ],
           "slides": []
         },
-        "term-demo-session-and-user-testing": {
-          "pages": [
-            "term-demos-and-testing"
-          ],
-          "slides": []
-        },
         "ui-design-and-mockups": {
           "pages": [
             "ui-design-mockups"
           ],
           "slides": []
         },
-        "scaffolding": {
+        "feature-spect-and-roadmap": {
           "pages": [
-            "scaffolding"
+            "feature-spec-and-roadmap"
           ],
-          "slides": []
-        },
-        "sprint-2-3-transition": {
-          "pages": [
-            "sprint-23-transition"
-          ],
-          "slides": []
-        },
-        "watch-ux-research": {
-          "pages": [],
-          "slides": []
-        },
-        "watch-agile": {
-          "pages": [],
           "slides": []
         },
         "project-proposal": {
           "pages": [
             "project-proposal"
-          ],
-          "slides": []
-        },
-        "sprint-1-planning-your-first-sprint": {
-          "pages": [
-            "sprint-1-planning-your-first-sprint"
-          ],
-          "slides": []
-        },
-        "sprint-1-2-transition": {
-          "pages": [
-            "sprint-12-transition"
           ],
           "slides": []
         },
@@ -114,9 +82,15 @@
           ],
           "slides": []
         },
-        "feature-spect-and-roadmap": {
+        "scaffolding": {
           "pages": [
-            "feature-spec-and-roadmap"
+            "scaffolding"
+          ],
+          "slides": []
+        },
+        "sprint-1-2-transition": {
+          "pages": [
+            "sprint-12-transition"
           ],
           "slides": []
         },
@@ -138,6 +112,20 @@
           ],
           "slides": []
         },
+        "watch-ux-research": {
+          "pages": [],
+          "slides": []
+        },
+        "watch-agile": {
+          "pages": [],
+          "slides": []
+        },
+        "sprint-1-planning-your-first-sprint": {
+          "pages": [
+            "sprint-1-planning-your-first-sprint"
+          ],
+          "slides": []
+        },
         "prototype": {
           "pages": [
             "grayscale-prototype"
@@ -146,6 +134,24 @@
         },
         "watch-ui-design": {
           "pages": [],
+          "slides": []
+        },
+        "sprint-2-3-transition": {
+          "pages": [
+            "sprint-23-transition"
+          ],
+          "slides": []
+        },
+        "sprint-4-5-transition": {
+          "pages": [
+            "sprint-45-transition"
+          ],
+          "slides": []
+        },
+        "sprint-5-user-testing-plan": {
+          "pages": [
+            "sprint-5-user-testing-plan"
+          ],
           "slides": []
         },
         "sprint-5-6-transition": {
@@ -160,9 +166,9 @@
           ],
           "slides": []
         },
-        "term-1-summary": {
+        "term-demo-session-and-user-testing": {
           "pages": [
-            "term-1-summary"
+            "term-demos-and-testing"
           ],
           "slides": []
         },
@@ -184,15 +190,9 @@
           ],
           "slides": []
         },
-        "sprint-4-5-transition": {
+        "term-1-summary": {
           "pages": [
-            "sprint-45-transition"
-          ],
-          "slides": []
-        },
-        "sprint-5-user-testing-plan": {
-          "pages": [
-            "sprint-5-user-testing-plan"
+            "term-1-summary"
           ],
           "slides": []
         }
@@ -206,15 +206,15 @@
       "dartmouth-cs98"
     ],
     "slides": [
-      "first-sprint",
       "code-review",
       "welcome-back",
       "existential-duty",
-      "user-personas",
       "welcome",
       "hack-a-thing-1",
       "interviews",
-      "design-plus"
+      "design-plus",
+      "user-personas",
+      "first-sprint"
     ]
   }
 }
