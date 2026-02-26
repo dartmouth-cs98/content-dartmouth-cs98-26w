@@ -1,0 +1,466 @@
+{
+  "blocks": [
+    {
+      "id": "33a9fdc9-fce0-4d18-ac66-6b4959268f58",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "d8a0a509-2462-4587-8efa-090ea74e4315",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is your final for the term and a public demo of the projects! Invite your friends, family, enemies, and randos! There will be food and drinks!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c6217837-0d94-4f9e-b780-17d8253fbd27",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Demos are Tuesday**, November 14, 6-8:30pm**. Please show up at ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "5:30pm",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to get ready and don’t leave before your instructor comes by (remember we could have had a final instead!). The event will be expo style - you will have a table with your project name and either a screen or a stand for a laptop to better demo your awesome projects. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dbc8f072-c7f4-4a44-bd39-c4e27c0a7c58",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Be prepared to",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7d9a290d-e06f-480a-be1a-355eea8b1b81",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Motivate the idea to a general audience (very brief intros, don’t spend too much time talking)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f487ab34-a03b-40e2-b5f3-4c0fc2902ae0",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Show it in action and ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "let people try it out",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f1fa71b4-ffc2-48b5-9e00-4111d04fdb62",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Discuss challenges",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e28b217d-86d0-4ce4-bc0c-c93d1f07eba3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Ask for feedback",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d9146a43-50dd-4b97-922b-934624adf536",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "b76e11b7-9ea7-44b7-911d-252d145a92a1",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Focus on MVP and TESTING",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c0cd3dbe-f630-49a1-9a3c-60938ed6037d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Demos should be MVP - showcase features that are essential for your project and focus on getting those working. IE, what is the core thing that your project does — you don’t need any extra stuff like settings, edge cases, unnecessary fields, etc — but you do need the main idea to come across and be testable. If you need help prioritizing, talk to me!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1d585a40-ce04-4725-96f4-5485efffe4cf",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your product needs to be usable by the public. If it is an app get it on testflight for ios, or unlisted on google play store so people can try it, or expo with a shared username/password, if a website get it deployed on a public domain. Have some devices on hand so people can demo that way also.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7bb82359-f6a6-4ce4-96ee-7dae98af1813",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You’ll want to be able to observe and keep notes on how people use what you’ve built - have a form with some questions. Don’t ask general questions like “would you use this?”. Ask more specific questions that you want resolved. Do you prefer a slider or a dropdown? How would you use this product? You’ll use this feedback to start the next term so this is important. Don’t forget to collect data. Also keep good observational notes that are more than, “it seemed people liked it”, and more like, “30% of users attempted clicking button 3 when it wasn’t enabled”. Be creepy, watch people interact with your product.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4ac9fda9-982e-4b66-b9b6-85ce82cc6883",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Here’s some things you’ll be graded on:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "db9dbf5e-dbdd-4716-9b30-8261433bd6eb",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "During DEMO:",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "a288f6b5-9130-452d-92ea-977090adaf49",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Verbal project pitch and user onboarding.",
+              "styles": {}
+            }
+          ],
+          "children": [
+            {
+              "id": "9bc6b53c-5c3d-4dce-9735-7abfb5010ea9",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "verbal pitch should be 1 minute tops.",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "079f1c10-49c7-4d23-8031-097b2120fea7",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "purpose of the product motivated",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "085be8e7-3b9c-42fc-aa77-74a221f44a9f",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Testing questions prepared / notes taken",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "2cec7b51-07e1-4c7b-a5e9-f37964e46ad0",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "How much of the MVP functionality was functional",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "210cfb95-db0c-44d1-831c-91ca617dfe4f",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Was the primary critical functionality testable",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "0ad8705d-ba1e-474c-a44c-040f25655ff0",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/term-demos-and-testing/assets/p9o75rbs946he-1767623974728.gif",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "e1dd5a15-f52f-416c-b545-9b00f7536e78",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "ffea9cb8-3536-4311-bbd6-b54f257a7489",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c4f13ab2-3aa7-42f4-96ea-560e5df36f81",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "nothing - just be there",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "447f17a3-1e80-4028-93d3-9758fd64ad0c",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "remember it is your final - so if we have not yet come by your booth, wait for us.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "85c1331e-096e-45fd-a9c9-1335b9dae9ca",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
