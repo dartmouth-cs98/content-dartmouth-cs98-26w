@@ -1,0 +1,366 @@
+{
+  "blocks": [
+    {
+      "id": "81a728be-b613-41b5-aca6-7bb8226bebe5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "7ae7c7b6-1ab2-4f56-9710-810b629f3fc2",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/term-1-summary/assets/endofterm-1767623980719.gif",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "9d873be1-9152-4215-9757-6848c8879d31",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "2a822d49-b92b-4634-a31f-b71049878fcb",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Summary of Term!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b1b6beab-ac42-49c4-b7d9-f432e41edf83",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Create a new Issue in your repo: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "T1 Summary",
+          "styles": {
+            "code": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "29dc8791-cae6-40fb-a0d2-ce34fc169bd7",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A template to get you started is included - the idea is to record feedback and notes to yourselves for next term.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "902b7aa3-c6ac-4fd5-9960-a9257808b9d9",
+      "type": "codeBlock",
+      "props": {
+        "language": "javascript"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "\n# T1 Summary\n\n## Summary\n*Summarize any feedback you got during demos.*\n\n#### Observations\n*Record your observations and any insights/conclusions you may have about them. Identify top patterns and write them up. Record the number of email signups you got.*\n\n#### Analysis\n*Is there any analysis you can do of the demos - what percentage of users claimed X or Y.  If you had numerical answers was there any statistical significance to the answers?*\n\n#### Notes To Future Us\n*Leave notes to yourself for next term - what should your next steps be?*\n\n## TeamWork\n*Reflect on how your team is working together*\n\n#### What has been working well?\n*give kudos and shoutouts, comment on communication techniques that have worked, pr review practices, etc*\n\n#### What has not?\n*try to discuss any problems openly and respectfully. communication breakdowns? are some teammembers taking others tasks for themselves? is anybody ghosting? etc*\n\n#### Steps\n*if there are problems, think of some ways to resolve them, go back to your team contract from last term to see what you said you would do for resolution*",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e7258c2e-3895-4874-8ad1-44e2cc6a207d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "26840a2f-7d4f-4eb1-993b-803046872873",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "READMEs",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7ba82903-2336-4fcc-b7df-73abcc83987a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Update all the ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "README.md",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " files in your repos with up-to-date installation and setup instructions. Include any gotchas and architectural details you think important for replicating your setup.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "411fa5eb-d6c9-4e23-9991-4a4ef04b7891",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "REMINDER: Grades for this term will be “",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ONgoing",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "” in banner.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4b1617a5-be6c-4e98-a182-8343f2593020",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "251a264e-1d08-44bf-a28a-016a24e0f654",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "68dc8fe5-c362-4948-b6bc-c227fb5937fb",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "remember to fill out ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://forms.gle/5mfv4EuhmJxNsHst9",
+          "content": [
+            {
+              "type": "text",
+              "text": "team form",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ec9ec315-4a1f-4b86-9c30-d023bf97bf50",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "update readme files",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "40c1a18b-78c1-4d9d-8abf-db8d99a97b5a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your GitHub issue (name it with this assignment’s title) is your submission.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8fc5e41b-1134-448e-9836-2fe1411a0b60",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the label ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e626d903-a096-4c9b-9846-47005a465c4b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you’re done, move it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for the graders.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ee0abc82-7e02-4c5b-b7d8-234c815efb52",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
