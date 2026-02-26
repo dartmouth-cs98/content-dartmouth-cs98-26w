@@ -1,0 +1,114 @@
+{
+  "blocks": [
+    {
+      "id": "8cfc27e4-84ff-4f0c-97a3-10382529fb2e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "6c5c6af0-c354-485e-91c0-5f86545b809c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "abb549e3-310f-4a11-83aa-160745dd5708",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your Mission for the Sprint",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7377f84b-13ee-4eb7-870f-fbedf8f9ddee",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Start prioritizing functionality that you need tested during end of term demos. This term we’re working towards a functional and ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "testable",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " MVP for demos, so you should be starting to think about what is core functionality that will make for a compelling demo of your idea. Work towards that!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ffadf7e2-901e-48ce-b95f-6f503cd58cba",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Remember, prioritize hard/real functionality over filler. Don’t worry about things like ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "settings pages",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", rather focus the core functionality.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b8a351b0-e41a-4b5d-b74e-96999277e03f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
