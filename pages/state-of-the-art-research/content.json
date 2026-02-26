@@ -1,0 +1,617 @@
+{
+  "blocks": [
+    {
+      "id": "aff4e5ee-2755-400d-9541-d0043602d127",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/state-of-the-art-research/assets/wheel-1767623986937.gif",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 372
+      },
+      "children": []
+    },
+    {
+      "id": "0d7f3cc7-81f7-40a8-b6a7-35ea34a1d142",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "57d613aa-7433-47e0-915a-273db2926ff0",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Overview",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "65f20ac4-9f52-4ae0-8bea-c75405d3966e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "As we work on an idea, the first thing is to do some research. 📝 What is the state of the art?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "17e45c1e-6d80-4264-8dc4-8b4d6d56f98f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "All too often people jump on an idea and skip doing any due diligence on it. This is not to say that if the product or idea already exists it is time to abandon it, but that there are lessons to be learned from any previous work done in related areas.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3d016369-5589-4dcb-ac87-6ba65ca5b2de",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🔬This is a critical stage in any project.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0f3c2d2a-8f4a-40fa-8137-e8022c7c7c73",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You want to look at any prior work that might be related. Regardless of the product, there may be consumer or commercial variants that you can learn from. More importantly, you want to find sources (articles, papers, blogs, etc.) that might inform what you are building. If you want to do face recognition, find a tutorial or paper that discusses a particular technique. If you are doing something educational, what research validates your approach? If you want to create a new human-computer interface, what work has been done before that you can extend?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1122feba-a13a-4eca-9ca4-56df3bf92cc5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Once you have a direction for your product. Each of you should do some research. Even if you feel that you know exactly what you are doing — you need to show that you have thought it through.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "150c232f-1861-4e25-99d6-5ee002e1236d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "❓ Wait how does this relate to competitive research or market research?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bad821b8-38c4-4f19-ad08-e775827d3958",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Good q! What we want is a more generalized research phase that encompasses market + competitive + scientific methods + background.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fc0f1bf6-c47e-44d0-ba88-a0dd12fb6e3c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "7bf819d8-51b3-4f14-a8d2-562766fec2cb",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Go Forth and Find Sources",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e0887855-efb1-46b2-b3b1-83e42437f19b",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your mission is to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "each",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "find ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ">=5",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " unique sources",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ": articles, research papers, white papers, blog posts, competing products, and apps, all count.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6e7e369b-5f20-4ff1-89d0-b0dfa02e0368",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Each should relate to your idea in some of the following ways:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3fae660a-2911-4904-9350-0b9b09ff00c9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Method",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ": this source contains methods that relate to the problem you are trying to address. This does not necessarily need to be a technical method (e.g. computational technique) and can include things such as particular user interactions (e.g. swipes are shown to be better than clicks in certain applications).",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5510ec1f-de1c-414c-a500-45cedeab59b3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Competition",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ": a product that is similar to what you might propose to build or in the same field. If you want to build an app for kids to promote financial literacy this might include apps/other solutions for adults or kids that might have similar goals or are just good examples of products for the same audience.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7ea1bbf9-bd26-4cdb-aa03-83b9fa7a1505",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Market",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ": materials on the specific market or problem might fit this category. This could be a source that discusses the scope of the problem you are trying to solve or the number of end users.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d901404b-10ed-4ff3-a05b-5c35fa07d41b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Background",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ": any source that provides background on your problem/approach. You want to create an AR game that helps autistic children feel closer to their caregivers, and find sources about autism, oxytocin, and what causes feelings of attachment.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d58d1964-f1b2-4d57-bfc9-835e047639c4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "4b10174b-3228-44c7-84c4-6e8e27f4c12d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Relate Thy Sources",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3092bf0c-938a-43d3-8e89-215becf6341d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Don’t just describe related work, relate it! For each source, ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "write a couple of sentences",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " about how it specifically relates to your problem. What are the differences from your approach, and what are the similarities? How does this technique help you?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "005a670a-a776-4afa-b2a8-51bea2c27442",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "0337e97d-de06-4978-9ad5-25124e5cca3e",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Compile It",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1af35cbf-980e-426c-bb03-b7b01774fc61",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Find the Issue entitled: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "State Of The Art Research",
+          "styles": {
+            "code": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "817434d1-bcf0-491a-80f2-4645b42deee9",
+      "type": "codeBlock",
+      "props": {
+        "language": "markdown"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "# State Of The Art Research\n\n## Your Problem Topic",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9eafcba0-8275-46f5-87e5-968d4c0255aa",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Each of your sources will be a comment on this issue following the below format:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c6e98473-2fa9-4e96-a7db-a7c614750269",
+      "type": "codeBlock",
+      "props": {
+        "language": "markdown"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "### Source Name | [method|competitive|market|background]\n\n[link name](http://link/to/source)\n\n_image if applicable_\n\nA couple of sentences about how it relates to your project",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7955cfe0-6bf8-4e6a-92aa-f42680881191",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "3bac8fe8-696a-4c20-ba5e-fdf44bacf314",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1b139de5-e476-41d9-82a9-2e0f335e5e8e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your GitHub issue (make sure it is correctly titled!) is your submission.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d2d1d9d5-b097-4ea9-8cf3-9fc1d71bc0de",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you’re done, move it to review for the graders.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "410f210a-7bee-4643-84bb-993cb2a2e428",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "There should be ~ 5 comments for each person on the team!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2c30f341-e0e2-4560-88fb-aebc12bdfe19",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
