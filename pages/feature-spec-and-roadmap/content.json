@@ -1,0 +1,1314 @@
+{
+  "blocks": [
+    {
+      "id": "51c61748-9ff6-4027-bc32-ec3149904510",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/feature-spec-1767624115697.gif",
+        "caption": "",
+        "showPreview": true
+      },
+      "children": []
+    },
+    {
+      "id": "55b501e7-b97b-44b5-b5d5-204c6c4216a1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "9b3e1ec0-c8f0-4259-b373-1b8840adab88",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What is a feature spec?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9d015d24-823d-40da-bd50-8d14a0f1d536",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The feature spec is a document that is a walk-through of your project from the users perspective. It provides a listing of all the features you are envisioning for the product. The feature spec functions as your overall plan for the project. Rather than thinking about it as locking you in, this is an opportunity to think through your product in detail. Think of it as a living document, don’t be afraid to change it later as your ideas about the project mature. It does not need to be an exhaustive document. Joel Spolsky (of Stackoverflow and more recently Trello) has a nice writeup of the why and how of specs here: ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "http://www.joelonsoftware.com/articles/fog0000000035.html",
+          "content": [
+            {
+              "type": "text",
+              "text": "joelonsoftware",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and here’s some great general ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://medium.com/dali-lab/9-ideas-for-more-useful-feature-specs-7ca5c679ca3c",
+          "content": [
+            {
+              "type": "text",
+              "text": "tips on feature specs",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8a154b0f-ec00-4762-b658-fd96f52e4093",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "However",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", for our needs — the feature spec will be much simpler: a listing of what you think you need to build this term to be able to prove out your idea.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "edae7b41-6743-4631-81ae-9bcc950447a5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "2745bd41-fff7-41e2-aa07-4efa4f307ee0",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Another document?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2624c228-b56f-402f-9368-260490042c16",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Nope!",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "78f8830e-b6bc-4f12-be2e-8ad7f0da5db5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Rather than creating a separate document for this — we’re going to use GitHub Projects Roadmaps (beta)!  Read more about it here: ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://github.blog/changelog/2023-01-31-roadmap-in-projects-public-beta/",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "06d26c13-2bff-4899-b6a7-0a012cba48cb",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://user-images.githubusercontent.com/101840513/215614784-d38e2c40-5dca-4ab7-9724-49e5b73f3c9b.mp4?_=2",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://user-images.githubusercontent.com/101840513/215614784-d38e2c40-5dca-4ab7-9724-49e5b73f3c9b.mp4?_=2",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f63322f3-fe53-42db-b00b-6104bc15e1af",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "45b5bdc2-302e-4834-93e6-539a72a1d83d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "First, Discuss Plan",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1e4c84f8-0fee-4f9d-9acf-0e1c372d9d14",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 During a team meeting, plan out a development strategy with general feature milestones. Identify minimum viable product (MVP) features and optional stretch goals. Create a list of features that are needed to be able to do some product validation. Remember, at the end of the term you’ll need to show something that is testable and viewable by a public audience.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a2e749e3-598d-4132-b9c7-c1ac72ce897e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Rather than creating a separate doc and porting things over — who needs the duplicate work 🤦‍ - we’ll skip that step and jump right in. We’ll use GitHub!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0b177439-03fe-47a0-a802-94500beb8772",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "9f9ec95e-627d-44e1-a08e-1adfad1fe0bb",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Prep a Roadmap View in your GitHub Project",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3e6b2339-2d3a-42c6-8e2e-d5dcff696f72",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Go to your GitHub Project that is already set up for you\n",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e1e2888f-b16c-4426-8a49-2cdeb5d1b6e3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add a new Field for Start and End",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "42f57106-3ed8-4415-9281-b3c52eaffe62",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/1770132787036-1.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 278
+      },
+      "children": []
+    },
+    {
+      "id": "5503257d-7d64-4850-a3e7-4291b281ee3d",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/1770132838604-2.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 284
+      },
+      "children": []
+    },
+    {
+      "id": "bc871e2c-d1e7-4885-85bd-6e5a14deadd5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add a new field for Feature",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e860429d-d1d5-499a-af01-eb16f98524c0",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/1770132854817-3.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 285
+      },
+      "children": []
+    },
+    {
+      "id": "59d4c45d-95cc-41c2-949f-f5d6fe807aee",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "make it single select and add these options: 🔥 primary feature 💼 secondary feature 🏹 stretch feature",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1cfb7625-a385-462f-afb9-60c4e721ae20",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Now we are ready to create a new Roadmap View",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "70cf67ba-8914-4251-aa01-a1efbff1b937",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/1770132879106-5.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 279
+      },
+      "children": []
+    },
+    {
+      "id": "5922d4cf-4a72-40d7-964c-50a249774868",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Set up the Date Fields to the newly created Start and End dates",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "34be3048-a8cc-4a0a-bd0c-299a5134dfdc",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/1770132895594-6.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 277
+      },
+      "children": []
+    },
+    {
+      "id": "0d10c429-bd0b-4b56-ad64-ec5d3a649ea5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Set the time scale to Quarters",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b21de8ef-1528-45ff-bd4e-d0cd206954e6",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/1770132911982-7.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 290
+      },
+      "children": []
+    },
+    {
+      "id": "862895ef-9998-4696-9630-14e884a550bf",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Name it Roadmap and in the filter box enter in feature:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cdfc3903-005d-4066-9e9f-0d8821cbe3de",
+      "type": "image",
+      "props": {
+        "textAlignment": "left",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/feature-spec-and-roadmap/assets/1770132928793-8.png",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 562
+      },
+      "children": []
+    },
+    {
+      "id": "3a20b1c8-f8ed-48e9-adcb-6e4c1b9b3724",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "We need a way to group together tasks/issues by subject rather than by due date. The main idea is that Issues are small tasks, individually bite-sized coding time, but we need something to group them together into larger features that may take a lot more time. Milestones are a bit of an overkill. So what we’ll do is simply have certain issues describe the feature and potentially include a list of subtasks (subtasks are currently in private beta). ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "55fda192-23e5-4108-84ac-0b5750012024",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "86ad60ed-2fef-49e6-98e6-1fca1e5e43a0",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Now Add some Features!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "91c990be-0255-4efe-8ecb-db66f26ba220",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Click the ➕ to add",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d2b19357-ec13-4db9-a023-c5d151af5d7c",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Title is your feature name. Things like: “robot can drive from point a -> point b”, “display list of posts stored in db”. Again these are big ticket features - not individual tasks.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "443cf7ad-3400-4012-9c68-a2e4912cce5f",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Description - put in as much of a description as you want to make it clear what this is. Ideally you would follow a ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://www.zenhub.com/blog/how-to-use-epics-and-milestones/",
+          "content": [
+            {
+              "type": "text",
+              "text": "User Story driven template",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " such as: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "As <user persona x>, I want to <do task y> so I can <accomplish goal z>",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9502da2c-ca22-467b-9063-ec8250c8eef6",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "choose whether it is: ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "c2b29153-a30e-4b5a-ad09-c1a45ef71020",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [],
+          "children": []
+        },
+        {
+          "id": "27aaf8d0-c60b-4c70-ad46-1b6821f87baf",
+          "type": "heading",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left",
+            "level": 3,
+            "isToggleable": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "[ 🔥 primary feature]",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "bdaf5ed0-6b69-45e4-9521-ed84db60c6a3",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": " These are the primary and most important features. The product doesn’t have a purpose without these features. These are sometimes the harder things, but the most necessary to start tackling early to get validation. Try to list these in order that they happen in the user experience.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "c3df5b69-dd8e-48be-a1b4-70fbe7cc8435",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [],
+          "children": []
+        },
+        {
+          "id": "24178dfe-16be-4a4b-b457-ebfccbd8ac80",
+          "type": "heading",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left",
+            "level": 3,
+            "isToggleable": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "[ 💼 secondary feature]",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "9f0048b3-5e0a-4217-ab0e-f7e7ea66fd63",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": " These are features that make the product more usable, but can be hacked around if necessary. Things like login/auth might go here (unless you are building a security product).",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "a0c6702c-3438-44b3-b4a6-07b02c879fcb",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [],
+          "children": []
+        },
+        {
+          "id": "2382cd30-6bba-45cf-b517-19ef806ee556",
+          "type": "heading",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left",
+            "level": 3,
+            "isToggleable": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "[ 🏹 stretch feature]",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "1184ba6c-c329-4482-b921-b86ef559cff5",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": " Self-explanatory. Things that are not quite critical but would be really cool.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "ce196c00-ed62-489b-aeee-9277193174f9",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Estimate. Give it a guesstimate of effort 1-40 (1 person hour-ish).",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "183dead4-336b-4220-b018-76349cb22d91",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "GOTO 1 and repeat for all features. (",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "for now you don’t need to assign any subtasks - just populate your roadmap with features.)",
+          "styles": {
+            "italic": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "756c551d-4183-4bed-9825-fc70f34ce8a9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "bf5fd053-d49e-4d73-a3f8-632b83b4c97d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "How Many?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7e22e1b4-524c-4d7a-baeb-75f894d6bbca",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "There is no rule about how many features you should have. It should make sense for your product.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "88959bf7-e774-429c-be1f-94f4f83cb140",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Examples could be:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "12272217-b8ef-43b0-9c06-3f477329229e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "onboarding flow",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a69110d0-f76b-4730-a800-ddd351848c20",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "search and filter",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "05e54d14-31a9-4822-9965-2b0b6ec653e9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "main algorithm for audio signal processing",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ad9254e0-8c63-42d6-9ca9-65e2fa9b0eb4",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "image processing to detect primary colors",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4b2a218c-47cd-4f5c-a1dc-2a6bb6e7cf32",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "main character design and animation",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fc953268-e195-47ad-9704-8ff4d1dab992",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "enemy player logic",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "75ef97d5-e0b5-429b-a322-2e98e5884c2d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "display list of posts stored in db",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "db402cd4-82ea-4f80-ae5f-7cb0c889c906",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "robot drives from point a to point b",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e36e3583-388e-429b-87b5-548cab4077df",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "9fd1ba94-3dcb-4486-9db8-e9c271ba5ec2",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Make it all look like a Roadmap",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "08b0565e-3bf8-44c8-a372-4741cd00aa89",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Now, wouldn’t it be great to see all these features not in a list but in a beautiful Gantt chart format so you can prioritize them a little bit and see what should be done when?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d386828b-e3f5-4aa7-8129-d4a3d618e5d3",
+      "type": "video",
+      "props": {
+        "url": "https://user-images.githubusercontent.com/101840513/215614784-d38e2c40-5dca-4ab7-9724-49e5b73f3c9b.mp4?_=2",
+        "caption": ""
+      },
+      "children": []
+    },
+    {
+      "id": "2abb173d-aeb6-481a-b863-78fbeb21578e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "e7bcf547-4eae-4335-8e62-8a64fc5fcfe4",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5f1ca5f6-06d9-4460-af4b-9ded3e50133a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Use github issue named: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Feature Spec and Roadmap",
+          "styles": {
+            "code": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "be131741-fc4c-4f96-a1c7-ba09c4576da9",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Attach a screenshot of your roadmap to this new issue and mention what went well and what didn’t in a comment.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "43267796-3623-4191-b679-cf1bb1715d42",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Don’t worry if this is not fleshed out - you just need to have a start in there it does not need to be ALL the features.  We’ll keep working on this.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "60afd38b-eaf2-4182-b1cd-aa2daeda0d85",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your GitHub issue (name it with this assignment’s title) is your submission.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6521b178-263a-409d-817e-7b93d1e39535",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the label ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f4c4b740-f3f2-4fa4-a4a4-148f40f42354",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you’re done, move it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for the graders.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d3d76a70-62e9-41a5-897c-175894caf121",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
