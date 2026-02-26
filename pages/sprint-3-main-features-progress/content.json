@@ -1,0 +1,119 @@
+{
+  "blocks": [
+    {
+      "id": "99a6857f-6f9a-4317-bc42-af61328969b1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "9a2ff7a7-770a-43aa-82f1-0f7c9cf893d3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "7c1d45d9-0e0e-475e-90b5-c09f5771f548",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your Mission for the Sprint",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8db732d8-535c-492f-b2d0-2cbce13ffe4a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "In the previous sprint, you did a deep wiring test of your product. Components are connected and data/computation is flowing. This is great!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e89cda06-87c9-4b11-9986-b02f8fae8c58",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your mission this week is to make substantial progress (that is always the mission). You should be wrapping up having all the deep functionality of your project done. Now expand on the core functionality. Expand on interfaces, continue to refine the UI, make sure to keep usability in mind. Start making this product really work.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "83eeae1e-47ea-4d5c-8f20-74391c8cced2",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Remember, prioritize hard/real functionality over filler. Don’t worry about things like ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "settings pages",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", rather focus the core functionality.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "eeee0125-c865-4221-bec1-bc6b7b89daa1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
