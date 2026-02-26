@@ -1,0 +1,119 @@
+{
+  "blocks": [
+    {
+      "id": "c7209784-2bde-4e4a-832f-3cc108d5e7de",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "47d6f166-9b98-414b-8830-50ccd3ad639f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "8b462ab6-8faf-4761-9dc2-a528eab6b323",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Winterim Work!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a9e2b220-4cc7-4894-a35e-4cd8016abed4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "If you have the time and desire to work over winterim, please do! ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2a9b56ba-942d-4868-9ee5-9981774fe6ac",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Create an epic ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Winterim",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and make sure to track your issues as part of this epic.  Tag yourselves and us in the Epic and in any pull requests you make over the break. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5acbf9f9-13b8-44df-853b-2cfceb325ea4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is a great way to catch up or work ahead.  You will get extra credit individually (it will buff your individual contribution) and your project will most likely end up in a better place — so it is better for everyone.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1141a7f4-93e5-4852-a1f5-71c98fff91df",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
