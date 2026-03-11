@@ -66,15 +66,20 @@
       "content": [
         {
           "type": "text",
-          "text": "Create a new Issue in your repo: ",
+          "text": "Comment on the ",
           "styles": {}
         },
         {
           "type": "text",
-          "text": "T1 Summary",
+          "text": "Term 1 Summary",
           "styles": {
             "code": true
           }
+        },
+        {
+          "type": "text",
+          "text": " issue in github.",
+          "styles": {}
         }
       ],
       "children": []
@@ -193,7 +198,7 @@
         },
         {
           "type": "text",
-          "text": "” in banner.",
+          "text": "” in banner!  ",
           "styles": {}
         }
       ],
@@ -270,7 +275,7 @@
       "content": [
         {
           "type": "text",
-          "text": "update readme files",
+          "text": "update readme files - i will be running your products over break! ",
           "styles": {}
         }
       ],
