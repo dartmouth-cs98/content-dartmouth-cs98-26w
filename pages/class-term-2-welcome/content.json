@@ -1,0 +1,45 @@
+{
+  "blocks": [
+    {
+      "id": "916c0e51-915f-4e22-9c71-395df7470f02",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "a6372072-bf6e-4fed-8d7d-1786f41bd967",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "fbcf9ef2-70d9-4593-b45b-9c6f4597a221",
+      "type": "embed",
+      "props": {
+        "url": "https://brunchlabs.slides.com/timtregubov/cs98-welcome-back-term2/embed?token=gu9kHs1T"
+      },
+      "children": []
+    },
+    {
+      "id": "36b35c4f-f20e-411c-ac54-05775b7b3321",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
