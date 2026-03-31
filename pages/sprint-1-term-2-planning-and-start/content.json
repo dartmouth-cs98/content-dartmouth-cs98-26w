@@ -1,0 +1,943 @@
+{
+  "blocks": [
+    {
+      "id": "6d09b35e-3b51-4dc5-8482-3f79f18be78e",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 1,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Sprint 1 Planning",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "86ce3d6a-9415-49f1-baf9-83851b4928b4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is the time to make some plans for this term. We will do fewer pre-assigned milestones but will instead focus on individual sprints and features for the projects.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c7fb7a13-46d1-4035-89b5-54070d38404e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "As you think about your features, consider any feedback you collected and carefully prioritize your features. You have 9 weeks to turn your current MVP into a polished, fully working, and shipped final product! Think about your critical features and accommodate them first. Make sure your user flows work and make sense.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "042b42a8-a882-4902-b211-e33ab61b5484",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "As you think ahead, you should know that this term is fast paced. You should have an alpha release ready by midterms and a beta release two weeks after that. For any consumer-facing product, you’ll want to get it into the hands of real users by week 7 or so. That last step is hard, polishing a thing and shipping it, you think you can save it for last, but you don’t want to be that group that is pulling an all-nighter before final demos. Ideally, no all-nighters should be required! 🌃",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "48c00c80-db54-4586-b686-a057ee9b8ffa",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "purple",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Tag in Master (for the end of the week)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "fe209435-991c-4798-98c2-60216a1a7e67",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "At the end of the week, when you are closing out your sprint, you should tag a working version of your repos. Merge working features that you are closing into your ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "main",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " branch, make sure that each repo is in a ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "buildable",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " state (compiler checks pass, the project can be run). Then apply a tag with the name of the sprint you are closing something like ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "t2.sprint1",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ".  Naming convention can honestly be whatever you want - just as long as there is a tag.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "afe1cb8e-9933-4d40-a0e0-0e4f007a5e2d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Using git tags",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3e3590e9-b29b-4371-a62d-119f7015ff3a",
+      "type": "codeBlock",
+      "props": {
+        "language": "bash"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "#make sure you are in your master branch\ngit diff #make sure you are all committed and pushed\ngit tag t2.sprint1 #this will tag the current place you are at as t2.sprint1\ngit push origin --tags",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5c5daf26-cc11-4c67-81af-716e89cd6716",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "green",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Project Refresher!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cd78d5c9-cbad-4731-bad7-749a78d3595d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Remember our pal GitHub Projects? We’re mostly just going to keep doing sprints all term! So pretty much the same.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "64dc044b-ab07-475a-a6c4-e0a306fd5ee7",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The biggest reason that we’re using GitHub Projects is because it is right there in GitHub already and we’re using it for Pull Requests and version tracking anyway. The reason we don’t use some other work/issue management system such as Asana, etc, is mostly because they are more complicated and don’t integrate with GitHub as nicely. However, they all share the most important core set of features. If you are worried about industry standards, the way we are using GitHub Projects is pretty similar to how people use Asana/Jira/Basecamp etc. The backlog-icebox-inprogress-review-done task workflow is  standard.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3540216d-2e2e-4aa4-aab1-ec4497624696",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "orange",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "New Term - New Issues (",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "/d19fd83b7838469bbac39b0da90142e2",
+          "content": [
+            {
+              "type": "text",
+              "text": "review",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ")",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "be4bd85a-d49c-4f7d-bd9e-af45fe9fcf3c",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Make sure you have the next 3 weeks of sprints set up and that the weekly sprint cycle is still active for your project. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b2f88d89-5c9e-49b1-b953-1bac220fd6c1",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Go through ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ALL",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " your current ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Unsorted",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " new issues and deal with them. ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "c0fa5ebb-4c2f-49a4-8710-e8219821c9d7",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Either sort them into ",
+              "styles": {}
+            },
+            {
+              "type": "text",
+              "text": "Later",
+              "styles": {
+                "italic": true
+              }
+            },
+            {
+              "type": "text",
+              "text": " if you aren’t going to work on them soon.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "07290784-05c0-420a-88d7-5deb7b2343ef",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Next",
+              "styles": {
+                "italic": true
+              }
+            },
+            {
+              "type": "text",
+              "text": " if they are something to work on next.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "962c2ffe-f2dd-4d4f-b66c-10e82a36a3d8",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "InProgress",
+              "styles": {
+                "italic": true
+              }
+            },
+            {
+              "type": "text",
+              "text": " for the specific tasks you are currently going to work on.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "4b357513-86fc-438c-8f38-3ab46b40e205",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Close issues that are old or deprecated.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "e935eafe-a295-4f82-921a-531ec5adb3e4",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Enter in ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ALL",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " bugs from the past term. ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "e6d64b03-0445-409e-b1be-30500cfdc1c0",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "create new issues (select the appropriate repo “Create in …” if associated with a particular repo).",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "4064fa61-d3fa-4570-b66d-2502069cea17",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "label them with a 🐛bug label",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "3e5345c2-54cf-40c5-8b76-3bb17d634849",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "you can break them down further with: ",
+              "styles": {}
+            }
+          ],
+          "children": [
+            {
+              "id": "c2c8991d-8f31-417a-a689-5172d596eea9",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "[ 🔥 blocker]",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "ccf106fe-e0ae-483c-b616-c01a7e447600",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "[ ❗️important]",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "1293c5e0-5948-421b-92ec-2cbe87a78dc4",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "[ 🍲 back burner]",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "6bdc933d-e04f-410d-aea0-a8a6bb21f3ca",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "[ 🙅won't fix]",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ecb283e-5786-4801-bed9-3a476bf4c99c",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Enter in ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "ALL",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " new feature ideas on your roadmap. ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "2b3ec016-5d9c-4821-ad51-1b2fe7ee1856",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "See ",
+              "styles": {}
+            },
+            {
+              "type": "link",
+              "href": "/5c14df4044eb481593794fe413cc669f",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Feature Spec and Roadmap ",
+                  "styles": {}
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "to review",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "e67edc0d-17e6-4a3b-8364-31d5980e6dfd",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "create new issues (select the appropriate repo “Create in …” if associated with a particular repo) for each new feature idea you had via feedback last term, or as you brainstormed earlier in this milestone.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "d7defd3e-2d38-4cc6-876a-d7179235323d",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "label them with a 💎 enhancement tag or 🚔 critical or others as you see fit. Feel free to use ",
+              "styles": {}
+            },
+            {
+              "type": "text",
+              "text": "invalid",
+              "styles": {
+                "code": true
+              }
+            },
+            {
+              "type": "text",
+              "text": " and/or create your own tags.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "11ee099d-87f4-435a-b009-b3c28079730b",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Go to your ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Roadmap",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and make sure all your features are layed out with start and end goal dates.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f06f440f-dd09-4611-b0ab-15bd1d1b5399",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Curate your Sprint",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "7e073c48-c166-44f8-b664-f6696f3ad375",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Sprint 1 is going to be a mini sprint so mostly you can put in the various assignments and any things you want to get started. ",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "1cd1f37b-7b20-48b5-abea-b122609c2c88",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "assign some tasks. Last term some teams did an AWESOME job and some did not. You know who you are, make sure you are assigning tasks and using this process.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "a6d95e96-2b7b-491d-8bb7-0f41628be1a4",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "pink",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Scope and Assignment",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "19790ec1-7110-40bb-920d-811b0eaf01d1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Remember that each issue/task should be scoped to be around 1 sit-down work session, just a couple of hours. Break up large tasks into individual smaller ones, each one should be under a few hours of work. The smaller the tasks the faster you will work (not just the appearance of speed). It is easier to take on a manageable scope issue and work through it than if the issue has multiple steps that quickly become overwhelming to think through.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dc409ca3-0407-40e7-a3ee-f664c787b1ee",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "💢 Feel free to assign each other tasks, a little aggressiveness is ok! you can interact via comments on the issues also, on a good project the board will feel like a community, people upvoting and clapping for each other, discussing the issues, or how best to implement something. EC: mention the course staff in an issue or a PR when you need help or feedback or want to say hi. We’re happy to help — and since this was a wall of text we’ll know that you happened to read it all.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e9689c80-096e-4390-b72a-c3ff697044a6",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "yellow",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Start of Week Checkins",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ff3cf261-f099-4c9a-a0d8-56847a826bfd",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Every week, after your sprint transition, we’ll do a checkin in class specific to what you what you worked on. You should be prepared to show progress.  We’ll review your transition and help scope out next steps if you need.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1ed959a9-a0d3-47c8-9915-c20fa20a7c54",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "red",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5dccf9f3-549a-4952-982e-957c1cb58eab",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "do all the steps and get your github boards in order.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a655df90-3962-4d55-b2e7-3293cb66bf30",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "once you are done, create an issue named ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Review Roadmap",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and assign it in github to the course staff.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "575b204e-2ff0-4018-b352-78775e8d7b5e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "work on and close some issues. Let’s front-load this term and get a lot done in the next couple of weeks.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f7495358-7ac1-4575-9cb0-88f9c9a0131f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
