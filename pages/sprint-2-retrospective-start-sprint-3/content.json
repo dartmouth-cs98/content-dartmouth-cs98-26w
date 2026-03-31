@@ -1,0 +1,702 @@
+{
+  "blocks": [
+    {
+      "id": "db4414a2-fe98-44c8-bdd5-8eef6c187693",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Overview",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1fe489a2-ab3d-462e-889f-afac79a5b719",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is the time to transition to the next sprint! This will involve a short review, a team retrospective, and planning next steps.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "856c1914-0129-4267-80b9-698689dcced3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You should have an in-person team meeting for this. Resolve all of your currently working on tasks as best you can in preparation for this meeting and then meet as a team to go over the sprint and plan the next one. Your previous sprint assigned issues and feature pull requests should be reviewed with merged into ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "main",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " so you can demo your work - or have a demo-able branch.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9319fb9e-4704-463a-bf74-dd39cb2112ea",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "pink",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Review",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9ed476e5-92c3-4a87-8433-b3455d5608a6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "During this meeting you should each demo your week’s work to your team. It is nice to use this moment to celebrate accomplishments, clap loudly for your teammates and support each other. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "42ae0762-e12e-4042-b74c-7f4ca485ca5d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Tip",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "9e6bd17e-09e9-443c-85f2-6fd4bbdac77b",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Don’t be afraid of this step — it is super important to show your work and discuss it. Too often teams only share general information like “yeah it was going fine but took longer than expected” for weeks on end. This kind of synch up will often lead to trouble down the line as you get further out of touch with each other. So please, share details and show work.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "0241c118-0b09-44fe-9880-e076f530cc17",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is a good time to get immediate feedback as well — so try the features out and if there are bugs, put them in GitHub!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c60c727e-f48c-4924-a90c-5cff92a62ac4",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "yellow",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Tag Sprint Version in Master",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "89505643-8b87-4478-8725-fc4f7d39e97c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "At the end of the week, when you are closing out your sprint, you should tag a working version of your repos. Merge working features that you are closing into your ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "main",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " branch, make sure that each repo is in a ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "buildable",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " state (compiler checks pass, the project can be run). Then apply a tag with the name of the sprint you are closing something like ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "t2.sprint1",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "eb35fc1a-a9ab-425b-a7a0-21024f2f0327",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Using git tags",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "c4b6c8ab-d99e-4664-8746-7b6aa98f6430",
+          "type": "codeBlock",
+          "props": {
+            "language": "bash"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "#make sure you are in your main branch\ngit diff #make sure you are all committed and pushed\ngit tag t2.sprint1 #this will tag the current place you are at as t2.sprint1\ngit push origin --tags\n",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "4005321c-e51f-49aa-b8dd-dbebd2c2d589",
+          "type": "paragraph",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "90a38b04-c751-4c46-84fa-3aa68b8eaae8",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "green",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Retrospective",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "00e55f11-d043-4f2e-b765-e70f7cb9f0fd",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Discuss what is working and what isn’t and then summarize your meetings notes in the below format.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2265ac84-2af2-4575-bb62-c392f7ce058b",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Create a new Issue titled: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Sprint Retrospective Term 2 - Sprint #",
+          "styles": {
+            "code": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a7062eda-b90d-48b4-9c02-baebde66a6e5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Here’s the template:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "92ca8053-f886-4872-ae10-e027faa5097f",
+      "type": "codeBlock",
+      "props": {
+        "language": "markdown"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "## Sprint #_ Retrospective:\n* members in attendance:\n  ![selfie proof of meeting](http://)\n  - [x] Jasmine\n  - [ ] Alladin\n* what worked well\n  * we made progress\n  * ![post some progress screenshots]()\n  * etc\n* what didn't\n  * we didn't make much progress\n  * etc\n* self assessment on progress\n  * where are you in relation to progress towards product and milestones?\n    * give an estimate of how far towards your goals you are, do you think you're on track?\n    * lay out *each* of the following weeks till end of term with brief goals for each\n      * current week: goals\n      * week #: goals\n      * week #: goals, etc\n* briefly summarize any other topics/discussions",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6c57f7d0-b6a0-4395-acc5-4e12d2898a3f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Each week you will create a new issue that will summarize your sprint and assign it to yourselves and to course staff for review and feedback. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e42aab0c-22d1-499f-b89d-f0514e050741",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "orange",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Planning / Rake Your GitHub Project Garden",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bf52ff5c-532c-4982-9f0a-e4049d569a66",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Now plan out your next steps. Add in ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Unsorted",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " new issues, sort them into ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Later",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " and ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Next",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". Assign at least 4 issues per person or if you prefer use ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Story Points",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " per issue to add to up a minimum of 8 (each point represents an hour).",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "25f668f8-dad6-4596-9f52-69d519cfa275",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "During this step you should follow the",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "/04d1cf1e2d764e91b9abe36426b7fefe#df9afb0e01c740ff9b848be4260bcc0a",
+          "content": [
+            {
+              "type": "text",
+              "text": " Rake Your GitHub Project Garden",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " steps. You’ll do this every week.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3f36b2b4-c245-463b-93fd-fa2df12ac45b",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Create New Week Sprint Milestone (automatically created by ZenHub)",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "99f24017-b6c6-4059-a2ae-6f9db076fa72",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Record New Bugs",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "75cc9178-73af-4fa8-aabf-d3eb338e6e20",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Update Features AND Roadmap",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e1c8bce1-5091-4ebd-80c3-3b9a45714424",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Add Subtasks",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3a781179-1f2c-4930-a43d-14bd6abb695b",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Process All Issues",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d69f8d37-d95e-41d4-b015-e9eaca5b52f3",
+      "type": "numberedListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Assign Subtasks",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5affaed4-9c9a-438e-95cc-2b00344c1d98",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "red",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "618340a1-be8d-4f28-933e-85deb190836e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Assign to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "@timofei7",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "  GitHub for grading and feedback.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "28d54a03-7936-4c46-a561-0cc873ec02be",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
