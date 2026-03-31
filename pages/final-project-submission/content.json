@@ -1,0 +1,544 @@
+{
+  "blocks": [
+    {
+      "id": "5ba0faf9-43f8-4616-a2ec-71e04f8ea124",
+      "type": "image",
+      "props": {
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "name": "image",
+        "url": "https://dartmouth-cs98.github.io/content-dartmouth-cs98-26w/pages/final-project-submission/assets/5ba0faf9-1774962636591.gif",
+        "caption": "",
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "92c99f3b-1047-4bd7-9809-dc30ba3806eb",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Demos are now done! Hopefully, everything worked perfectly. Just a couple of last things to do.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "60535c44-3381-48a3-936b-5339400e7db9",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "README’s",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a7b02b90-8285-4395-8cf6-556fc5bbc81c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Make sure all your readme’s are updated and that getting the project up and running for testing is possible based on your documentation. Run this through to make sure it works, as it is worth some points.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5304a188-6ce2-44e1-9c18-5215c44420b9",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "orange",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Report",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7f070422-07ad-474b-82b1-acb56fde57ba",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Submit a short debrief of the term. We want to get a sense of how things went for you. Highlight successes and challenges, talk about your validation steps and success metrics. And finally, discuss some takeaways. Did you achieve what you set out to?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "cb8cf5e6-d4db-4e46-b290-b0bb6ac0c4ef",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Create a GitHub issue titled ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "final submission",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " that looks something like the following:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3900a8ca-0208-4aee-b81f-7da3b39d935c",
+      "type": "codeBlock",
+      "props": {
+        "language": "text"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "# Final Project Report\n\n## Summary/Debrief\n*what went well and what didn't*\n\n## Validation\n*take a look back on your proposed validation, how did validation go? talk about any success metrics achieved and the challenges of those not achieved*\n\n## Potential Next Steps\n*if you were to continue what would be next?*\n\n## Final Takeaways\n*talk about any lessons learned, what could have been done differently, hopes for the future, what you really enjoyed*\n\n## Trailer\nlink to video trailer",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b61ad928-60dc-4103-bcc3-ba452546e788",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "pink",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Demo Trailer Video",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e7129e59-b66e-4901-9bf5-1b4abfb76f88",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "cf5e3052-f167-4ad4-9d53-f8c4e781a703",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Create a video trailer of your product. This should be like a trailer video showing some live video of the product, but can also include some advertising copy / screens.  You can add this to any advertising materials / webpage etc. This will also be displayed for posterity to inspire the next generation.  You don’t need to highlight each individual feature - just your app in general. Future classes don’t care that you have a login page - they do care to see what your product is all about.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7145fdde-3ebd-4ccc-96c1-2c5ba2be98d4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "598fa5e7-546e-4672-8146-6707442093bc",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Resources:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "43af2814-4692-4a94-9751-f70a4acf4e1d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://vimeo.com/create/trailers",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://vimeo.com/create/trailers",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0f800bcb-221a-4864-a291-91a357aaa07a",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://www.uscreen.tv/blog/how-to-make-a-trailer/",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://www.uscreen.tv/blog/how-to-make-a-trailer/",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e3862bdc-559d-4b19-a533-41e661bb9694",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://blog.hubspot.com/marketing/make-a-marketing-video",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://blog.hubspot.com/marketing/make-a-marketing-video",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "d50e0243-f1e5-4aff-a9df-0c659e6b69ff",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://www.descript.com/tools/trailer-maker",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://www.descript.com/tools/trailer-maker",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3b694942-e3e9-47e9-9822-fe733d0c1e0d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "green",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4710fba0-a5d4-485f-a332-705edfd423ea",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "README.md files need to all be up to date with ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "c8e4d373-3742-46ee-9eed-ff3d46ebae91",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "update any setup/deployment steps (make sure a new user can set it up)",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "50068efb-c489-4e13-85e0-fc931c3fef92",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "great a github issue title “final submission”",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b8b4e128-cd5a-44b8-ace8-f5c6a69274ad",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "drag in short demos of your product",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "82b62585-415b-4be0-9da4-203f5721aa26",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "add a link to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "medium",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "post",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e502cfb0-f738-4bf3-8d85-0ac8c3276e80",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "add a link to your video trailer",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a50d072f-3b66-43ef-b299-40dbd915449f",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "remember to fill out ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://forms.gle/5mfv4EuhmJxNsHst9",
+          "content": [
+            {
+              "type": "text",
+              "text": "team form",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "! (individually)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "db2bd03e-6236-4832-868e-957f1ca5984a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Assign to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "@timofei7",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "  GitHub for grading and feedback.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9cdc8dae-abab-4e48-a12a-c4cb3bd360e3",
+      "type": "image",
+      "props": {
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "name": "image",
+        "url": "https://dartmouth-cs98.github.io/content-dartmouth-cs98-26w/pages/final-project-submission/assets/9cdc8dae-1774962638957.gif",
+        "caption": "",
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "e08a9469-4cf1-4c84-a3f0-9cc45ac295ed",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
