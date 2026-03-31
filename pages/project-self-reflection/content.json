@@ -1,0 +1,307 @@
+{
+  "blocks": [
+    {
+      "id": "665f94d7-304b-4117-8ace-87d2995092ca",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "ce18f711-ddfd-4d0e-b3d0-f54eecf4db70",
+      "type": "image",
+      "props": {
+        "textAlignment": "center",
+        "backgroundColor": "default",
+        "name": "",
+        "url": "https://raw.githubusercontent.com/dartmouth-cs98/content-dartmouth-cs98-26w/main/pages/project-self-reflection/assets/giphy-1774960213584.gif",
+        "caption": "",
+        "showPreview": true,
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "dc25e2da-eb2f-4757-a521-abc59cfd88a1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "824c05ae-bdc7-48e1-bae4-5bcb259b0ba5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The second term for your projects is going to be awesome. Now comes the fun part. You have working products, all the setup work is done — now you get to enjoy the fruits of your labors and add features, tweak and refine, make things look pretty, and ship the final product!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "49f59d23-a2e9-4ea7-9b95-83fdae64e95b",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "But now is also a good time to work out the project’s future direction. You have some feedback, and some bug reports, now what?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b9ea2507-dddd-43bd-9d20-ef0908822616",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "We’ll start out the term with some self-reflection about the project — to try to incorporate feedback from user testing and consider any pivots, etc. This should be an in-person conversation that you have with your whole team.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9754852d-0f4a-413b-aae1-c9737966c56c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is a markdown worksheet template that you should copy into a github issue and fill out. These are ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "starting points for discussion with your team",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". Don’t skimp on this. We’ll discuss it in person during next class.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c7b78cbd-34ed-4e80-8b3e-521fb9373f5c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Find the ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Project Self Reflection",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " Github Issue ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "(you can use ",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "link",
+          "href": "https://hackmd.io/",
+          "content": [
+            {
+              "type": "text",
+              "text": "hackmd",
+              "styles": {
+                "italic": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and then copy/paste carefully (double check formatting!!)).",
+          "styles": {
+            "italic": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8a9b7b96-3552-47ac-b081-93aa22312fe3",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ Assign everyone on your team to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5ffe7178-8648-4128-9acf-040a29874aee",
+      "type": "codeBlock",
+      "props": {
+        "language": "javascript"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "## T2 Project Reflection and Next Steps Worksheet\n\n## Original idea\n*Revisit your original goals (check out your project proposal).*\n\n#### MVP Progress?\n*What progress did you make towards your original MVP / on your stretch goals?*\n\n#### How is it different?\n*How is your project different from what you envisioned?*\n\n#### Still happy with direction?\n*Most importantly, are you still happy with the direction that your project is headed?*\n\n#### What do you wish went differently?\n*What do you wish had gone differently / are there features you wish you hadn't made or made differently?*\n\n## Feedback\n*What feedback from last term do you think is relevant and interesting to incorporate. List your feedback broadly and label them with how they stack up for your vision. These may already be in ZenHub but after this discussion they should be.*\n\n* [critical 🔥]\n* [stretch goal 🍦]\n* [rejected ⛔]\n\n#### Questions\n*Think about where the project is headed. What are some questions that you/users/me have about direction/features/functionality that could use some validation?*\n\n#### Answers\n*Think of ways that you might validate these: discussion with your team, advice from me, polling the class, asking users, and/or collecting and analyzing usage data. Write down some ideas here. This isn't how to validate your project as a whole, but about specific feedback/features.*\n\n## Vision\n*Refine your vision.*\n\n#### Feedback Analysis\n*How does the current feedback/user testing/progress change how you think about the direction of the project?*\n\n#### Pivot/Adjustment\n*If you were to consider a pivot or adjustment in what the product is, what would it be?*\n\n#### Ideal Goal\n*In an ideal world if you could build out your project to be anything without any constraints of time or skill what would you want to do? Dream big — you can do more than you think. Try to push the limits. This does **not** commit you to anything, so don't worry about overpromising, this is to get you dream about where you **really** want your project to go without constraints. Please don't skimp on this part.*\n\n#### Mission Statement\n*Now write a mission statement for your project as you see it after all of this great brain activity. Just a few sentences suffices.*\n\n## How to get there\n*Now that you've thought about where your project is headed and where you want it to go write down how might approach getting there.*\n\n#### What are your concrete next steps?\n\n#### What are some blockers in your way? \n\n## TeamWork\n*lastly, at the end of last term in the term summary you did a bit of work around teamwork. this is just a reminder for everyone to revisit that and if you have any new or further thoughts after the break feel free to record them here.*",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f578a090-8b90-459a-a9df-6ee0475009e6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "40e832ce-6d72-4187-9ba3-0accb52b9017",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "rgb(251, 243, 219)",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f304af41-1492-4bdf-bce9-38d0173aa4ae",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the label ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c7744e6d-337e-445b-a957-6077f5ef9430",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you’re done, move it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for the graders.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "80369032-dd67-4ec9-a2f3-6892a7f4f336",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
