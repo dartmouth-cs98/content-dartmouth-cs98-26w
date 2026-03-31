@@ -64,7 +64,7 @@
       "content": [
         {
           "type": "text",
-          "text": "As you think ahead, you should know that this term is fast paced. You should have an alpha release ready by midterms and a beta release two weeks after that. For any consumer-facing product, you’ll want to get it into the hands of real users by week 7 or so. That last step is hard, polishing a thing and shipping it, you think you can save it for last, but you don’t want to be that group that is pulling an all-nighter before final demos. Ideally, no all-nighters should be required! 🌃",
+          "text": "As you think ahead, you should know that this term is fast paced. You should have an alpha release ready in 2 weeks and a beta release 2 weeks after that. For any consumer-facing product, you’ll want to get it into the hands of real users by week 5 or so so we can iterate iterate iterate! That last step is hard, polishing a thing and shipping it, you think you can save it for last, but you don’t want to be that group that is pulling an all-nighter before final demos. Ideally, no all-nighters should be required! 🌃",
           "styles": {}
         }
       ],
@@ -242,23 +242,7 @@
       "content": [
         {
           "type": "text",
-          "text": "New Term - New Issues (",
-          "styles": {}
-        },
-        {
-          "type": "link",
-          "href": "/d19fd83b7838469bbac39b0da90142e2",
-          "content": [
-            {
-              "type": "text",
-              "text": "review",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "text": ")",
+          "text": "New Term - New Issues",
           "styles": {}
         }
       ],
@@ -606,23 +590,7 @@
           "content": [
             {
               "type": "text",
-              "text": "See ",
-              "styles": {}
-            },
-            {
-              "type": "link",
-              "href": "/5c14df4044eb481593794fe413cc669f",
-              "content": [
-                {
-                  "type": "text",
-                  "text": "Feature Spec and Roadmap ",
-                  "styles": {}
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "text": "to review",
+              "text": "See Feature Spec and Roadmap to review",
               "styles": {}
             }
           ],
