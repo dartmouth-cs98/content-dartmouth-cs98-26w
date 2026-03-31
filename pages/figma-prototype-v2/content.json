@@ -1,0 +1,450 @@
+{
+  "blocks": [
+    {
+      "id": "5127129a-e4bb-4c65-8e18-244cd1a7239d",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "yellow",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Figma setup",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "121a34a4-7970-4156-a471-4521ccddc2a7",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Duplicate",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " the Figma Page with your existing ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Figma Prototype",
+          "styles": {
+            "bold": true,
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " file. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "5c014d21-5717-42c7-990e-8d2b835b8fbb",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Rename this page to be ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Figma Prototype V2",
+          "styles": {
+            "bold": true,
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "097b46fd-d05a-4569-962b-852c449d1028",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "gray",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "NOTE: if your project is based on assets/modeling/robotics/etc., this assignment ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "still applies to you",
+          "styles": {
+            "textColor": "red"
+          }
+        },
+        {
+          "type": "text",
+          "text": "! Import images and/or screenshots of what you have currently and draw or annotate on top to indicate what new features you have in mind. ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "There is no such thing as not needing to use Figma.",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e7cb0263-7bed-4731-9e80-700a15b019a7",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "yellow",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Update the designs",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6e779114-7f3c-4924-9606-1b3453f02630",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is the opportunity to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "make improvements",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " based on all the feedback you’ve received so far. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f2dc2764-0dc8-4b7e-a82f-c58de6933bf2",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Update your Figma prototype to produce a final design that you feel is your best version for this project. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "13ea191c-5d62-4915-aec4-111a5720695d",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Capture everything that you have ideas for and/or have on your roadmap to build. Work on this assignment ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "until you run out of ideas",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "51aeac95-234b-466f-aed5-21de8118bdd7",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Working in Figma has many benefits! ",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "f10a61b6-2ed6-43f2-bc9a-ae26b3f5fe11",
+          "type": "numberedListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Get alignment on product direction before going too far with code on features that you won’t actually keep",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "add6e5eb-ff4f-4dcb-a843-e1e7473d3b48",
+          "type": "numberedListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Make many different versions (iterate) for feedback",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "41771f70-529b-4786-b429-29886df6a687",
+          "type": "numberedListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Opportunity to user test your ideas and waste less time making something the users don’t want/need!",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "a1370a60-0247-43f6-ae3c-1bb1d518dfe1",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "While there is a deadline to do this second pass of design work — in reality you’ll be updating and interacting with your Figma designs for the rest of the term as you get feedback, test with real users, and run into feasibility challenges. ",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "83d6bb34-4b8a-4196-8648-1feabb7a038e",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "People (instructors/tas/classmates) will comment and leave feedback, and you should always respond to this. You don’t have to implement all feedback, but do respond to the Figma comments and resolve them once you have acted on them — either making design changes or responding to the comment with some reasoning about why you aren’t going to implement the suggested changes.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "0f81afc6-3390-44fc-90f8-64a7955271a6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "71659f70-855c-437b-b0f7-1df5c2f00525",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "red",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "76ae6c07-42e6-4332-985c-3e3cd0030aec",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your GitHub issue (name it with this assignment’s title) is your submission.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "59be6dbb-246c-4d5d-90ea-1eaaf0bdfd08",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the label ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7034dedf-e416-4f2e-aadc-6dbd6641cb52",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you’re done, move it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for the graders.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "9c825d5a-51f5-47ec-b386-c34e539ae7e9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
