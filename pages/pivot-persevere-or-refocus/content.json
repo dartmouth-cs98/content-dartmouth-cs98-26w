@@ -1,0 +1,703 @@
+{
+  "blocks": [
+    {
+      "id": "spacer-top",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-big-question",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Big Question", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "You spent a whole term building something. You talked to users, wrote code, tested features, and survived demo day. Nice work.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "But here's the uncomfortable question: ", "styles": {} },
+        { "type": "text", "text": "does your current direction actually deserve another 10 weeks of your time?", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "intro-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Today isn't about polishing your deck or tweaking your UI. It's about making a decision \u2014 with evidence \u2014 about whether to keep going, narrow down, or change course entirely. No hedging allowed.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "goal-callout",
+      "type": "callout",
+      "props": { "emoji": "\ud83c\udfaf", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "By the end of class, every team will be able to say: ", "styles": { "bold": true } },
+        { "type": "text", "text": "who their user is, what evidence they actually have, whether they're pivoting/persevering/refocusing, and what they will test next.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-how-works",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "How This Works", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "flow-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Here's the plan:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "flow-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Framing", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 5 min (this part, right now)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "flow-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Team Decision Brief + Slides", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 20 min (fill out the 5-part brief below, then make a few slides for shareout)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "flow-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Shareout", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 20 min (2-minute decisions from each team + class feedback)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "flow-4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Wrap", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 5 min", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-decision-brief",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Decision Brief", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "brief-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This is the core of the activity. Your team fills out the 5 sections below in a FigJam board. Keep it tight \u2014 no fluff, no filler.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "h3-user-problem",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "1. User + Problem", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "user-problem-action",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Write down:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "user-problem-1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Who exactly is your user?", "styles": { "bold": true } },
+        { "type": "text", "text": " Not \"students\" or \"people.\" A specific person with a specific need.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "user-problem-2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "What painful problem are you solving?", "styles": { "bold": true } },
+        { "type": "text", "text": " \"Pain\" means they're actively bothered by this, not just mildly inconvenienced.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-learned",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "2. What We Learned Last Term", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "learned-action",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 List 2\u20133 ", "styles": {} },
+        { "type": "text", "text": "concrete findings", "styles": { "bold": true } },
+        { "type": "text", "text": " from actual users, testing, or usage data.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "learned-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Not opinions. Not \"we think.\" Things you observed, measured, or heard directly from users.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "learned-warning",
+      "type": "callout",
+      "props": { "emoji": "\u26a0\ufe0f", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "If you can't list concrete findings, that's a finding in itself \u2014 it means you need more evidence before you can make a confident decision.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-4",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-risk",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "3. Biggest Risk Still Unresolved", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "risk-action",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 What assumption could still ", "styles": {} },
+        { "type": "text", "text": "kill", "styles": { "bold": true } },
+        { "type": "text", "text": " this project?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "risk-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Every project sits on a stack of assumptions. Some have been validated. Some haven't. Name the biggest one you still haven't tested.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-5",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-decision",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "4. Our Decision", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "decision-action",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Your team must commit to one of these. No hedging.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "decision-persevere",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Persevere", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 same user + same problem + same direction. You have enough evidence that this problem is real for this user. Now iterate the solution.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "decision-refocus",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Refocus", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 same problem, but you're narrowing the target user, use case, or feature set. The core idea is still alive, but you need to stop being broad. Honestly, this is where most teams end up \u2014 and that's fine.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "decision-pivot",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Pivot", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 meaningful change in user, problem, or solution. Your evidence suggests you're solving the wrong problem, for the wrong user, or in the wrong way.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "decision-note",
+      "type": "callout",
+      "props": { "emoji": "\ud83d\udccc", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"Refocus\" is the underrated middle ground. A lot of teams don't need a dramatic pivot \u2014 they need to stop trying to be everything for everyone.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-6",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-next-test",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "5. Next Test", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "test-action",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Answer both:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "test-q1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "What will you test in the ", "styles": {} },
+        { "type": "text", "text": "next 7 days", "styles": { "bold": true } },
+        { "type": "text", "text": "?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "test-q2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "What result would ", "styles": {} },
+        { "type": "text", "text": "prove you wrong", "styles": { "bold": true } },
+        { "type": "text", "text": "?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "test-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "That second question matters. If you can't define what \"wrong\" looks like, your test won't teach you anything.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-7",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-shareout",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Shareout", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "shareout-slides",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Put together a couple of slides to back up your shareout. Keep them simple \u2014 your decision brief sections map directly to slides:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 1:", "styles": { "bold": true } },
+        { "type": "text", "text": " User + problem + what you learned last term", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 2:", "styles": { "bold": true } },
+        { "type": "text", "text": " Your decision (persevere / refocus / pivot) + the evidence behind it", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 3:", "styles": { "bold": true } },
+        { "type": "text", "text": " Biggest risk + next test (what you'll do this week and what would prove you wrong)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "shareout-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Each team gets ", "styles": {} },
+        { "type": "text", "text": "2 minutes", "styles": { "bold": true } },
+        { "type": "text", "text": ". Use this structure:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "shareout-quote",
+      "type": "quote",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"We originally thought [X]. After feedback, we're deciding to [persevere / refocus / pivot]. Our next test is [Z].\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "shareout-response",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "After each team, the class responds:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "shareout-prompt-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Prompt 1: \"Do you buy it?\"", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 Hold up fingers: 1 = should pivot more, 2 = should narrow/refocus, 3 = should persevere.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "shareout-prompt-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Prompt 2: \"Best next test?\"", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 One person suggests the most important experiment the team should run.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-10",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-evidence",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Speak in Evidence", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "evidence-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "During this whole activity, you are banned from vague claims. Replace them with evidence.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "evidence-table",
+      "type": "table",
+      "props": { "textColor": "default", "backgroundColor": "default" },
+      "content": {
+        "type": "tableContent",
+        "rows": [
+          {
+            "cells": [
+              [{ "type": "text", "text": "\u26d4\ufe0f Don't say this", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "\u2705 Say this instead", "styles": { "bold": true } }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "\"people would use this\"", "styles": {} }],
+              [{ "type": "text", "text": "\"3 of 5 users said\u2026\"", "styles": {} }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "\"students need this\"", "styles": {} }],
+              [{ "type": "text", "text": "\"2 testers failed at\u2026\"", "styles": {} }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "\"we think\"", "styles": {} }],
+              [{ "type": "text", "text": "\"we observed\u2026\"", "styles": {} }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "\"our market is everyone\"", "styles": {} }],
+              [{ "type": "text", "text": "\"users asked for\u2026\"", "styles": {} }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "\"they liked it\"", "styles": {} }],
+              [{ "type": "text", "text": "\"nobody used [feature X]\u2026\"", "styles": {} }]
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "evidence-cta",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "If you can't finish the sentence with real data, that's your signal that you need to go get some.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-11",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-assumptions",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Assumption Mapping", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "assumptions-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "While you're working on the brief, take a few minutes to map your assumptions into 3 buckets:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "assumption-desirability",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Desirability", "styles": { "bold": true } },
+        { "type": "text", "text": " (Do they want it?)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "desirability-1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"This is a top-3 pain for our users\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "desirability-2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"They'd actually try a new tool for this\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "desirability-3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"They'd change their current behavior\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "assumption-feasibility",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Feasibility", "styles": { "bold": true } },
+        { "type": "text", "text": " (Can we build it?)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "feasibility-1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"We can integrate with X\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "feasibility-2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"The data we need actually exists\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "feasibility-3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"We can ship a stable core in 10 weeks\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "assumption-viability",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Viability", "styles": { "bold": true } },
+        { "type": "text", "text": " (Does it sustain?)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "viability-1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"Someone would pay for this\" or \"a partner would adopt it\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "viability-2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"There's a credible way to reach users\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "assumptions-action",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Pick your ", "styles": {} },
+        { "type": "text", "text": "top 2 riskiest assumptions", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 the ones most likely to kill the project if they turn out to be wrong. Those are what your next test should target.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-12",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-pmf",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Early Product-Market Fit (PMF) Signals", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pmf-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Here are 3 things you can actually measure this week to see if you're on track toward product-market fit:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pmf-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Would a user be meaningfully disappointed", "styles": { "bold": true } },
+        { "type": "text", "text": " if this product didn't exist? (Ask them directly.)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pmf-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Will they take a real step to get value?", "styles": { "bold": true } },
+        { "type": "text", "text": " Sign up, schedule a follow-up, upload data, invite a teammate \u2014 not just say \"cool.\"", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pmf-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Do they come back a second time", "styles": { "bold": true } },
+        { "type": "text", "text": " for the intended workflow?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pmf-punch",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "If the answer to all three is no, you're building something nobody needs yet. That's fixable \u2014 but only if you acknowledge it now.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-end",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    }
+  ]
+}

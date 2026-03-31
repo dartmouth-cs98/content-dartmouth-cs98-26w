@@ -552,7 +552,24 @@
       "content": [
         {
           "type": "text",
-          "text": "10A class in 116 ECSC ",
+          "text": "98.01: 10A class in 116 ECSC ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "98.02: 10A class in Wilder 104 ",
           "styles": {}
         }
       ],
