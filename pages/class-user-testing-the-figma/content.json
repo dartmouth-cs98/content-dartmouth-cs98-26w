@@ -1,0 +1,217 @@
+{
+  "blocks": [
+    {
+      "id": "f4c73c88-9292-4cb9-9e1e-87b039ea70cb",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Now that you have updated your Figma with your most up-to-date ideas, it’s time to get feedback from your peers. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ce763783-5329-49ee-8658-7bd73be360c2",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "905b4546-9c7e-4c81-9299-7685e86f9f99",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Each team will be placed into groups. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "c1db855e-e46d-4af8-b90d-4188fd171b33",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You will have about ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "25 minutes",
+          "styles": {
+            "bold": true,
+            "textColor": "orange"
+          }
+        },
+        {
+          "type": "text",
+          "text": " of the group's attention",
+          "styles": {
+            "textColor": "orange"
+          }
+        },
+        {
+          "type": "text",
+          "text": ". ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "87140cfd-fa59-4e7c-b8eb-a03b741a6f04",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Briefly describe your product and pose specific questions. ",
+              "styles": {
+                "bold": true
+              }
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "a87c63de-4432-4fd5-9e03-6d438cae6584",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "You can organize the time however you like. ",
+              "styles": {}
+            }
+          ],
+          "children": [
+            {
+              "id": "116f7b25-2063-4bff-bf0b-590ec36291c7",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Maybe you walk through the product for 10 minutes and then open the floor for feedback, Figma comments, and questions. ",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "09dd1e5c-b905-4210-9403-3c010fc8978c",
+              "type": "bulletListItem",
+              "props": {
+                "backgroundColor": "default",
+                "textColor": "default",
+                "textAlignment": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Maybe you give your peers the Figma prototype and talk through various tasks they must complete, leaving space for real-time ideas or questions. ",
+                  "styles": {}
+                }
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bd2bfced-5e63-4d1a-be86-6796d0c07ebf",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What you put in is what you get out. ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Taking the time to actively listen and ask questions leads to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "extremely",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "helpful",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " feedback. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "41d30766-5c4a-4ae6-b712-9c73f40e9790",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
