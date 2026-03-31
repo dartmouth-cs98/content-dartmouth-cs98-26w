@@ -1,0 +1,732 @@
+{
+  "blocks": [
+    {
+      "id": "8e114d77-29fb-4e3a-bd1e-d228076a3cd6",
+      "type": "image",
+      "props": {
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "name": "image",
+        "url": "https://dartmouth-cs98.github.io/content-dartmouth-cs98-26w/pages/inbound-marketing/assets/8e114d77-1774962622385.gif",
+        "caption": "",
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "86733381-1cd9-4d9a-a5ce-08998920139f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Get celebrated online! In one easy step, publish a Medium.com article. Have something to show people and share publicly that has images and videos and talks about your product. If you don’t have a landing-page, a Medium post can serve as in intro to what you built, and if you do have a landing-page, then a Medium post can serve as marketing to draw visitors.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0ac9207f-75bc-4b22-9649-1b7d17c1cfd3",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Previous",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b6b2f451-0112-4084-b415-65aa13c7ae1d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Take a look at some of the previous articles:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b39e87e8-5a6b-4eaf-b890-aae535efbaa0",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://medium.com/dartmouth-cs98",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://medium.com/dartmouth-cs98",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1ce7d456-0f9e-470f-9e89-e320a1aecc22",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The Hook",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b1f047f3-0378-4284-a771-67a3234eb363",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Come up with a story hook. What is the value that your readers will get from reading your post? Yes, I’m asking you to write a click-baity title. “Learn The Secrets Of Quantum By Playing Tetris!”, “CookAlong: Unlock Your Inner Chef”. These titles offer something to the reader, a reward, knowledge, and quick fun read.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8bb33203-6d86-4681-88f1-c7ddb912fb73",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Use Medium as ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://www.hubspot.com/inbound-marketing",
+          "content": [
+            {
+              "type": "text",
+              "text": "inbound marketing",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". You offer content that has some intrinsic value (the article), at the same time drawing readers in to learn more about your project and want to download it, use it, etc.  Don’t write about your project as a class project, that won’t draw many viewers, instead, write about it as if you were a startup and wanted to draw people in.  Tease them with the problem you are solving or some technological innovation or even some workaround you had to do.  ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a1148f42-c538-49b7-9f09-ede538ef23d7",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "How To",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "46a97e49-2351-459d-89de-173306b35969",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Here’s how to publish a draft to the 98 org:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "45b3b940-aaf9-4541-aa47-9f46192657c8",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "link",
+          "href": "https://help.medium.com/hc/en-us/articles/213904978-Add-a-draft-or-post-to-publication",
+          "content": [
+            {
+              "type": "text",
+              "text": "https://help.medium.com/hc/en-us/articles/213904978-Add-a-draft-or-post-to-publication",
+              "styles": {}
+            }
+          ]
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4ea1fbff-c74d-4d48-94ee-2a32157bd070",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You may get feedback via private medium comments prior to publishing it, please do respond to those.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "520a8d59-9d15-4841-9321-0859c2ce6c7c",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Recommended Flow To Reel Them In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6c133606-a846-48ae-a8db-f1e8dd28e05c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Here’s a recommended flow, but you are welcome to come up with your own. As long as it has some engaging content we’re golden.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ffd28050-6048-4e91-a604-31085159e840",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Intro/Hook",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " (couple paragraphs) ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "0812efad-75cf-429a-b8d3-4e78d99c3200",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "What are you offering to the reader? an idea, an experience learning something, a better way to do something?",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "6e56aebb-2433-4445-a735-05a674eea5a4",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Offer link to try it out right at the end of this.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "d4eeb053-b1ba-4e72-b888-abf883c7e2ac",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Inform the reader",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " about something, Part 1 ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "100667d2-89aa-4794-a81d-225458396faa",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "The problem you are solving",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "a557044f-dc10-4c5b-87c8-4794237ea5be",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Background information",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "1b56d183-8320-44a7-97b4-1850ab3a6dc5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Inform the reader",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " about something, Part 2 ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "e364fa10-8e32-46df-92a7-904152ef4bc8",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Show them your solution - your designs, videos, screenshots",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "e7e7452a-bd29-472c-9dc1-2d975845bbf3",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Teach them about your solution",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "17b508b3-415f-4d2f-809a-248babda016a",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "What algorithms did you use, what hardware, what is novel and cool and what are the takeaways? Can be about the technical aspects or the novelty or human factors.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "7bcec3de-8fed-4a8f-bcb1-49da5827fc55",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Impact & Validation",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "76af8dfd-d233-49f5-8d46-081ba85571e4",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Talk about the impact and validation, not really market size but just what is the future of this and why it matters",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "51c9faeb-1845-4b2e-a5f7-ef691d683c4e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "About The Team",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "ffba822e-94f2-4f77-898d-f63db6ee4d7a",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Who you are, team pic",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "bfb4206a-e643-4f8f-8873-f619ceae3acc",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Call To Action",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "db94e84c-f9a5-41a2-9f24-6f33ccfce550",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Offer link to try it out right at the end of this.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "b42b8357-e18b-40ec-82cc-689c3ba7dbc0",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Images",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "38c64e66-57f4-4f1b-8b4f-ab0c2c5307cd",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "People love pictures and videos. Make videos, screenshots, gifs etc of your product and include them.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "6145df76-d544-4563-b6ff-9bb56cc8312a",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Just 1?",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7de2cf8a-149a-4314-a6c2-711860bdd3d6",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Just one article is required, but you may write more than one if your team wants to! For instance could imagine splitting it up into articles about technical aspects and others about impact or teamwork etc. Extra Credit all around!",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "51ca7498-59c9-43d0-908d-30ba601d5c52",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ae691745-737e-4e42-a800-bf03725dceba",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "link is part of the “Final Project Submission” assignment",
+          "styles": {
+            "bold": true
+          }
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "df98d77b-7aae-4d54-b154-8bbb6ad4d652",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "whoever is publishing needs to be invited to the cs98 medium org so please let Tim know and he will add you as contributor. ",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f935edbf-599c-44a3-9e10-7af2be63e5a9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
