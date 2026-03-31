@@ -1,0 +1,604 @@
+{
+  "blocks": [
+    {
+      "id": "bc0186c5-8c2b-4c00-b987-f1cb16802e34",
+      "type": "image",
+      "props": {
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "name": "image",
+        "url": "https://dartmouth-cs98.github.io/content-dartmouth-cs98-26w/pages/success-metrics-and-validation-plan/assets/bc0186c5-1774962583113.gif",
+        "caption": "",
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "ffa43e1f-28df-4705-b46b-212671832629",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "red",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Overview",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "52c29830-5335-4faf-9811-d3bc24d33a4e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "It is time to revisit your team goals to see how you are doing and plan for how you will validate your project. You should try to imagine where you want to be at the end of the term. And most importantly, think about what success means for all of us, individually, as a team, as a product, and as a class.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e4821bf0-c606-48af-9873-35352658d35a",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Recall your personal success goals and take a look back at your Project Self Reflection from the start of term. As a team, gather your ideas together and go around and let everyone discuss where they see the project headed and propose some success metrics and goals for the project.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "bca5093a-0dc7-4544-84a1-fd6fbca447a5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Is your final validation a published app with lots of users? Is it methods validation that you write up and present in a scientific format such as a poster? What results do you have to get to consider the project idea validated? Discuss and decide on what makes most sense for the project. Not all projects have the same goals, if you have a consumer app iterating and collecting usage analytics based on real user input may be a goal, if you are prototyping a novel interaction you may want to have some public showcase where you collect observations, and if your project has a data or computational aspect that could be validated via performance analysis you may consider a paper/poster that discusses your results.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a9609388-be57-4b33-ac9d-a87152615bb4",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "❓ Why is this important? 🖐 Your validation plan is what your project is really about. You have some idea, how do you show that it worked? This is where you prove something about the project. Remember your initial problem statement, you may have revised it since the start of the project, but the important question is, does your solution solve that problem or what steps does it take towards solving that problem.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0cb367e4-82f1-46b2-a29a-e9ff4c5aea1c",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "pink",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Team Goals",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "99f26da2-5fd6-4bab-a7c2-1e7d7417fe0e",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "we finish complex features x, y, z as they are critical to our product",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "03fc2b18-34ee-4cf2-a4dc-6e1882be6837",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "we need to include this additional stretch goal as it is very cool",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b1513d08-3a70-4a9b-9f9c-35982f377376",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "we want to try including analytics and doing advertising",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "17d97417-9717-4edb-8c47-98b9023c5ed2",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "we don’t kill each other one week before demos",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "62142d1e-113f-4c72-a405-5f97b141a4c5",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "we publish our product to app store or post it on the interwebs somewhere",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1e88e449-6baf-41c9-9ee7-f23a3a6c4944",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "green",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Success Metrics / KPIs",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "57adc47a-925d-4e3e-a053-7dd78c366f65",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "How might you measure what success means to you? Think of these are your Key Performance Indicators (KPIs) — these are things you can measure that provide evidence that you are making progress towards your goals. For consumer-facing digital products, your goals might be user acquisition/retention, but they may also be quality measures such as number of positive responses, or project process things like code unit tests or PRs approved.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b1b552dd-c50e-4f86-8563-0c5adb19f69b",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your measurements may fall into two types: lagging measurements are things that have happened or outputs such as number of users and sales; leading measurements are inputs and processes such as code quality or signups that may predict future outputs. Think about desired outcomes such as behavior change/usage,",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "67d6d842-4171-40a0-ab36-a733bb64c096",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🕐 While we may not have enough time to get good measurements, thinking about what some measurements are that you could use will help you identify ways to evaluate your success and measure progress as well as use as a feedback mechanism for potential improvement.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "79d5ad22-cb6c-487e-ab3c-ff60e6d59cb9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Some examples:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "dfadb8a0-846b-4bda-9424-754f77363f4b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "publish and get 100 people to download it",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7fba12f9-26b2-4836-acd0-ed1e1dc19d7b",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "show that our process works with numerical analysis of performance data",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "74812875-49de-4309-a015-2f99ab37ab08",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "write a medium post about our product and it gets claps",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4e68097a-03bd-43f0-9732-f6df6b06444f",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "have a few users that use our product several days in a row organically",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "8f3fbc8c-f090-41a8-8527-64a432f03168",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "recruit testers and 80% report improved outcomes / behavior change / other qualitative feedback",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "7d98c50b-0157-4479-bbb6-d21bef04e47c",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "get 90% code unit test coverage",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "352c8170-85f4-459b-ad55-3218f840cd42",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "achieve 3 of our 5 stretch goals",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "2bd51543-000c-450b-9bad-f0c2f4faa41c",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "our analytics show that >50% of people complete our main flows, beat the game, complete their profile, etc",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f6e606ea-2954-43d8-b6ae-c9670c650236",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "in-product survey shows that users are likely to recommend our product (net promoter score)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "537f7f5c-1fc9-41e8-a1ab-06d590b49a53",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "successfully demo our product >3 times over 3 weeks leading up to Technigala and get good feedback from prof and other students",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "250da3ae-5fec-4585-9bd7-4afa7f8b2951",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "every teammate feels like their individual goals for the course were accomplished",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ca6783d5-6312-45b4-9993-47cc9df675eb",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Github Issue",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e77bc5c8-6eca-44a8-99a7-e6b272127494",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Create a  GitHub issue titled: ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Final Success Metrics and Validation Plan",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". Use the following template, try for at least 5 items per section.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "257faacf-719c-4fb2-84f4-ec916cfb7f41",
+      "type": "codeBlock",
+      "props": {
+        "language": "text"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "# Success Metrics and Validation Plan\n\n## Team Goals\n*Discuss and identify any team goals that you think would be important to tackle*\n\n* some goals\n\n## Success Metrics\n*what are some success metrics that you might use for your product / customers / your team / your cs98?*\n\n* some measurable things\n\n## Validation Plan\n*how do you get from goals to success metrics that are validated? this can be user testing, performance metrics, a public demo, etc. this is your implementation plan to gather the above.*\n\n* some concrete steps to remember to do\n\n",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "3eadd90f-9103-47c3-a999-4bfbb1ee8ded",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "yellow",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In:",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "24e8fe03-f724-46d2-a3de-9e30dd7be12d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Assign to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "@timofei7",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "  GitHub for grading and feedback.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "b592f774-5837-4222-bd4a-2ddb06f924f1",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
