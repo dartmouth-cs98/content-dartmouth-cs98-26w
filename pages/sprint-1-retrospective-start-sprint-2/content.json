@@ -8,16 +8,7 @@
         "textColor": "default",
         "textAlignment": "left"
       },
-      "content": [
-        {
-          "type": "text",
-          "text": "Note:  Sprint 1 was a mini sprint, but you should still do a retrospective meeting as you need to plan sprint 2 and still submit a retrospective issue, but it can be short as mostly what you’ll have worked on it planning.",
-          "styles": {
-            "bold": true,
-            "italic": true
-          }
-        }
-      ],
+      "content": [],
       "children": []
     },
     {
@@ -736,11 +727,12 @@
       "id": "4dd4ce96-d8d1-47c3-892f-66f571828435",
       "type": "image",
       "props": {
-        "backgroundColor": "default",
         "textAlignment": "left",
+        "backgroundColor": "default",
         "name": "image",
         "url": "https://dartmouth-cs98.github.io/content-dartmouth-cs98-26w/pages/sprint-1-retrospective-start-sprint-2/assets/4dd4ce96-1774962562277.gif",
         "caption": "",
+        "showPreview": true,
         "previewWidth": 512
       },
       "children": []
