@@ -1,0 +1,321 @@
+{
+  "blocks": [
+    {
+      "id": "9ea925ac-a47b-4a27-99e2-5988f1e9ed9e",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "green",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Overview",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "1e3c2a98-a09e-4238-8e0e-3f89877c5397",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "It is time to revisit your goals and see how you are doing. In particular, you should try to imagine where you want to be at the end of this term and during it! Think about what you want to get out of the class, and what success means for you ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "individually",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "72aab640-9a0b-4ffc-b946-f7b1b4d032e2",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Review",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "291b5998-820c-4bcf-a434-22739429a25d",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Take a look at your various assignments so far: original project proposal, feature spec, summary, feedback etc from this past term. What did you mark as stretch goals? How much does that vision reflect where you are now? Think about how the project went this past term and feedback received.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "32076503-0b38-4635-b9a1-09dc451945bb",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Think about what would personally be a goal that you would love to see implemented by the end of the term. What would make you extra proud of the project? Is it something you had already personally hoped would be part of the core functionality? Why isn’t it, and what is the limitation? Don’t try to game the system and choose all easy things btw, we can tell. Think about what you’d like to accomplish and what might be standing in the way.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "92dd900d-0dc7-4b06-aafd-022c0938956e",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "pink",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Personal GitHub Issue",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ef72c929-7d08-4eaa-8145-782c3e11c23e",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "🚀 Each of you should separately ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "create",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " a GitHub issue on your project repo named ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Personal Goals",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " following this template and assign it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "yourself",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "and",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " your course staff and put it into the ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Review",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " column. Do not add it to any milestones.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "0ddb70dd-bd41-44ba-87ff-4e0b96dd9fe8",
+      "type": "codeBlock",
+      "props": {
+        "language": "text"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "# Name | Personal Goals\n*what does success for this class mean to you?*\n\n* ex: i learn redux and make some cool complex logic\n* ex: i am able to show my work off in my portfolio\n* ex: i get a citation in this class to show off to all my friends\n* ex: i get complex feature x working because i really care about it\n* ex: we ship the product and it changes the world\n\n## Challenges\n*what are some challenges you foresee?*\n\n* ex: my team is annoying and i hate everything\n* ex: i get stuck on something technical and don't know who to turn to\n* ex: i accidentally delete all my code and all our team repos using some dark magic i found on stackoverflow and i'm stuck at dartmouth forever\n\n",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4b681364-7416-4a62-bc79-5ba586f5b89a",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "red",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "e4a68803-6788-4fc1-af06-699cb0c33848",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your GitHub issue (name it with this assignment’s title) is your submission.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "ac0d999d-9dac-44d8-b44d-914403ba8878",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Add the label ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " to the issue.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "859d4b43-4b7e-4db9-91b6-93745e7f4608",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "When you’re done, move it to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for the graders.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "4dde914e-b89b-46c3-8efc-62feba4e1378",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
