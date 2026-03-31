@@ -1,0 +1,338 @@
+{
+  "blocks": [
+    {
+      "id": "85f21c80-f8df-4adf-8110-9dc150cecfbb",
+      "type": "image",
+      "props": {
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "name": "image",
+        "url": "https://dartmouth-cs98.github.io/content-dartmouth-cs98-26w/pages/publishing-and-ad-campaign/assets/85f21c80-1774962604259.gif",
+        "caption": "",
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "83f293bc-3a70-4504-8046-84006a14c6d5",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "It is time. You’ve been working hard and now it is time to ship. It’s a big step — but worth it.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "a1a6cbe9-d4dc-491a-b56b-829ab3f93aec",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Publish it",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "f093c078-e4aa-4bb0-9a37-0545a8175c16",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Depending on your project what publishing means will be different.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "593afc61-9225-4983-ba8c-37ffe8881789",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "iOS App: ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "631e5e59-6669-4435-bb48-b591d69e9bae",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "beta testing should already be set up on TestFlight",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "bce091ac-a306-450c-8f22-9158a7433032",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "configuring all the necessary details to get your app approved can take some time, start early. Apple will need at least a couple of days for the first time.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "9b49b8b5-0cf7-4980-925d-9683f3f3fe9a",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "ask if you need access to the apple developer account",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "fe35d61b-e0e0-4a6d-a1ac-b833699fd2df",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "try to get the app published in the app store",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "63b1b182-f513-4d00-91c9-5b598e0e6315",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Android App: ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "0810a1a5-7025-4c36-954c-150bb010a9ca",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "test and publish using the Google Play Store",
+              "styles": {}
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "2f10aa32-a8c8-4548-b240-940c0a68d09e",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "getting app ids and certificates right can take some time",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "fa8f15ca-deff-4a6a-bc6b-ed2c5b72c8e3",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "WebApp: ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "6c9d2f02-94ae-41ad-9c6d-abfa0522dec9",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "register a public domain name",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "3ffece70-d34c-455e-a8a9-434fdc936482",
+      "type": "bulletListItem",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "VR: ",
+          "styles": {}
+        }
+      ],
+      "children": [
+        {
+          "id": "0b4d64d0-fd13-4a2a-b469-c47094f1cbdc",
+          "type": "bulletListItem",
+          "props": {
+            "backgroundColor": "default",
+            "textColor": "default",
+            "textAlignment": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "tricker, could involve making video demos, or attempting to publish in the steam store.",
+              "styles": {}
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "fe5be0ad-748a-4015-bdc9-a230666845c8",
+      "type": "heading",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Advertise it (optional)",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "924ce61f-b064-4391-922b-de357d779282",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Let’s get the products out there with a small AD campaign. You can do this either with Facebook, Google Ad Words, or Apple App Store (I’ve never tried this last one but feel free to experiment). The more targeted the advertising the more results you’ll see. Facebook Ads are pretty easy - you create a FB page for your product and then “boost” a post - you can target very specific user demographics, set a target time limit for your campaign, and a max budget. Let’s keep our budget to $15.",
+          "styles": {}
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "07f3b910-530f-4519-b108-cb23d25c7031",
+      "type": "image",
+      "props": {
+        "backgroundColor": "default",
+        "textAlignment": "left",
+        "name": "image",
+        "url": "https://dartmouth-cs98.github.io/content-dartmouth-cs98-26w/pages/publishing-and-ad-campaign/assets/07f3b910-1774962608275.gif",
+        "caption": "",
+        "previewWidth": 512
+      },
+      "children": []
+    },
+    {
+      "id": "283461c7-0dd8-4780-90ac-8e64003129a9",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
+      "children": []
+    }
+  ]
+}
