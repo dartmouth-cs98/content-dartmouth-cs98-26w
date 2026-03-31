@@ -75,7 +75,7 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "Framing", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 5 min (this part, right now)", "styles": {} }
+        { "type": "text", "text": " (this part, right now)", "styles": {} }
       ],
       "children": []
     },
@@ -85,7 +85,7 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "Team Decision Brief + Slides", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 20 min (fill out the 5-part brief below, then make a few slides for shareout)", "styles": {} }
+        { "type": "text", "text": " (fill out the 5-part brief below, then make a few slides for shareout)", "styles": {} }
       ],
       "children": []
     },
@@ -95,7 +95,7 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "Shareout", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 20 min (2-minute decisions from each team + class feedback)", "styles": {} }
+        { "type": "text", "text": " (3-minute decisions from each team + class feedback)", "styles": {} }
       ],
       "children": []
     },
@@ -105,7 +105,7 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "Wrap", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 5 min", "styles": {} }
+        { "type": "text", "text": "", "styles": {} }
       ],
       "children": []
     },
@@ -382,7 +382,7 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "Slide 2:", "styles": { "bold": true } },
-        { "type": "text", "text": " Your decision (persevere / refocus / pivot) + the evidence behind it", "styles": {} }
+        { "type": "text", "text": " 2 core screenshots of your product's current functionality", "styles": {} }
       ],
       "children": []
     },
@@ -392,6 +392,16 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "Slide 3:", "styles": { "bold": true } },
+        { "type": "text", "text": " Your decision (persevere / refocus / pivot) + the evidence behind it", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 4:", "styles": { "bold": true } },
         { "type": "text", "text": " Biggest risk + next test (what you'll do this week and what would prove you wrong)", "styles": {} }
       ],
       "children": []
@@ -402,7 +412,7 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "Each team gets ", "styles": {} },
-        { "type": "text", "text": "2 minutes", "styles": { "bold": true } },
+        { "type": "text", "text": "3 minutes", "styles": { "bold": true } },
         { "type": "text", "text": ". Use this structure:", "styles": {} }
       ],
       "children": []
