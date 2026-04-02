@@ -3,403 +3,916 @@
     {
       "id": "spacer-top",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-big-question",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "Does Anyone Actually Want This?", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Does Anyone Actually Want This?",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "intro-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "You just made a big decision \u2014 pivot, refocus, or persevere. You have conviction. You have a direction. But here's the thing: conviction is not evidence.", "styles": {} }],
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "You just made a big decision — pivot, refocus, or persevere. You have conviction. You have a direction. But here's the thing: conviction is not evidence.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "intro-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Here's a way to test whether your value proposition actually resonates with ", "styles": {} },
-        { "type": "text", "text": "real strangers on the internet.", "styles": { "bold": true } },
-        { "type": "text", "text": " Not your classmates. Not your friends. Cold traffic \u2014 people who've never heard of you or your product.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Here's a way to test whether your value proposition actually resonates with ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "real strangers on the internet.",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " Not your classmates. Not your friends. Cold traffic — people who've never heard of you or your product.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "intro-3",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "The tool: a landing page A/B test. Two versions of your pitch, real traffic, real data. Buffer validated their entire business model this way before writing a line of product code. You already have a product \u2014 now find out if your message lands.", "styles": {} }],
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The tool: a landing page A/B test. Two versions of your pitch, real traffic, real data. Buffer validated their entire business model this way before writing a line of product code. You already have a product — now find out if your message lands.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "goal-callout",
       "type": "callout",
-      "props": { "emoji": "\ud83c\udfaf", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "emoji": "🎯",
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Goal: ", "styles": { "bold": true } },
-        { "type": "text", "text": "Create 2 landing page variants with different value propositions, drive cold traffic to both, and use the conversion data to learn how your target users think about their problem.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Goal: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "Create 2 landing page variants with different value propositions, drive cold traffic to both, and use the conversion data to learn how your target users think about their problem.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-what-is-smoke-test",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "What's a Smoke Test?", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What's a Smoke Test?",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "smoketest-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "A smoke test validates demand before you optimize the product. You create a simple page that describes what your product does and why it matters, then you measure how many strangers take action \u2014 sign up, click \"Get Access,\" or try the product.", "styles": {} }],
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A smoke test validates demand before you optimize the product. You create a simple page that describes what your product does and why it matters, then you measure how many strangers take action — sign up, click \"Get Access,\" or try the product.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "smoketest-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "The twist: you're making two versions. Same product, different framing. This is an A/B test \u2014 you're not testing whether your product works, you're testing which way of talking about it makes people care.", "styles": {} }],
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The twist: you're making two versions. Same product, different framing. This is an A/B test — you're not testing whether your product works, you're testing which way of talking about it makes people care.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "smoketest-example",
       "type": "callout",
-      "props": { "emoji": "\ud83d\udccc", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "emoji": "📌",
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Example: ", "styles": { "bold": true } },
-        { "type": "text", "text": "If you built a study group finder, Variant A might lead with \"Never study alone again\" while Variant B leads with \"Find the right study group in 30 seconds.\" Same product, different emphasis. Which framing makes more people click?", "styles": {} }
+        {
+          "type": "text",
+          "text": "Example: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "If you built a study group finder, Variant A might lead with \"Never study alone again\" while Variant B leads with \"Find the right study group in 30 seconds.\" Same product, different emphasis. Which framing makes more people click?",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-how-to",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "How To Run It", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "How To Run It",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "h3-step1",
       "type": "heading",
-      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
-      "content": [{ "type": "text", "text": "1. Set Your Targets First", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "1. Set Your Targets First",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "step1-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "\ud83d\ude80 Before you build anything, write down your conversion targets.", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 Before you build anything, write down your conversion targets.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step1-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "This is critical. If you set targets after seeing results, you'll just rationalize whatever happened. Decide now:", "styles": {} }],
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is critical. If you set targets after seeing results, you'll just rationalize whatever happened. Decide now:",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "step1-b1",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "How many visitors do you expect per variant?", "styles": {} }
+        {
+          "type": "text",
+          "text": "How many visitors do you expect per variant?",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step1-b2",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "What conversion rate would mean \"this message works\"?", "styles": {} }
+        {
+          "type": "text",
+          "text": "What conversion rate would mean \"this message works\"?",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step1-b3",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "What conversion rate would mean \"go back to the drawing board\"?", "styles": {} }
+        {
+          "type": "text",
+          "text": "What conversion rate would mean \"go back to the drawing board\"?",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step1-benchmark",
       "type": "callout",
-      "props": { "emoji": "\ud83d\udca1", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "emoji": "💡",
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Benchmark: ", "styles": { "bold": true } },
-        { "type": "text", "text": ">15% conversion rate on a \"Get Access\" button from cold traffic is a strong signal. Under 5% from cold traffic means your messaging isn't connecting.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Benchmark: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ">15% conversion rate on a \"Get Access\" button from cold traffic is a strong signal. Under 5% from cold traffic means your messaging isn't connecting.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-3",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h3-step2",
       "type": "heading",
-      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
-      "content": [{ "type": "text", "text": "2. Build Two Landing Pages", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "2. Build Two Landing Pages",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "step2-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "\ud83d\ude80 Create 2 landing page variants. Same product, ", "styles": {} },
-        { "type": "text", "text": "different value proposition.", "styles": { "bold": true } }
+        {
+          "type": "text",
+          "text": "🚀 Create 2 landing page variants. Same product, ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "different value proposition.",
+          "styles": {
+            "bold": true
+          }
+        }
       ],
       "children": []
     },
     {
       "id": "step2-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "Each variant needs:", "styles": {} }],
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Each variant needs:",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "step2-b1",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "A headline", "styles": { "bold": true } },
-        { "type": "text", "text": " that frames the problem or benefit differently", "styles": {} }
+        {
+          "type": "text",
+          "text": "A headline",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " that frames the problem or benefit differently",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step2-b2",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "A clear CTA", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 something like \"Sign Up for Early Access\" that links to a short form (Typeform, Tally, Fillout, etc.). The form should ask a few questions: basic demographics, what problem they're trying to solve, and which features matter most to them. Keep it short \u2014 3\u20135 questions max. This gives you way more signal than a raw email signup.", "styles": {} }
+        {
+          "type": "text",
+          "text": "A clear CTA",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — something like \"Sign Up for Early Access\" that links to a short form (Typeform, Tally, Fillout, etc.). The form should ask a few questions: basic demographics, what problem they're trying to solve, and which features matter most to them. Keep it short — 3–5 questions max. This gives you way more signal than a raw email signup.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step2-b3",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "A screenshot or demo", "styles": { "bold": true } },
-        { "type": "text", "text": " of the product (you have one, show it)", "styles": {} }
+        {
+          "type": "text",
+          "text": "A screenshot or demo",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " of the product (you have one, show it)",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step2-tools",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Don't overthink the page itself \u2014 spend an hour, not a week. Use AI to generate it if you want. The page is not the point. The data is the point.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Don't overthink the page itself — spend an hour, not a week. Use AI to generate it if you want. The page is not the point. The data is the point.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step2-warning",
       "type": "callout",
-      "props": { "emoji": "\u26a0\ufe0f", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "Don't optimize the landing page aggressively. You want to measure raw demand, not your design skills. Keep both variants clean and simple \u2014 the only difference should be the messaging.", "styles": {} }],
+      "props": {
+        "emoji": "⚠️",
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Don't optimize the landing page aggressively. You want to measure raw demand, not your design skills. Keep both variants clean and simple — the only difference should be the messaging.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "spacer-4",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h3-step3",
       "type": "heading",
-      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
-      "content": [{ "type": "text", "text": "3. Drive Cold Traffic", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 3,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "3. Drive Cold Traffic",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "step3-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "\ud83d\ude80 Send strangers to your pages via 2+ channels. Budget: $20\u201350 total. I'll reimburse you \u2014 just DM me for instructions.", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 Send strangers to your pages via 2+ channels. Budget: $20–50 total. I'll reimburse you — just DM me for instructions.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step3-channels",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "Pick at least 2:", "styles": {} }],
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Pick at least 2:",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "step3-b1",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Paid ads", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 Meta or Google Ads, $5\u201310/day. Target your actual user demographic.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Paid ads",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — Meta or Google Ads, $5–10/day. Target your actual user demographic.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step3-b2",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Community posts", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 relevant subreddit, Discord server, Facebook group where your users hang out. Be genuine, not spammy.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Community posts",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — relevant subreddit, Discord server, Facebook group where your users hang out. Be genuine, not spammy.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step3-b3",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Direct outreach", "styles": { "bold": true } },
-        { "type": "text", "text": " \u2014 DM or email people in your target user space. Not your friends.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Direct outreach",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — DM or email people in your target user space. Not your friends.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step3-analytics",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "\ud83d\ude80 Set up analytics ", "styles": {} },
-        { "type": "text", "text": "before", "styles": { "bold": true } },
-        { "type": "text", "text": " driving traffic. Google Analytics 4 (free) or Microsoft Clarity (free, includes heatmaps). You need to track: page views, CTA clicks, and traffic source.", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 Set up analytics ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "before",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " driving traffic. Google Analytics 4 (free) or Microsoft Clarity (free, includes heatmaps). You need to track: page views, CTA clicks, and traffic source.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "step3-timeline",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Run the test for ", "styles": {} },
-        { "type": "text", "text": "a couple of days.", "styles": { "bold": true } },
-        { "type": "text", "text": " Aim for at least 100 visitors per variant before drawing conclusions. (You won't hit statistical significance \u2014 that's fine. You're looking for directional signal, not a p-value.)", "styles": {} }
+        {
+          "type": "text",
+          "text": "Run the test for ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "a couple of days.",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " Aim for at least 100 visitors per variant before drawing conclusions. (You won't hit statistical significance — that's fine. You're looking for directional signal, not a p-value.)",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-5",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-turnin",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "Share", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Share",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "turnin-intro",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "\ud83d\ude80 Post your pages to the thread in Slack \u2014 then follow up once you have results. Include:", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 Post your pages to the thread in Slack — then follow up once you have results. Include:",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-b1",
       "type": "numberedListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Both landing page URLs", "styles": { "bold": true } },
-        { "type": "text", "text": " (or screenshots if pages are taken down)", "styles": {} }
+        {
+          "type": "text",
+          "text": "Both landing page URLs",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " (or screenshots if pages are taken down)",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-b3",
       "type": "numberedListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Traffic data:", "styles": { "bold": true } },
-        { "type": "text", "text": " visitors per variant, traffic source breakdown, conversion rates for each variant", "styles": {} }
+        {
+          "type": "text",
+          "text": "Traffic data:",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " visitors per variant, traffic source breakdown, conversion rates for each variant",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-b4",
       "type": "numberedListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Heatmap or scroll data", "styles": { "bold": true } },
-        { "type": "text", "text": " if available (Microsoft Clarity is free and takes 5 minutes to set up)", "styles": {} }
+        {
+          "type": "text",
+          "text": "Heatmap or scroll data",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " if available (Microsoft Clarity is free and takes 5 minutes to set up)",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-b5",
       "type": "numberedListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Winner analysis:", "styles": { "bold": true } },
-        { "type": "text", "text": " which framing won? Why do you think so? What does this tell you about how users think about their problem?", "styles": {} }
+        {
+          "type": "text",
+          "text": "Winner analysis:",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " which framing won? Why do you think so? What does this tell you about how users think about their problem?",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-evidence",
       "type": "callout",
-      "props": { "emoji": "\u26a0\ufe0f", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "\"We got more clicks on Variant A\" is not an insight. An insight is: \"Users responded to the time-saving framing 3x more than the social framing \u2014 which means they see this as a productivity problem, not a social one. That changes how we should position the product.\"", "styles": {} }],
+      "props": {
+        "emoji": "⚠️",
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "\"We got more clicks on Variant A\" is not an insight. An insight is: \"Users responded to the time-saving framing 3x more than the social framing — which means they see this as a productivity problem, not a social one. That changes how we should position the product.\"",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "spacer-end",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textColor": "default",
+        "backgroundColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     }
   ],
   "coverImage": {
     "url": "https://images.unsplash.com/photo-1670787076212-b1a78b6de981?w=1200&q=80",
-    "position": 50
+    "position": 0
   }
 }
