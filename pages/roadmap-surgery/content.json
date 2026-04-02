@@ -1,0 +1,405 @@
+{
+  "blocks": [
+    {
+      "id": "spacer-top",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-big-question",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Are You Building the Right Things?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "You now have real data. Smoke test conversion rates. Usability findings from strangers. Direct quotes from people who used your product cold. That's more evidence than most startups have when they decide what to build next.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "The question is: ", "styles": {} },
+        { "type": "text", "text": "are you actually using that data to decide what to build?", "styles": { "bold": true } },
+        { "type": "text", "text": " Or are you just going back to the backlog and building whatever feels comfortable?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "intro-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Today we're doing surgery on your roadmap. Everything gets scored against real evidence. Some things get promoted. Some things get killed. No feature survives on vibes alone.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "goal-callout",
+      "type": "callout",
+      "props": { "emoji": "\ud83c\udfaf", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Goal: ", "styles": { "bold": true } },
+        { "type": "text", "text": "Use RICE scoring and real user data to reprioritize your roadmap. Kill at least 3 things. Walk out of class with a revised sprint plan for the remaining weeks.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-rice",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "RICE Scoring", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "rice-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "RICE is how product managers at companies like Intercom prioritize features. It replaces gut feeling with a formula:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "rice-formula",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Score = (Reach \u00d7 Impact \u00d7 Confidence) / Effort", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "rice-table",
+      "type": "table",
+      "props": { "textColor": "default", "backgroundColor": "default" },
+      "content": {
+        "type": "tableContent",
+        "rows": [
+          {
+            "cells": [
+              [{ "type": "text", "text": "Component", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "What It Means", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "How to Score", "styles": { "bold": true } }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "Reach", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "How many users does this affect?", "styles": {} }],
+              [{ "type": "text", "text": "Use real data. Landing page visitors, active users, test participants.", "styles": {} }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "Impact", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "How much does it matter per user?", "styles": {} }],
+              [{ "type": "text", "text": "3 = massive, 2 = high, 1 = medium, 0.5 = low, 0.25 = minimal", "styles": {} }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "Confidence", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "How sure are you?", "styles": {} }],
+              [{ "type": "text", "text": "100% = data-backed, 80% = some data, 50% = gut feel", "styles": {} }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "Effort", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "How much work?", "styles": {} }],
+              [{ "type": "text", "text": "Person-weeks. Be honest.", "styles": {} }]
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "rice-rule",
+      "type": "callout",
+      "props": { "emoji": "\u26a0\ufe0f", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "The rule: ", "styles": { "bold": true } },
+        { "type": "text", "text": "Reach and Impact numbers must cite actual data from your smoke test or usability tests. \"I think lots of users want this\" is not a Reach number. \"12 of 15 landing page visitors clicked the scheduling feature\" is.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-workshop",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "In-Class Workshop", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Here's how this goes:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-1",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "1. Backlog Dump (10 min)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-1-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 List every feature, improvement, and bug on your roadmap. Sticky notes, Miro board, GitHub Issues list \u2014 whatever works. Get it all visible in one place.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-2",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "2. RICE Score Everything (20 min)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-2-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Score every item using the RICE formula. For Reach and Impact, you must reference your smoke test data, usability findings, or user quotes. If you can't cite evidence for an item's importance, its Confidence score is 50% at best.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-3",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "3. Impact/Effort Matrix (15 min)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-3-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Plot your scored items on a 2\u00d72 grid:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "matrix-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Quick Wins", "styles": { "bold": true } },
+        { "type": "text", "text": " (high impact, low effort) \u2014 do these first", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "matrix-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Big Bets", "styles": { "bold": true } },
+        { "type": "text", "text": " (high impact, high effort) \u2014 plan carefully, worth the investment", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "matrix-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Fill-Ins", "styles": { "bold": true } },
+        { "type": "text", "text": " (low impact, low effort) \u2014 do when blocked on other work", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "matrix-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Money Pit", "styles": { "bold": true } },
+        { "type": "text", "text": " (low impact, high effort) \u2014 kill these", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "workshop-4",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "4. The Kill List (10 min)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-4-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Cut at least 3 features from your roadmap.", "styles": {} },
+        { "type": "text", "text": " For each, explain ", "styles": {} },
+        { "type": "text", "text": "why", "styles": { "bold": true } },
+        { "type": "text", "text": " using evidence. \"We don't have time\" is not a reason. \"Zero users mentioned this and 4 of 5 struggled with onboarding, so we're prioritizing that instead\" is a reason.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "workshop-4-note",
+      "type": "callout",
+      "props": { "emoji": "\ud83d\udccc", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Killing features is a skill. The best product teams in the world spend as much time deciding what NOT to build as what to build. If your kill list is empty, you're not being honest about your scope.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-5",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "5. Share-Out (15\u201320 min)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "workshop-5-detail",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Each team presents their top 3 priorities and top 3 kills. Other teams challenge: \"Where's the evidence for that?\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-mismatch",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Mismatch", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "mismatch-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Here's the exercise that's always eye-opening:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "mismatch-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Make a two-column table. Column 1: what users valued most (from your usability tests \u2014 what they used, what they praised, what they asked for). Column 2: where you actually spent the most engineering time.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "mismatch-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "The gap between those two columns is the most important thing you'll see today. Almost every team discovers they've been overinvesting in something users don't care about and underinvesting in something users love.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-4",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-turnin",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Turn In", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "turnin-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Due 3 days after class. Create a GitHub Issue titled ", "styles": {} },
+        { "type": "text", "text": "\"Roadmap Surgery: [Team Name]\"", "styles": { "bold": true } },
+        { "type": "text", "text": " with the ", "styles": {} },
+        { "type": "text", "text": "documentation", "styles": { "code": true } },
+        { "type": "text", "text": " label, assigned to ", "styles": {} },
+        { "type": "text", "text": "@timofei7", "styles": { "code": true } },
+        { "type": "text", "text": ". Include:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Updated roadmap with RICE scores", "styles": { "bold": true } },
+        { "type": "text", "text": " for every item", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "The 2\u00d72 matrix", "styles": { "bold": true } },
+        { "type": "text", "text": " (photo or screenshot)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Kill list", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 3+ killed features with evidence-based justifications", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "The Mismatch table", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 user value vs. engineering time", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-5",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Revised sprint plan", "styles": { "bold": true } },
+        { "type": "text", "text": " for remaining weeks, reflecting the new priorities", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-end",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    }
+  ]
+}

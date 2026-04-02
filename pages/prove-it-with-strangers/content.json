@@ -1,0 +1,375 @@
+{
+  "blocks": [
+    {
+      "id": "spacer-top",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-big-question",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Stranger Test", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Your smoke test told you which message resonates. But a landing page click is cheap \u2014 it costs nothing to click a button. Now you need to find out if your actual product works for someone who's never seen it before.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "This means strangers. Not your teammates, not your classmates, not your roommate who's \"basically the target user.\" ", "styles": {} },
+        { "type": "text", "text": "People who owe you nothing and have zero context.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "intro-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Why strangers? Because friends lie. Not maliciously \u2014 they just want to be nice. Social desirability bias is real and it will wreck your data. A stranger has no reason to spare your feelings.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "goal-callout",
+      "type": "callout",
+      "props": { "emoji": "\ud83c\udfaf", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Goal: ", "styles": { "bold": true } },
+        { "type": "text", "text": "Run structured usability tests with 5+ strangers. Observe whether they can use your product, whether they smile, and whether they can explain what it does.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-smile-summarize",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Smile + Summarize Test", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "smile-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Cornell Tech's Product Studio uses a dead-simple validation technique that's surprisingly powerful:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "smile-step1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Show someone your product.", "styles": { "bold": true } },
+        { "type": "text", "text": " Don't explain it. Don't demo it. Just open it and let them look.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "smile-step2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Watch for the smile.", "styles": { "bold": true } },
+        { "type": "text", "text": " Genuine delight is visible. You know the difference between a polite nod and an actual \"oh, cool\" reaction.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "smile-step3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Ask them to summarize what it does.", "styles": { "bold": true } },
+        { "type": "text", "text": " If they can't explain your product clearly, your product isn't communicating its value. No amount of marketing fixes that.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "smile-note",
+      "type": "callout",
+      "props": { "emoji": "\ud83d\udccc", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Write down the user's summary verbatim. Compare it to your intended value proposition. The gap between what you think your product is and what a stranger thinks it is \u2014 that's your most valuable data point.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-protocol",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Your Test Protocol", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "protocol-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Before you test anyone, write out your protocol. This is the exact script you follow with every participant so your data is comparable.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "h3-recruit",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Recruiting 5+ Strangers", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "recruit-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Where to find them:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "recruit-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "People in Collis or the library who match your target user profile", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "recruit-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Online communities where your users hang out (same ones from the smoke test)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "recruit-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Friends-of-friends (one degree removed \u2014 not your actual friends)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "recruit-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Remote participants via screen share (Zoom, Google Meet)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "recruit-note",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "For each participant, record: their role/context (not name), how you recruited them, and whether they match your target user profile.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-tasks",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The 3-Task Test", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "tasks-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Pick 3 tasks that represent your product's core value. ", "styles": {} },
+        { "type": "text", "text": "Tell the user to complete each task. Don't help them.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "tasks-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "For each task, track:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "tasks-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Success / Fail / Partial", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 did they complete it?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tasks-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Time on task", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 how long did it take?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tasks-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Where they got stuck", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 exact screen, exact moment", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tasks-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "What they said out loud", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 capture at least 1 direct quote per participant", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tasks-sean-ellis",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 After the tasks, ask the Sean Ellis question: ", "styles": {} },
+        { "type": "text", "text": "\"If this product disappeared tomorrow, would you care?\"", "styles": { "bold": true } },
+        { "type": "text", "text": " Record the answer honestly.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-4",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-turnin",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Turn In", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "turnin-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Create a GitHub Issue titled ", "styles": {} },
+        { "type": "text", "text": "\"Stranger Test: [Team Name]\"", "styles": { "bold": true } },
+        { "type": "text", "text": " with the ", "styles": {} },
+        { "type": "text", "text": "documentation", "styles": { "code": true } },
+        { "type": "text", "text": " label, assigned to ", "styles": {} },
+        { "type": "text", "text": "@timofei7", "styles": { "code": true } },
+        { "type": "text", "text": ". Include:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Test protocol", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 the exact script/tasks you used, word for word", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Participant table", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 who (role, not name), recruitment method, target user match (yes/no)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Smile + Summarize results", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 could each participant summarize your product? What did they say vs. what you intended?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Task completion matrix", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 tasks \u00d7 participants, success/fail/partial, with time-on-task", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-5",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Raw observation log", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 at least 1 direct quote per participant", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-6",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Top 3 findings", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 each must cite 2+ participants. Pattern, not anecdote.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-7",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "GitHub Issues created from findings", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 link them. If testing didn't produce actionable bugs or improvements, you weren't paying close enough attention.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-warning",
+      "type": "callout",
+      "props": { "emoji": "\u26a0\ufe0f", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"Users liked it\" is not a finding. \"3 of 5 users couldn't find the main action button and 2 gave up after 30 seconds\" \u2014 that's a finding.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-end",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    }
+  ]
+}

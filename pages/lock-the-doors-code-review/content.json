@@ -1,0 +1,477 @@
+{
+  "blocks": [
+    {
+      "id": "spacer-top",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-big-question",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Is This Ready for Other Humans?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "You've been heads-down building for months. Your roadmap is reprioritized. You're about to launch to real users. But first: is your codebase actually safe and maintainable enough for that?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This milestone has two parts that belong together. Code review asks: can someone else understand and maintain this? Security audit asks: can someone exploit this? Both are versions of the same question \u2014 is this codebase ready for other humans to touch?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Most CS programs never make you audit your own code for security. Which means most graduates ship their first production code with secrets in the repo and no input validation. ", "styles": {} },
+        { "type": "text", "text": "This is the assignment you'll remember at your first job.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "goal-callout",
+      "type": "callout",
+      "props": { "emoji": "\ud83c\udfaf", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Goal: ", "styles": { "bold": true } },
+        { "type": "text", "text": "Deep code review of every team member's work + a real security audit of your deployed product. Merge at least 2 PRs: one refactoring, one security fix.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-code-review",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Part 1: Deep Code Review", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "cr-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This is not an \"LGTM\" rubber stamp. This is a real review where you trace through the logic and find real problems.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "h3-internal",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Internal Review (one per team member)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "internal-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Each person picks the most complex or critical module written by a ", "styles": {} },
+        { "type": "text", "text": "different teammate.", "styles": { "bold": true } },
+        { "type": "text", "text": " Review it for:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "internal-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Correctness:", "styles": { "bold": true } },
+        { "type": "text", "text": " Does this code do what it claims? Trace through the logic.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "internal-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Edge cases:", "styles": { "bold": true } },
+        { "type": "text", "text": " Find at least 2 unhandled edge cases. What happens with empty input? Null values? Unexpected types?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "internal-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Readability:", "styles": { "bold": true } },
+        { "type": "text", "text": " Could someone new to the project understand this in 10 minutes?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "internal-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Improvements:", "styles": { "bold": true } },
+        { "type": "text", "text": " Write at least 3 concrete suggestions with code snippets or pseudocode.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "internal-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Do this as actual GitHub PR review comments or inline comments on the code. Link to them in your submission.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-cross-team",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Cross-Team Review", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "cross-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 One team member reviews a module from ", "styles": {} },
+        { "type": "text", "text": "another team's repo.", "styles": { "bold": true } },
+        { "type": "text", "text": " Cold. No context. No walkthrough.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "cross-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Document: What was easy to understand? What was confusing? What would you change? This perspective is gold \u2014 it simulates what a new hire would experience on day one.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-tech-debt",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Tech Debt Inventory", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "techdebt-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 As a team, compile the ", "styles": {} },
+        { "type": "text", "text": "top 5 pieces of technical debt", "styles": { "bold": true } },
+        { "type": "text", "text": " in your codebase. For each: what it is, why it exists, what the risk is if you leave it, and whether you plan to fix it before final submission.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-4",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-security",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Part 2: Security Audit", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "security-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This is not theoretical. You're running actual checks against your actual deployed product.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "h3-secrets",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Secrets Audit", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "secrets-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Grep your entire repo history for leaked secrets:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "secrets-code",
+      "type": "codeBlock",
+      "props": { "language": "bash" },
+      "content": [{ "type": "text", "text": "git log --all --full-history -S \"password\" --oneline\ngit log --all --full-history -S \"api_key\" --oneline\ngit log --all --full-history -S \"secret\" --oneline\ngit log --all --full-history -S \"token\" --oneline", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "secrets-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "If you find something: rotate the key immediately, add the file to .gitignore, move the secret to environment variables. Document what you found and what you did about it.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "secrets-warning",
+      "type": "callout",
+      "props": { "emoji": "\u26a0\ufe0f", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Even if you removed a secret in a later commit, it's still in your git history. Anyone who clones the repo can find it. The only fix is rotating the key.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-5",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-auth",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Auth + Access Control", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "auth-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 If your product has user accounts:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "auth-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Can user A see user B's data?", "styles": { "bold": true } },
+        { "type": "text", "text": " Log in as two different users and try. Document the result.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "auth-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Can someone hit your API without auth?", "styles": { "bold": true } },
+        { "type": "text", "text": " Open a terminal and try: ", "styles": {} },
+        { "type": "text", "text": "curl https://your-api.com/users", "styles": { "code": true } },
+        { "type": "text", "text": " with no token. What happens?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "auth-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "What happens with malformed input?", "styles": { "bold": true } },
+        { "type": "text", "text": " Try submitting a form with a script tag, SQL injection string, or a 10MB text blob. Does your app handle it gracefully?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-6",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-deps",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Dependency Scan", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "deps-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Run the audit tool for your stack:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "deps-code",
+      "type": "codeBlock",
+      "props": { "language": "bash" },
+      "content": [{ "type": "text", "text": "npm audit          # Node.js\npip audit          # Python\nbundle audit       # Ruby\n./gradlew dependencyCheckAnalyze  # Java/Kotlin", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "deps-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Fix critical and high vulnerabilities. If you can't fix something, explain why in your submission.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-7",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-errors",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Error Handling Walkthrough", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "errors-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Test at least 3 failure scenarios. ", "styles": {} },
+        { "type": "text", "text": "Actually break things", "styles": { "bold": true } },
+        { "type": "text", "text": " and document what happens:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "errors-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "What happens when your server is down?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "errors-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "What happens when the database is unreachable?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "errors-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "What happens when a user submits garbage data?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "errors-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "For each: document the actual behavior vs. desired behavior. If the app crashes silently or shows an unhandled error, that's a bug.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-8",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-turnin",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Turn In", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "turnin-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Create a GitHub Issue titled ", "styles": {} },
+        { "type": "text", "text": "\"Lock the Doors: [Team Name]\"", "styles": { "bold": true } },
+        { "type": "text", "text": " with the ", "styles": {} },
+        { "type": "text", "text": "documentation", "styles": { "code": true } },
+        { "type": "text", "text": " label, assigned to ", "styles": {} },
+        { "type": "text", "text": "@timofei7", "styles": { "code": true } },
+        { "type": "text", "text": ". Include:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Internal review summaries", "styles": { "bold": true } },
+        { "type": "text", "text": " (one per team member) with links to PR review comments", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Cross-team review summary", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Tech debt inventory", "styles": { "bold": true } },
+        { "type": "text", "text": " (top 5, prioritized)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Security findings:", "styles": { "bold": true } },
+        { "type": "text", "text": " secrets audit results, auth test results, dependency scan output, error handling test results", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-5",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "At least 2 merged PRs:", "styles": { "bold": true } },
+        { "type": "text", "text": " one refactoring fix from code review, one security fix from the audit. Link them.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-end",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "blocks": [
+    {
+      "id": "spacer-top",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-big-question",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "What Did You Actually Prove?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This is the end of the line. You made a pivot/persevere/refocus decision. You ran a smoke test. You tested with strangers. You did roadmap surgery. You locked down security. You shipped to real users.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Now the question: ", "styles": {} },
+        { "type": "text", "text": "what did all of that actually prove?", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "intro-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This isn't a victory lap. It's an honest reckoning with the evidence. Some of your assumptions were right. Some were wrong. Some you never tested at all. The point is to know which is which \u2014 and to prove it to your classmates.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "goal-callout",
+      "type": "callout",
+      "props": { "emoji": "\ud83c\udfaf", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Goal: ", "styles": { "bold": true } },
+        { "type": "text", "text": "Trace your entire evidence chain from pivot decision to launch data. Present your PMF verdict to the class. Close the loop.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-assumptions",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Assumption Tracker", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "assumptions-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Go back to your ", "styles": {} },
+        { "type": "text", "text": "Pivot, Persevere, or Refocus", "styles": { "bold": true } },
+        { "type": "text", "text": " assumption map \u2014 the desirability, feasibility, and viability assumptions you listed.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "assumptions-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "For each assumption, mark it:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "assumptions-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\u2705 Validated", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 cite the milestone and specific data point", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "assumptions-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\u274c Invalidated", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 cite when you learned it was wrong and what you did", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "assumptions-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\u2753 Still unknown", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 explain what test you'd run if you had another term", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "assumptions-warning",
+      "type": "callout",
+      "props": { "emoji": "\u26a0\ufe0f", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "If every assumption is marked \"validated,\" you're not being honest. Every project has unknown assumptions and things that didn't pan out. The teams that learned the most are the ones who can name what they got wrong.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-evidence-chain",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Evidence Chain", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "chain-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Take your product's single most important claim ", "styles": {} },
+        { "type": "text", "text": "and trace it through every milestone.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "chain-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "For example, if your claim is \"Dartmouth students need a better way to find study groups\":", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "chain-b1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Smoke Test:", "styles": { "bold": true } },
+        { "type": "text", "text": " \"The 'find your group' framing got 18% conversion vs. 7% for the scheduling framing\"", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "chain-b2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Stranger Test:", "styles": { "bold": true } },
+        { "type": "text", "text": " \"4 of 5 users found a study group in under 2 minutes. 3 said they'd use it again.\"", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "chain-b3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Roadmap Surgery:", "styles": { "bold": true } },
+        { "type": "text", "text": " \"Killed the chat feature (low RICE score); doubled down on group matching (highest user value)\"", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "chain-b4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Launch:", "styles": { "bold": true } },
+        { "type": "text", "text": " \"42 signups in first week. 60% activation rate. 8 users came back on day 7.\"", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "chain-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Every link in the chain must cite a specific number, quote, or metric. ", "styles": {} },
+        { "type": "text", "text": "No vague summaries.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-wrong",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "What We Got Wrong", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "wrong-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 List the top 3 things you believed at the start of term 2 that turned out to be wrong.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "wrong-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "For each one:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "wrong-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "What you believed", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "wrong-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "When you learned it was wrong (which milestone?)", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "wrong-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "What you did about it", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "wrong-note",
+      "type": "callout",
+      "props": { "emoji": "\ud83d\udccc", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This is not a failure section. It's a learning section. Teams that can't name 3 wrong assumptions probably weren't testing hard enough.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-4",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-metrics",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Metrics Scorecard", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "metrics-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Go back to your ", "styles": {} },
+        { "type": "text", "text": "Success Metrics and Validation Plan", "styles": { "bold": true } },
+        { "type": "text", "text": " from earlier in the course. For each metric you defined:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "metrics-table",
+      "type": "table",
+      "props": { "textColor": "default", "backgroundColor": "default" },
+      "content": {
+        "type": "tableContent",
+        "rows": [
+          {
+            "cells": [
+              [{ "type": "text", "text": "Metric", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "Target", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "Actual", "styles": { "bold": true } }],
+              [{ "type": "text", "text": "What the gap tells you", "styles": { "bold": true } }]
+            ]
+          },
+          {
+            "cells": [
+              [{ "type": "text", "text": "(your metric)", "styles": {} }],
+              [{ "type": "text", "text": "(your target)", "styles": {} }],
+              [{ "type": "text", "text": "(your result)", "styles": {} }],
+              [{ "type": "text", "text": "(your analysis)", "styles": {} }]
+            ]
+          }
+        ]
+      },
+      "children": []
+    },
+    {
+      "id": "spacer-5",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-pmf",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "PMF Verdict", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pmf-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Answer the same 3 PMF questions from the pivot milestone. This time, ", "styles": {} },
+        { "type": "text", "text": "answer with data, not hope:", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "pmf-q1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Would users be meaningfully disappointed", "styles": { "bold": true } },
+        { "type": "text", "text": " if this product didn't exist? What's your evidence?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pmf-q2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Did they take a real step to get value?", "styles": { "bold": true } },
+        { "type": "text", "text": " Sign up, complete a task, invite someone \u2014 what's your activation data?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pmf-q3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Did they come back a second time?", "styles": { "bold": true } },
+        { "type": "text", "text": " What's your retention data?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pmf-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Write a 1-paragraph honest assessment. Do you have product-market fit? If yes, prove it. If no, say what's missing. If it's unclear, say what you'd test next.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-6",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-shareout",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Class Shareout", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "shareout-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Each team gets ", "styles": {} },
+        { "type": "text", "text": "3 minutes", "styles": { "bold": true } },
+        { "type": "text", "text": " and ", "styles": {} },
+        { "type": "text", "text": "4 slides:", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 1:", "styles": { "bold": true } },
+        { "type": "text", "text": " Your claim + the evidence chain (smoke test \u2192 strangers \u2192 launch data)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 2:", "styles": { "bold": true } },
+        { "type": "text", "text": " Best product screenshots + your key metric", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 3:", "styles": { "bold": true } },
+        { "type": "text", "text": " What you got wrong + what you changed", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "slide-4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Slide 4:", "styles": { "bold": true } },
+        { "type": "text", "text": " PMF verdict + what you'd test next with one more term", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-7",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "shareout-feedback",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "After each team, the class responds:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "feedback-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Prompt 1: \"Do you buy it?\"", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 Hold up fingers: 1 = not yet, 2 = getting there, 3 = yes.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "feedback-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Prompt 2: \"Most impressive evidence?\"", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 One person calls out the strongest data point.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "shareout-note",
+      "type": "callout",
+      "props": { "emoji": "\ud83d\udccc", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Same format as the pivot shareout. That's intentional. The pivot asked \"do you buy their decision?\" This asks \"do you buy their evidence?\" The loop is closed.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-8",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-turnin",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Turn In", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "turnin-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Create a GitHub Issue titled ", "styles": {} },
+        { "type": "text", "text": "\"Evidence Reckoning: [Team Name]\"", "styles": { "bold": true } },
+        { "type": "text", "text": " with the ", "styles": {} },
+        { "type": "text", "text": "documentation", "styles": { "code": true } },
+        { "type": "text", "text": " label, assigned to ", "styles": {} },
+        { "type": "text", "text": "@timofei7", "styles": { "code": true } },
+        { "type": "text", "text": ". Include:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Assumption tracker", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 validated / invalidated / still unknown for each assumption, with citations", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Evidence chain", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 your most important claim traced through every milestone with data", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "What we got wrong", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 top 3 wrong assumptions with timeline and response", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Metrics scorecard", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 target vs. actual for each success metric", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-5",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "PMF verdict", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 honest 1-paragraph assessment with data", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-6",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Presentation slides", "styles": { "bold": true } },
+        { "type": "text", "text": " (link to Google Slides or PDF)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-end",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    }
+  ]
+}

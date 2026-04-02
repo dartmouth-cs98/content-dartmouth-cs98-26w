@@ -1,0 +1,410 @@
+{
+  "blocks": [
+    {
+      "id": "spacer-top",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-big-question",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Launch Day", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "You validated the message. You tested with strangers. You reprioritized the roadmap. You locked down security. Everything before this was preparation.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Now you ship.", "styles": { "bold": true } },
+        { "type": "text", "text": " Not a demo. Not a presentation to classmates. A real launch to real target users who will use your product without you standing over their shoulder.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "intro-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Launching is categorically different from demoing. Users don't read your mind, they don't know your roadmap, and they will use your product in ways you didn't anticipate. That's the point.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "goal-callout",
+      "type": "callout",
+      "props": { "emoji": "\ud83c\udfaf", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Goal: ", "styles": { "bold": true } },
+        { "type": "text", "text": "Deploy your product to real users, announce it publicly, monitor it for 48 hours, and track whether users activate.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-checklist",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Launch Checklist", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "checklist-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\ud83d\ude80 Every item must be checked off before you announce:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "check-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Production deployment is live", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 link to your live URL or app store listing", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "check-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Error monitoring is in place", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 Sentry, LogRocket, PostHog, or even a simple error logging endpoint. You need to know when things break without a user telling you.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "check-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Onboarding works without help", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 a new user can get to your core value in under 2 minutes. Test this by watching a stranger try it (you did this already in Prove It With Strangers).", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "check-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "README works for a new developer", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 someone who's never seen your repo can clone, install, and run it. If you're not sure, ask another team to try.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "check-b5",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Activation metric defined", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 what's the ONE action that means a user \"gets it\"? Sign up? Complete a task? Invite someone? You need to track this.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-announce",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Launch", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "announce-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Tell your target users about your product. ", "styles": {} },
+        { "type": "text", "text": "This is not a class presentation \u2014 it's the actual message you send to real people.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "announce-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Use the better-performing landing page from your smoke test. Launch on at least 2 platforms:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "platform-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Show HN", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 good for developer-facing products", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "platform-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Relevant subreddit or Discord", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 where your actual users hang out. Be genuine, not spammy.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "platform-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "BetaList or Product Hunt", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 for consumer or SaaS products", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "platform-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Direct outreach", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 email, DM, or in-person to your target user communities", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "announce-note",
+      "type": "callout",
+      "props": { "emoji": "\ud83d\udccc", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Products with demo videos convert 20\u201330% higher than static screenshots. Record a 2-minute Loom walkthrough and include it.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-oncall",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "48-Hour On-Call", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "oncall-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 For 48 hours after launch, maintain an incident log.", "styles": {} },
+        { "type": "text", "text": " This is your on-call rotation.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "oncall-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "For every issue that comes up:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "oncall-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Timestamp", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "oncall-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "What happened", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "oncall-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Who handled it", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "oncall-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "How it was resolved", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "oncall-b5",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Time to resolve", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "oncall-note",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "\"No issues came up\" is a valid entry if your monitoring confirms it. But if you have zero entries and no monitoring data, you probably just weren't watching.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-4",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-kill",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "The Kill List", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "kill-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Launch is not just about adding things. ", "styles": {} },
+        { "type": "text", "text": "What did you remove to focus?", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "kill-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "List at least 1 feature, page, or code path you removed or disabled before launch. Cutting scope to ship is a professional skill \u2014 not a failure.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-5",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-turnin",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Turn In", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "turnin-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\ud83d\ude80 Create a GitHub Issue titled ", "styles": {} },
+        { "type": "text", "text": "\"Ship It: [Team Name]\"", "styles": { "bold": true } },
+        { "type": "text", "text": " with the ", "styles": {} },
+        { "type": "text", "text": "documentation", "styles": { "code": true } },
+        { "type": "text", "text": " label, assigned to ", "styles": {} },
+        { "type": "text", "text": "@timofei7", "styles": { "code": true } },
+        { "type": "text", "text": ". Include:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Launch checklist", "styles": { "bold": true } },
+        { "type": "text", "text": " (all items checked, with links)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Launch announcement", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 the actual text you sent + where + reach metrics", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "48-hour on-call log", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "First-week metrics:", "styles": { "bold": true } },
+        { "type": "text", "text": " new users, activation rate, top 3 user actions, error rate", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-5",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Kill list", "styles": { "bold": true } },
+        { "type": "text", "text": " \u2014 what you cut to ship", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-6",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Best user quote and worst user complaint", "styles": { "bold": true } },
+        { "type": "text", "text": " (with context)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-end",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    }
+  ]
+}

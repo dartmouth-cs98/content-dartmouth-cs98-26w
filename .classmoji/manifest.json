@@ -201,6 +201,42 @@
             "pivot-persevere-or-refocus"
           ],
           "slides": []
+        },
+        "smoke-test": {
+          "pages": [
+            "smoke-test"
+          ],
+          "slides": []
+        },
+        "prove-it-with-strangers": {
+          "pages": [
+            "prove-it-with-strangers"
+          ],
+          "slides": []
+        },
+        "roadmap-surgery": {
+          "pages": [
+            "roadmap-surgery"
+          ],
+          "slides": []
+        },
+        "lock-the-doors-code-review": {
+          "pages": [
+            "lock-the-doors-code-review"
+          ],
+          "slides": []
+        },
+        "ship-it": {
+          "pages": [
+            "ship-it"
+          ],
+          "slides": []
+        },
+        "the-evidence-reckoning": {
+          "pages": [
+            "the-evidence-reckoning"
+          ],
+          "slides": []
         }
       }
     }
