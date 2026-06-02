@@ -58,39 +58,9 @@
           ],
           "slides": []
         },
-        "feature-spect-and-roadmap": {
-          "pages": [
-            "feature-spec-and-roadmap"
-          ],
-          "slides": []
-        },
-        "project-proposal": {
-          "pages": [
-            "project-proposal"
-          ],
-          "slides": []
-        },
         "first-team-meeting-worksheet": {
           "pages": [
             "first-team-meeting-worksheet"
-          ],
-          "slides": []
-        },
-        "hack-a-thing-2": {
-          "pages": [
-            "hackathing2"
-          ],
-          "slides": []
-        },
-        "scaffolding": {
-          "pages": [
-            "scaffolding"
-          ],
-          "slides": []
-        },
-        "sprint-1-2-transition": {
-          "pages": [
-            "sprint-12-transition"
           ],
           "slides": []
         },
@@ -106,69 +76,39 @@
           ],
           "slides": []
         },
-        "sprint-2-implementation-and-data-wiring": {
+        "project-proposal": {
           "pages": [
-            "sprint-2-implementation-data-wiring"
+            "project-proposal"
           ],
           "slides": []
         },
-        "watch-ux-research": {
-          "pages": [],
-          "slides": []
-        },
-        "watch-agile": {
-          "pages": [],
-          "slides": []
-        },
-        "sprint-1-planning-your-first-sprint": {
+        "hack-a-thing-2": {
           "pages": [
-            "sprint-1-planning-your-first-sprint"
+            "hackathing2"
           ],
           "slides": []
         },
-        "prototype": {
+        "feature-spect-and-roadmap": {
           "pages": [
-            "grayscale-prototype"
+            "feature-spec-and-roadmap"
           ],
           "slides": []
         },
-        "watch-ui-design": {
-          "pages": [],
-          "slides": []
-        },
-        "sprint-2-3-transition": {
+        "scaffolding": {
           "pages": [
-            "sprint-23-transition"
+            "scaffolding"
           ],
           "slides": []
         },
-        "sprint-4-5-transition": {
+        "sprint-1-2-transition": {
           "pages": [
-            "sprint-45-transition"
+            "sprint-12-transition"
           ],
           "slides": []
         },
-        "sprint-5-user-testing-plan": {
+        "sprint-5-retrospective-start-sprint-6": {
           "pages": [
-            "sprint-5-user-testing-plan"
-          ],
-          "slides": []
-        },
-        "sprint-5-6-transition": {
-          "pages": [
-            "sprint-56-transition"
-          ],
-          "slides": []
-        },
-        "close-out-sprints-for-term": {
-          "pages": [
-            "close-out-sprints-for-term"
-          ],
-          "slides": []
-        },
-        "term-demo-session-and-user-testing": {
-          "pages": [
-            "term-demos-and-testing"
+            "sprint-5-retrospective-start-sprint-6"
           ],
           "slides": []
         },
@@ -190,57 +130,129 @@
           ],
           "slides": []
         },
+        "sprint-5-user-testing-plan": {
+          "pages": [
+            "sprint-5-user-testing-plan"
+          ],
+          "slides": []
+        },
+        "sprint-4-5-transition": {
+          "pages": [
+            "sprint-45-transition"
+          ],
+          "slides": []
+        },
+        "close-out-sprints-for-term": {
+          "pages": [
+            "close-out-sprints-for-term"
+          ],
+          "slides": []
+        },
+        "sprint-5-6-transition": {
+          "pages": [
+            "sprint-56-transition"
+          ],
+          "slides": []
+        },
+        "term-demo-session-and-user-testing": {
+          "pages": [
+            "term-demos-and-testing"
+          ],
+          "slides": []
+        },
         "term-1-summary": {
           "pages": [
             "term-1-summary"
           ],
           "slides": []
         },
-        "pivot-persevere-or-refocus": {
+        "sprint-1-retrospective-start-sprint-2": {
           "pages": [
-            "pivot-persevere-or-refocus"
+            "sprint-1-retrospective-start-sprint-2"
           ],
           "slides": []
         },
-        "smoke-test": {
+        "sprint-2-retrospective-start-sprint-3": {
           "pages": [
-            "smoke-test"
+            "sprint-2-retrospective-start-sprint-3"
           ],
           "slides": []
         },
-        "prove-it-with-strangers": {
+        "sprint-3-retrospective-start-sprint-4": {
           "pages": [
-            "prove-it-with-strangers"
+            "sprint-3-retrospective-start-sprint-4"
           ],
           "slides": []
         },
-        "roadmap-surgery": {
+        "sprint-4-retrospective-start-sprint-5": {
           "pages": [
-            "roadmap-surgery"
+            "sprint-4-retrospective-start-sprint-5"
           ],
           "slides": []
         },
-        "code-review-security-audit": {
+        "watch-ux-research": {
+          "pages": [],
+          "slides": []
+        },
+        "watch-agile": {
+          "pages": [],
+          "slides": []
+        },
+        "sprint-1-planning-your-first-sprint": {
           "pages": [
-            "code-review-security-audit"
+            "sprint-1-planning-your-first-sprint"
           ],
           "slides": []
         },
-        "security-review": {
+        "watch-ui-design": {
+          "pages": [],
+          "slides": []
+        },
+        "sprint-2-implementation-and-data-wiring": {
           "pages": [
-            "security-review"
+            "sprint-2-implementation-data-wiring"
           ],
           "slides": []
         },
-        "ship-it": {
+        "prototype": {
           "pages": [
-            "ship-it"
+            "grayscale-prototype"
           ],
           "slides": []
         },
-        "the-evidence-reckoning": {
+        "sprint-2-3-transition": {
           "pages": [
-            "the-evidence-reckoning"
+            "sprint-23-transition"
+          ],
+          "slides": []
+        },
+        "sprint-1-term-2-planning-and-start": {
+          "pages": [
+            "sprint-1-term-2-planning-and-start"
+          ],
+          "slides": []
+        },
+        "sprint-6-retrospective-start-sprint-7": {
+          "pages": [
+            "sprint-6-retrospective-start-sprint-7"
+          ],
+          "slides": []
+        },
+        "sprint-7-retrospective-start-sprint-8": {
+          "pages": [
+            "sprint-7-retrospective-start-sprint-8"
+          ],
+          "slides": []
+        },
+        "sprint-8-retrospective-start-sprint-9": {
+          "pages": [
+            "sprint-8-retrospective-start-sprint-9"
+          ],
+          "slides": []
+        },
+        "sprint-9-retrospective": {
+          "pages": [
+            "sprint-9-retrospective"
           ],
           "slides": []
         },
@@ -258,7 +270,17 @@
       "logistics",
       "winterim-work",
       "project-self-reflection",
-      "dartmouth-cs98"
+      "personal-success",
+      "class-term-2-welcome",
+      "dartmouth-cs98",
+      "figma-prototype-v2",
+      "class-user-testing-the-figma",
+      "success-metrics-and-validation-plan",
+      "publishing-and-ad-campaign",
+      "inbound-marketing",
+      "pivot-persevere-or-refocus",
+      "final-project-submission",
+      "smoke-test"
     ],
     "slides": [
       "code-review",
