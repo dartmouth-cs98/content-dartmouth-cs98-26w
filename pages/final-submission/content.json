@@ -3,568 +3,1388 @@
     {
       "id": "spacer-top",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-one-last-thing",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "One Last Thing", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "One Last Thing",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "intro-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "This is the last one. Demos are done, the code (mostly) works, and soon you'll scatter to jobs, grad school, and summer. But before you go, let's turn a year of work into something you can show off.", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This is the last one. Demos are done, the code (mostly) works, and soon you'll scatter to jobs, grad school, and summer. But before you go, let's write this up in a way that is useful to you.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "intro-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "For years I had teams write a Medium post. It was fine. The trouble is that ", "styles": {} },
-        { "type": "text", "text": "\"we built an app\"", "styles": { "italic": true } },
-        { "type": "text", "text": " isn't what gets you hired or into grad school. A case study is — it's what recruiters and grad programs want to see. So that's what each of you is going to make.", "styles": {} }
+        {
+          "type": "text",
+          "text": "For years, I had teams write a Medium post. It was fine. The trouble is that ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "\"we built an app\"",
+          "styles": {
+            "italic": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " isn't necessarily something others are interested in reading. A case study however, is much more useful to you as something you can show even if your project hosting goes away.",
+          "styles": {}
+        }
       ],
+      "children": []
+    },
+    {
+      "id": "7a230dcc-8f03-4207-ae5a-d013c82c796f",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
       "children": []
     },
     {
       "id": "goal-callout",
       "type": "callout",
-      "props": { "emoji": "🎯", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textAlignment": "left",
+        "emoji": "🎯"
+      },
       "content": [
-        { "type": "text", "text": "Goal: ", "styles": { "bold": true } },
-        { "type": "text", "text": "As a team, you write one short debrief of the term and cut a video trailer everyone can reuse. Then each of you writes your own case study — the story of your role, your process, the evidence, and what you learned.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Goal: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "As a team, you write one short debrief of the term and cut a video trailer everyone can reuse. Then each of you writes your own case study — the story of your role, your process, the evidence, and what you learned.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-what-is",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "What's a Case Study? (And Why Not a Medium Post)", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "What's a Case Study?",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "whatis-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "A case study is the story of how you think, not just what you built: the problem you found, the approach you chose, what the data said, and what you'd do next. Designers and PMs have lived on these for years — engineers need them now too.", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A case study is the story of how you think, not just what you built: the problem you found, the approach you chose, what the data said, and what you'd do next. Designers and PMs have lived on these for years — engineers need them now too.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "whatis-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "A blog post is a victory lap. A case study is ", "styles": {} },
-        { "type": "text", "text": "evidence.", "styles": { "bold": true } },
-        { "type": "text", "text": " The difference is showing the messy middle — the pivot, the thing that broke, the metric you missed — and what you did about it. That's what makes someone believe you can do it again.", "styles": {} }
+        {
+          "type": "text",
+          "text": "A blog post is a victory lap. A case study is ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "evidence.",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " The difference is showing the messy middle — the pivot, the thing that broke, the metric you missed — and what you did about it. That's what makes someone believe you can do it again.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "whatis-example",
       "type": "callout",
-      "props": { "emoji": "📌", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textAlignment": "left",
+        "emoji": "📌"
+      },
       "content": [
-        { "type": "text", "text": "Weak: ", "styles": { "bold": true } },
-        { "type": "text", "text": "\"We built a study-group finder with React and Firebase.\"   ", "styles": {} },
-        { "type": "text", "text": "Strong: ", "styles": { "bold": true } },
-        { "type": "text", "text": "\"Students in big intro courses told us they felt invisible, so we tested whether a 30-second group-matcher would actually get used. 41% of cold visitors signed up — but barely any came back. Here's what that gap taught us about the real problem.\"", "styles": {} }
+        {
+          "type": "text",
+          "text": "Weak: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "\"We built a study-group finder with React and Firebase.\"   ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Strong: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "\"Students in big intro courses told us they felt invisible, so we tested whether a 30-second group-matcher would actually get used.  80% surveyed said they would use it — but barely any came back after signup. Here's what that taught us about the real problem.\"",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-trailer",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "The Team Trailer", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The Team Trailer",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "trailer-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "🚀 As a team, cut ", "styles": {} },
-        { "type": "text", "text": "one", "styles": { "bold": true } },
-        { "type": "text", "text": " short video trailer of your product. One trailer, shared — every teammate reuses it in their own case study, portfolio, and LinkedIn.", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 As a team, cut ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "one",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " short video trailer of your product. One trailer, shared — every teammate reuses it in their own case study, portfolio, and LinkedIn.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "trailer-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "Keep it to 30–90 seconds. Show the product actually doing its thing, with a little polish and some advertising copy. You don't need to walk through every feature — future classes don't care that you have a login page, they want to feel what your product is about.", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Keep it to 30–90 seconds. Show the product actually doing its thing, with a little polish and some advertising copy. You don't need to walk through every feature — future classes don't care that you have a login page, they want to feel what your product is about.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "trailer-why",
       "type": "callout",
-      "props": { "emoji": "💡", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "This one lives on for posterity to inspire next year's teams — the same way the demos before you inspired you. Make it something you'd want your name on.", "styles": {} }],
+      "props": {
+        "textAlignment": "left",
+        "emoji": "💡"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This one lives on for posterity to inspire next year's teams — the same way the demos before you inspired you. Make it something you'd want your name on.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "trailer-res-label",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "Trailer-making resources:", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Trailer-making resources:",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "trailer-res-1",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "link", "href": "https://vimeo.com/create/trailers", "content": [{ "type": "text", "text": "Vimeo trailer maker", "styles": {} }] }
+        {
+          "type": "link",
+          "href": "https://vimeo.com/create/trailers",
+          "content": [
+            {
+              "type": "text",
+              "text": "Vimeo trailer maker",
+              "styles": {}
+            }
+          ]
+        }
       ],
       "children": []
     },
     {
       "id": "trailer-res-2",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "link", "href": "https://www.descript.com/tools/trailer-maker", "content": [{ "type": "text", "text": "Descript trailer maker", "styles": {} }] }
+        {
+          "type": "link",
+          "href": "https://www.descript.com/tools/trailer-maker",
+          "content": [
+            {
+              "type": "text",
+              "text": "Descript trailer maker",
+              "styles": {}
+            }
+          ]
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-3",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-team-report",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "The Team Report", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "The Team Report",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "teamreport-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "🚀 As a team, write one short debrief of the term. Be honest about ", "styles": {} },
-        { "type": "text", "text": "what went well and what didn't", "styles": { "bold": true } },
-        { "type": "text", "text": ", look back at your validation and success metrics, and say what you'd do next. One report per team — your individual case studies come after.", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 As a team, write one short debrief of the term. Be honest about ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "what went well and what didn't",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ", look back at your validation and success metrics, and say what you'd do next. One report per team — your individual case studies come after.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "teamreport-template",
       "type": "codeBlock",
-      "props": { "language": "markdown" },
-      "content": [{ "type": "text", "text": "# Final Project Report\n\n## Summary/Debrief\n*what went well and what didn't*\n\n## Validation\n*take a look back on your proposed validation, how did validation go? talk about any success metrics achieved and the challenges of those not achieved*\n\n## Potential Next Steps\n*if you were to continue what would be next?*\n\n## Final Takeaways\n*talk about any lessons learned, what could have been done differently, hopes for the future, what you really enjoyed*\n\n## Trailer\nlink to video trailer", "styles": {} }],
+      "props": {
+        "language": "markdown"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "# Final Project Report\n\n## Summary/Debrief\n*what went well and what didn't*\n\n## Validation\n*take a look back on your proposed validation, how did validation go? \ntalk about any success metrics achieved and the challenges of those not achieved*\n\n## Potential Next Steps\n*if you were to continue what would be next?*\n\n## Final Takeaways\n*talk about any lessons learned, what could have been done differently, \nhopes for the future, what you really enjoyed*\n\n## Trailer\nlink to video trailer",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "spacer-team",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-your-cs",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "Your Case Study", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your Case Study",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "yourcs-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "🚀 Now each of you writes your own case study — ", "styles": {} },
-        { "type": "text", "text": "yes, individually, one per person.", "styles": { "bold": true } },
-        { "type": "text", "text": " On a team project, \"we\" quietly erases who did what. Your case study is where you claim your work and make it legible to someone who wasn't in the room.", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 Now each of you writes your own case study — ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "yes, individually, one per person.",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " On a team project, \"we\" quietly erases your individual stories. Your case study is where you claim your work and make it legible to someone who wasn't in the room.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-synthesis",
       "type": "callout",
-      "props": { "emoji": "💡", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textAlignment": "left",
+        "emoji": "💡"
+      },
       "content": [
-        { "type": "text", "text": "The good part: this isn't new work. ", "styles": { "bold": true } },
-        { "type": "text", "text": "You already did the hard stuff this year — the case study just pulls it into one honest story.", "styles": {} }
+        {
+          "type": "text",
+          "text": "The good part: this isn't new work. ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "You already did the hard stuff this year — the case study just pulls it into one honest story.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-template-intro",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Use this as your skeleton — and adapt it to your role. A designer's case study and a backend dev's should not read the same:", "styles": {} }
+        {
+          "type": "text",
+          "text": "Use this as your skeleton — and adapt it to your role:",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b1",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "The problem", "styles": { "bold": true } },
-        { "type": "text", "text": " — who was hurting, and why it mattered. The need you found.", "styles": {} }
+        {
+          "type": "text",
+          "text": "The problem",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — who was hurting, and why it mattered. The need you found.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b2",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "What you built", "styles": { "bold": true } },
-        { "type": "text", "text": " — the product in a sentence or two. Drop in the trailer and a screen or two.", "styles": {} }
+        {
+          "type": "text",
+          "text": "What you built",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — the product in a sentence or two. Drop in the trailer and a screen or two.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b3",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Your role", "styles": { "bold": true } },
-        { "type": "text", "text": " — what you personally owned. Be specific: features, systems, designs, decisions.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Your role",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — what you personally owned. Be specific: features, systems, designs, decisions.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b4",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Process and pivots", "styles": { "bold": true } },
-        { "type": "text", "text": " — how you got from idea to product. The hard call, what changed, and why.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Process and pivots",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — how you got from idea to product. The hard call, what changed, and why.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-journey",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Show the journey", "styles": { "bold": true } },
-        { "type": "text", "text": " — the napkin sketch, the ugly first prototype, the early screenshots you're a little embarrassed by, the before-and-afters. Watching it go from cringe to clean is half the fun.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Show the journey",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — the napkin sketch, the ugly first prototype, the early screenshots you're a little embarrassed by, the before-and-afters. Watching it go from cringe to clean is half the fun.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b5",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "The hardest thing you solved", "styles": { "bold": true } },
-        { "type": "text", "text": " — one problem you're proud of. Show the messy middle: a diagram, a PR, a before/after.", "styles": {} }
+        {
+          "type": "text",
+          "text": "The hardest thing you solved",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — one problem you're proud of. Show the messy middle: a diagram, a PR, a before/after.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b6",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Did it work?", "styles": { "bold": true } },
-        { "type": "text", "text": " — the evidence. The metrics you hit, and the ones you missed.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Did it work?",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — the evidence. The metrics you hit, and the ones you missed.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b7",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "What you'd do differently", "styles": { "bold": true } },
-        { "type": "text", "text": " — the honest part. A mistake that taught you something.", "styles": {} }
+        {
+          "type": "text",
+          "text": "What you'd do differently",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — the honest part. A mistake that taught you something.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-b8",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "What you took away", "styles": { "bold": true } },
-        { "type": "text", "text": " — the skill or insight you're carrying forward.", "styles": {} }
+        {
+          "type": "text",
+          "text": "What you took away",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — the skill or insight you're carrying forward.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "yourcs-publish",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Publish it where it'll actually be seen. A LinkedIn post or article lands it in front of recruiters; the project's GitHub README reaches anyone who finds your repo; a dev.to or Medium write-up, your own portfolio site, a Notion page, or a clean PDF all work too. Then drop the link in your ", "styles": {} },
-        { "type": "text", "text": "Individual Case Study", "styles": { "code": true } },
-        { "type": "text", "text": " issue — wherever it lives, it's yours to keep long after this class ends.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Publish it where it'll actually be seen. A LinkedIn post or article lands it in front of recruiters; a Medium write-up, your own portfolio site, a Notion page, or just a clean PDF you upload. ",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
-      "id": "yourcs-noportfolio",
+      "id": "56c3d239-c08e-43f4-8362-7fc66bb82e3f",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Want a home for all of it? You've shipped your team's project, so you know the drill — your own page is an afternoon on GitHub Pages or Vercel, both free.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Then drop the link in your ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Individual Case Study",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " issue.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "ai-voice",
       "type": "callout",
-      "props": { "emoji": "✍️", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textAlignment": "left",
+        "emoji": "✍️"
+      },
       "content": [
-        { "type": "text", "text": "You're welcome to use AI to help you write this, as always — just keep it your story, in your voice. We practice what we preach: this page was co-authored with AI, byline and all. The voice still has to be yours.", "styles": {} }
+        {
+          "type": "text",
+          "text": "You're welcome to use AI to help you write this, as always — just keep it your story, in your voice. ",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-4",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-story",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "Make It a Story", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Make It a Story",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "story-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "Those beats are the skeleton. What makes a case study worth reading is that it's a story — tension, a turn, a payoff. Nobody finishes a status report.", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Those beats are the skeleton. What makes a case study worth reading is that it's a story — tension, a turn, a payoff. Nobody finishes a status report.",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "story-2",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Open with a hook.", "styles": { "bold": true } },
-        { "type": "text", "text": " Drop the reader into the tension — a moment, a number, a question — not a table of contents. The first line decides whether they read the second.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Open with a hook.",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " Drop the reader into the tension — a moment, a number, a question — not a table of contents. The first line decides whether they read the second.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "story-hook-ex",
       "type": "callout",
-      "props": { "emoji": "📌", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "textAlignment": "left",
+        "emoji": "📌"
+      },
       "content": [
-        { "type": "text", "text": "Hooks you: ", "styles": { "bold": true } },
-        { "type": "text", "text": "\"The night before our demo, the whole thing crashed.\"   ", "styles": {} },
-        { "type": "text", "text": "Loses you: ", "styles": { "bold": true } },
-        { "type": "text", "text": "\"This term we built a scheduling app.\"", "styles": {} }
+        {
+          "type": "text",
+          "text": "Hooks you: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "\"The night before our demo, the whole thing crashed.\"   ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Loses you: ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "\"This term we built a scheduling app.\"",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "story-3",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Then take us somewhere.", "styles": { "bold": true } },
-        { "type": "text", "text": " What you tried, the moment it broke or the data surprised you, and what you did about it. The struggle is the interesting part — don't skip to the happy ending. And lead with why it matters; nobody cares what you built it with until they care why it exists.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Then take us somewhere.",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " What you tried, the moment it broke or the data surprised you, and what you did about it. The struggle is the interesting part — don't skip to the happy ending. And lead with why it matters; nobody cares what you built it with until they care why it exists.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "craft-label",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "A few more things that help:", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "A few more things that help:",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "good-b2",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Use real numbers. ", "styles": { "bold": true } },
-        { "type": "text", "text": "\"Users loved it\" is a vibe. \"41% signed up, 6% came back\" is a finding.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Use real numbers. ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "\"Users loved it\" is a vibe. \"41% signed up, 6% came back\" is a finding.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "good-b4",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "One flow, shown well. ", "styles": { "bold": true } },
-        { "type": "text", "text": "A short clip or one clean mockup of your key flow beats a wall of screenshots.", "styles": {} }
+        {
+          "type": "text",
+          "text": "One flow, shown well. ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "A short clip or one clean mockup of your key flow beats a wall of screenshots.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "good-b5",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Make it scannable. ", "styles": { "bold": true } },
-        { "type": "text", "text": "If someone reads only your headers and captions, they should still get it. Three-minute read, tops.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Make it scannable. ",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": "If someone reads only your headers and captions, they should still get it. Three-minute read, tops.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "good-study-label",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
-      "content": [{ "type": "text", "text": "Your case study is really a product brag document — proof you can build. A few modern reads worth your time:", "styles": {} }],
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Your case study is really a product brag document — proof you can build. A few modern reads worth your time:",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "good-link-2",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "link", "href": "https://www.swyx.io/learn-in-public", "content": [{ "type": "text", "text": "swyx: Learn in Public", "styles": {} }] },
-        { "type": "text", "text": " — the modern playbook (read by millions) for turning your work into a reputation. Writing up your project is exactly this, done once and done well.", "styles": {} }
+        {
+          "type": "link",
+          "href": "https://www.swyx.io/learn-in-public",
+          "content": [
+            {
+              "type": "text",
+              "text": "swyx: Learn in Public",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " — the modern playbook for turning your work into a reputation. Writing up your project is exactly this.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "good-link-3",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "link", "href": "https://sfstandard.com/2026/03/05/engineer-2025-ai-land-everyone-s-builder-now/", "content": [{ "type": "text", "text": "SF Standard: In AI Land, Everyone's a 'Builder' Now", "styles": {} }] },
-        { "type": "text", "text": " — 2026 journalism on the AI-era shift where engineers become product engineers who own the whole thing: design, build, ship. The world your case study is walking into.", "styles": {} }
+        {
+          "type": "link",
+          "href": "https://sfstandard.com/2026/03/05/engineer-2025-ai-land-everyone-s-builder-now/",
+          "content": [
+            {
+              "type": "text",
+              "text": "SF Standard: In AI Land, Everyone's a 'Builder' Now",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " — 2026 journalism on the AI-era shift where engineers become product engineers who own the whole thing: design, build, ship.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-5",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "h2-turnin",
       "type": "heading",
-      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "To Turn In", "styles": {} }],
+      "props": {
+        "backgroundColor": "blue",
+        "textColor": "default",
+        "textAlignment": "left",
+        "level": 2,
+        "isToggleable": false
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "To Turn In",
+          "styles": {}
+        }
+      ],
       "children": []
     },
     {
       "id": "turnin-1",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "🚀 As a team, find the GitHub issue titled ", "styles": {} },
-        { "type": "text", "text": "Final Submission", "styles": { "code": true } },
-        { "type": "text", "text": ". Everything goes in here:", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 As a team, find the GitHub issue titled ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Final Submission",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": ". Everything goes in here:",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-b1",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "The team trailer", "styles": { "bold": true } },
-        { "type": "text", "text": " — link or embed it.", "styles": {} }
+        {
+          "type": "text",
+          "text": "The team trailer",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — link or embed it.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-b1b",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "The team report", "styles": { "bold": true } },
-        { "type": "text", "text": " — your debrief, using the template above. One per team.", "styles": {} }
+        {
+          "type": "text",
+          "text": "The team report",
+          "styles": {
+            "bold": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " — your debrief, using the template above. One per team.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-b3",
       "type": "bulletListItem",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "Add the ", "styles": {} },
-        { "type": "text", "text": "documentation", "styles": { "code": true } },
-        { "type": "text", "text": " label, then move the issue to ", "styles": {} },
-        { "type": "text", "text": "review", "styles": { "code": true } },
-        { "type": "text", "text": " for the graders.", "styles": {} }
+        {
+          "type": "text",
+          "text": "Add the ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "documentation",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " label, then move the issue to ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "review",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " for the graders.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-individual",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "🚀 Your individual case study is its own assignment — turn it in through the ", "styles": {} },
-        { "type": "text", "text": "Individual Case Study", "styles": { "code": true } },
-        { "type": "text", "text": " issue, not the team one.", "styles": {} }
+        {
+          "type": "text",
+          "text": "🚀 Your individual case study is its own assignment — turn it in through the ",
+          "styles": {}
+        },
+        {
+          "type": "text",
+          "text": "Individual Case Study",
+          "styles": {
+            "code": true
+          }
+        },
+        {
+          "type": "text",
+          "text": " issue, not the team one.",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "turnin-form",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "🙏 Then, individually: fill out the ", "styles": {} },
-        { "type": "link", "href": "https://forms.gle/BuHviCT54KRgD6o89", "content": [{ "type": "text", "text": "team review form", "styles": {} }] },
-        { "type": "text", "text": ".", "styles": {} }
+        {
+          "type": "text",
+          "text": "🙏 Then, individually: fill out the ",
+          "styles": {}
+        },
+        {
+          "type": "link",
+          "href": "https://forms.gle/BuHviCT54KRgD6o89",
+          "content": [
+            {
+              "type": "text",
+              "text": "team review form",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ".",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "closing",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [
-        { "type": "text", "text": "That's a wrap on CS98. Go make something you'll be proud to link to — future-you, mid-job-hunt, will thank you. 🚀", "styles": {} }
+        {
+          "type": "text",
+          "text": "That's a wrap on CS98. Go make something you'll be proud to link to — future-you, mid-job-hunt, will thank you. 🚀",
+          "styles": {}
+        }
       ],
       "children": []
     },
     {
       "id": "spacer-end",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
       "content": [],
       "children": []
     },
     {
       "id": "footer-credit",
       "type": "paragraph",
-      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "center" },
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "center"
+      },
       "content": [
-        { "type": "text", "text": "— Co-Authored with MusashiBot™ © Tim Tregubov", "styles": { "italic": true } }
+        {
+          "type": "text",
+          "text": "— Co-Authored with MusashiBot™ © Tim Tregubov",
+          "styles": {
+            "italic": true
+          }
+        }
       ],
+      "children": []
+    },
+    {
+      "id": "cfa37ea9-7d25-4e35-80ed-3669931b675c",
+      "type": "paragraph",
+      "props": {
+        "backgroundColor": "default",
+        "textColor": "default",
+        "textAlignment": "left"
+      },
+      "content": [],
       "children": []
     }
   ],
