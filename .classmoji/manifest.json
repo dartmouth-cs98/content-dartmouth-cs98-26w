@@ -1,5 +1,17 @@
 {
   "modules": {
+    "case-study": {
+      "pages": [],
+      "slides": [],
+      "assignments": {
+        "individual-case-study": {
+          "pages": [
+            "final-submission"
+          ],
+          "slides": []
+        }
+      }
+    },
     "claude-hacktivity": {
       "pages": [],
       "slides": [],
@@ -64,12 +76,6 @@
           ],
           "slides": []
         },
-        "group-dynamics-worksheet": {
-          "pages": [
-            "group-dynamics-worksheet"
-          ],
-          "slides": []
-        },
         "state-of-the-art-research": {
           "pages": [
             "state-of-the-art-research"
@@ -79,6 +85,12 @@
         "project-proposal": {
           "pages": [
             "project-proposal"
+          ],
+          "slides": []
+        },
+        "group-dynamics-worksheet": {
+          "pages": [
+            "group-dynamics-worksheet"
           ],
           "slides": []
         },
@@ -106,39 +118,9 @@
           ],
           "slides": []
         },
-        "sprint-5-retrospective-start-sprint-6": {
-          "pages": [
-            "sprint-5-retrospective-start-sprint-6"
-          ],
-          "slides": []
-        },
-        "user-research": {
-          "pages": [
-            "user-research"
-          ],
-          "slides": []
-        },
-        "sprint-3-main-features-progress": {
-          "pages": [
-            "sprint-3-main-features-progress"
-          ],
-          "slides": []
-        },
-        "sprint-3-4-transition": {
-          "pages": [
-            "sprint-34-transition"
-          ],
-          "slides": []
-        },
         "sprint-5-user-testing-plan": {
           "pages": [
             "sprint-5-user-testing-plan"
-          ],
-          "slides": []
-        },
-        "sprint-4-5-transition": {
-          "pages": [
-            "sprint-45-transition"
           ],
           "slides": []
         },
@@ -148,15 +130,21 @@
           ],
           "slides": []
         },
-        "sprint-5-6-transition": {
+        "sprint-3-retrospective-start-sprint-4": {
           "pages": [
-            "sprint-56-transition"
+            "sprint-3-retrospective-start-sprint-4"
           ],
           "slides": []
         },
-        "term-demo-session-and-user-testing": {
+        "sprint-3-main-features-progress": {
           "pages": [
-            "term-demos-and-testing"
+            "sprint-3-main-features-progress"
+          ],
+          "slides": []
+        },
+        "user-research": {
+          "pages": [
+            "user-research"
           ],
           "slides": []
         },
@@ -166,9 +154,21 @@
           ],
           "slides": []
         },
-        "sprint-1-retrospective-start-sprint-2": {
+        "sprint-4-5-transition": {
           "pages": [
-            "sprint-1-retrospective-start-sprint-2"
+            "sprint-45-transition"
+          ],
+          "slides": []
+        },
+        "sprint-5-retrospective-start-sprint-6": {
+          "pages": [
+            "sprint-5-retrospective-start-sprint-6"
+          ],
+          "slides": []
+        },
+        "sprint-3-4-transition": {
+          "pages": [
+            "sprint-34-transition"
           ],
           "slides": []
         },
@@ -178,15 +178,37 @@
           ],
           "slides": []
         },
-        "sprint-3-retrospective-start-sprint-4": {
-          "pages": [
-            "sprint-3-retrospective-start-sprint-4"
-          ],
-          "slides": []
-        },
         "sprint-4-retrospective-start-sprint-5": {
           "pages": [
             "sprint-4-retrospective-start-sprint-5"
+          ],
+          "slides": []
+        },
+        "sprint-5-6-transition": {
+          "pages": [
+            "sprint-56-transition"
+          ],
+          "slides": []
+        },
+        "sprint-1-retrospective-start-sprint-2": {
+          "pages": [
+            "sprint-1-retrospective-start-sprint-2"
+          ],
+          "slides": []
+        },
+        "term-demo-session-and-user-testing": {
+          "pages": [
+            "term-demos-and-testing"
+          ],
+          "slides": []
+        },
+        "watch-ui-design": {
+          "pages": [],
+          "slides": []
+        },
+        "sprint-2-implementation-and-data-wiring": {
+          "pages": [
+            "sprint-2-implementation-data-wiring"
           ],
           "slides": []
         },
@@ -201,46 +223,6 @@
         "sprint-1-planning-your-first-sprint": {
           "pages": [
             "sprint-1-planning-your-first-sprint"
-          ],
-          "slides": []
-        },
-        "watch-ui-design": {
-          "pages": [],
-          "slides": []
-        },
-        "sprint-2-implementation-and-data-wiring": {
-          "pages": [
-            "sprint-2-implementation-data-wiring"
-          ],
-          "slides": []
-        },
-        "prototype": {
-          "pages": [
-            "grayscale-prototype"
-          ],
-          "slides": []
-        },
-        "sprint-2-3-transition": {
-          "pages": [
-            "sprint-23-transition"
-          ],
-          "slides": []
-        },
-        "sprint-1-term-2-planning-and-start": {
-          "pages": [
-            "sprint-1-term-2-planning-and-start"
-          ],
-          "slides": []
-        },
-        "sprint-6-retrospective-start-sprint-7": {
-          "pages": [
-            "sprint-6-retrospective-start-sprint-7"
-          ],
-          "slides": []
-        },
-        "sprint-7-retrospective-start-sprint-8": {
-          "pages": [
-            "sprint-7-retrospective-start-sprint-8"
           ],
           "slides": []
         },
@@ -259,6 +241,36 @@
         "final-submission": {
           "pages": [
             "final-submission"
+          ],
+          "slides": []
+        },
+        "sprint-7-retrospective-start-sprint-8": {
+          "pages": [
+            "sprint-7-retrospective-start-sprint-8"
+          ],
+          "slides": []
+        },
+        "sprint-2-3-transition": {
+          "pages": [
+            "sprint-23-transition"
+          ],
+          "slides": []
+        },
+        "sprint-6-retrospective-start-sprint-7": {
+          "pages": [
+            "sprint-6-retrospective-start-sprint-7"
+          ],
+          "slides": []
+        },
+        "sprint-1-term-2-planning-and-start": {
+          "pages": [
+            "sprint-1-term-2-planning-and-start"
+          ],
+          "slides": []
+        },
+        "prototype": {
+          "pages": [
+            "grayscale-prototype"
           ],
           "slides": []
         }
