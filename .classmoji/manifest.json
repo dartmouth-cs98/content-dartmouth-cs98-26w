@@ -243,6 +243,12 @@
             "the-evidence-reckoning"
           ],
           "slides": []
+        },
+        "final-submission": {
+          "pages": [
+            "final-submission"
+          ],
+          "slides": []
         }
       }
     }
