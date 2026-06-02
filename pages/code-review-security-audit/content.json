@@ -399,7 +399,7 @@
       "id": "h2-turnin",
       "type": "heading",
       "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
-      "content": [{ "type": "text", "text": "Turn In", "styles": {} }],
+      "content": [{ "type": "text", "text": "Share", "styles": {} }],
       "children": []
     },
     {
@@ -408,7 +408,7 @@
       "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
       "content": [
         { "type": "text", "text": "\ud83d\ude80 Create a GitHub Issue titled ", "styles": {} },
-        { "type": "text", "text": "\"Lock the Doors: [Team Name]\"", "styles": { "bold": true } },
+        { "type": "text", "text": "\"Code Review + Security Audit: [Team Name]\"", "styles": { "bold": true } },
         { "type": "text", "text": " with the ", "styles": {} },
         { "type": "text", "text": "documentation", "styles": { "code": true } },
         { "type": "text", "text": " label, assigned to ", "styles": {} },

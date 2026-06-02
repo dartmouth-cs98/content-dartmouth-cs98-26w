@@ -220,9 +220,15 @@
           ],
           "slides": []
         },
-        "lock-the-doors-code-review": {
+        "code-review-security-audit": {
           "pages": [
-            "lock-the-doors-code-review"
+            "code-review-security-audit"
+          ],
+          "slides": []
+        },
+        "security-review": {
+          "pages": [
+            "security-review"
           ],
           "slides": []
         },

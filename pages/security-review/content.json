@@ -1,0 +1,695 @@
+{
+  "blocks": [
+    {
+      "id": "spacer-top",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-hook",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Now Try To Break It", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "You've spent months building. You believe it works. Now flip the chair around and ask the harder question: what would an attacker do with this?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "intro-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "This is a real security review of your real, deployed product. Not a checklist. Not a vibe check. You're going to build a threat model, sweep your codebase with an attacker's lens, run the same tools real auditors run, and write a security report that looks like the ones professional firms publish. ", "styles": {} },
+        { "type": "text", "text": "Then you're going to fix the worst things you find.", "styles": { "bold": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "intro-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Most CS programs never make you do this. Which is how most graduates ship their first production system with a secret in git history and an auth bypass three lines deep. Let's not be that.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "goal-callout",
+      "type": "callout",
+      "props": { "emoji": "🎯", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Deliverables: ", "styles": { "bold": true } },
+        { "type": "text", "text": "(1) a one-page threat model, (2) a findings ledger with adversarial framing, (3) a security report in your repo modeled on the industry example below, and (4) at least 2 merged PRs that fix real findings.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-read-real",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Step 0: Read a Real One First", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "read-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Before you write your own, look at how the pros do it. ", "styles": {} },
+        { "type": "text", "text": "Trail of Bits audited curl ", "styles": { "bold": true } },
+        { "type": "text", "text": "(yes, that curl, the one you use every day) on behalf of OSTIF. They published the whole thing.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "read-link-1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "OSTIF → Trail of Bits curl audit summary: ", "styles": {} },
+        { "type": "link", "href": "https://ostif.org/the-ostif-audit-of-curl-with-trail-of-bits-is-complete/", "content": [{ "type": "text", "text": "ostif.org/the-ostif-audit-of-curl-with-trail-of-bits-is-complete", "styles": {} }] }
+      ],
+      "children": []
+    },
+    {
+      "id": "read-link-2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Big public catalog of real audits (browse a few from products you use): ", "styles": {} },
+        { "type": "link", "href": "https://github.com/pomerium/awesome-security-audits", "content": [{ "type": "text", "text": "github.com/pomerium/awesome-security-audits", "styles": {} }] }
+      ],
+      "children": []
+    },
+    {
+      "id": "read-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Skim the curl report and notice the shape: there's a scope section, a threat model, individual findings with severity + impact + remediation, and a summary of what was fixed. Your report will follow the same skeleton — just smaller, and about your project. The structure is the assignment.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-threatmodel",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Step 1: Build a Threat Model", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "tm-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "The threat model is the lens you carry through the rest of the audit. Without it, you're squinting at code hoping to spot bugs. With it, you know exactly what you're protecting and from whom.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "tm-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "🚀 Write a ", "styles": {} },
+        { "type": "text", "text": "one-page", "styles": { "bold": true } },
+        { "type": "text", "text": " ", "styles": {} },
+        { "type": "text", "text": "THREAT_MODEL.md", "styles": { "code": true } },
+        { "type": "text", "text": " in your repo with these four sections:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tm-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Assets ", "styles": { "bold": true } },
+        { "type": "text", "text": "— what's actually valuable here? User PII, auth tokens, API keys, payment data, source-of-truth records, content users have created. List each with where it lives (DB column, env var, log stream).", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tm-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Trust boundaries ", "styles": { "bold": true } },
+        { "type": "text", "text": "— sketch the system. Where does untrusted input cross into your code? Where does your code call out to third parties? Each line crossing is a boundary; each boundary is where bugs hide.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tm-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Adversaries ", "styles": { "bold": true } },
+        { "type": "text", "text": "— who's attacking? Random internet drive-by, an authenticated user trying to read another user's stuff, a malicious file uploaded to your service, a compromised dependency. Be specific about what each one can do.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tm-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Out of scope ", "styles": { "bold": true } },
+        { "type": "text", "text": "— what you're explicitly not auditing this pass (e.g. cloud provider config, the security of npm itself). Naming it keeps you honest.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "tm-callout",
+      "type": "callout",
+      "props": { "emoji": "💡", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "STRIDE-lite is a useful frame: for each component, ask is it vulnerable to ", "styles": {} },
+        { "type": "text", "text": "S", "styles": { "bold": true } },
+        { "type": "text", "text": "poofing, ", "styles": {} },
+        { "type": "text", "text": "T", "styles": { "bold": true } },
+        { "type": "text", "text": "ampering, ", "styles": {} },
+        { "type": "text", "text": "R", "styles": { "bold": true } },
+        { "type": "text", "text": "epudiation, ", "styles": {} },
+        { "type": "text", "text": "I", "styles": { "bold": true } },
+        { "type": "text", "text": "nfo disclosure, ", "styles": {} },
+        { "type": "text", "text": "D", "styles": { "bold": true } },
+        { "type": "text", "text": "oS, or ", "styles": {} },
+        { "type": "text", "text": "E", "styles": { "bold": true } },
+        { "type": "text", "text": "levation of privilege? Don't write a thesis — one bullet per applicable threat is plenty.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-3",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-three-passes",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Step 2: The Three-Pass Sweep", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "tp-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Real auditors don't just \"look at the code.\" They make multiple passes, each with a different lens. Do all three. They catch different bugs.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "h3-passA",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Pass A — Manual Review with the OWASP Lens", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pa-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Open the ", "styles": {} },
+        { "type": "link", "href": "https://owasp.org/Top10/", "content": [{ "type": "text", "text": "OWASP Top 10", "styles": {} }] },
+        { "type": "text", "text": " (or the ", "styles": {} },
+        { "type": "link", "href": "https://genai.owasp.org/llm-top-10/", "content": [{ "type": "text", "text": "OWASP LLM Top 10", "styles": {} }] },
+        { "type": "text", "text": " if you've got AI/LLM features). Walk through your code asking, for each category: \"do I have this?\"", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pa-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Broken access control:", "styles": { "bold": true } },
+        { "type": "text", "text": " can user A fetch user B's data by changing an ID in the URL? Try it.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pa-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Injection:", "styles": { "bold": true } },
+        { "type": "text", "text": " every place user input touches a database query, shell command, or HTML render — is it parameterized / escaped / sanitized?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pa-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Auth & session:", "styles": { "bold": true } },
+        { "type": "text", "text": " how do tokens get verified? Where do they live in transit and at rest? What happens on logout? Can someone hit your API with no token at all?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pa-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Cryptographic failures:", "styles": { "bold": true } },
+        { "type": "text", "text": " any secrets stored in plaintext? Any hand-rolled crypto? (If yes, that's the finding.)", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pa-b5",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Security misconfiguration:", "styles": { "bold": true } },
+        { "type": "text", "text": " CORS wide open? Debug mode in prod? Verbose error messages leaking stack traces? Default credentials?", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pa-b6",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Logging:", "styles": { "bold": true } },
+        { "type": "text", "text": " do you log passwords or tokens by accident? Grep your code for ", "styles": {} },
+        { "type": "text", "text": "console.log", "styles": { "code": true } },
+        { "type": "text", "text": " / ", "styles": {} },
+        { "type": "text", "text": "logger.info", "styles": { "code": true } },
+        { "type": "text", "text": " near auth code.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-pa",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-passB",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Pass B — Hit the High-Risk Areas Directly", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pb-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Don't wait for the OWASP categories to pull you there — some places in every codebase are where bugs cluster. Open these files and re-read them like a stranger trying to break them:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pb-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Anything labeled \"auth,\" \"login,\" \"session,\" \"middleware,\" \"permission,\" or \"admin.\"", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pb-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "File upload / file serve handlers — path traversal, content-type confusion, unbounded sizes.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pb-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Outbound HTTP from user-supplied URLs (the SSRF goldmine).", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pb-b4",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Webhook receivers — are you verifying signatures? Replay protection?", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pb-b5",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Any place you call out to an LLM with user-controlled content (prompt injection, excessive tool agency).", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-pb",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h3-passC",
+      "type": "heading",
+      "props": { "backgroundColor": "default", "textColor": "default", "textAlignment": "left", "level": 3, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Pass C — Let the Tools Look Too", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pc-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Real audits run real tools. Install these once, run them against your repo, and save the raw output as an appendix to your report:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pc-code",
+      "type": "codeBlock",
+      "props": { "language": "bash" },
+      "content": [{ "type": "text", "text": "# install once (Mac)\nbrew install gitleaks osv-scanner semgrep\n\n# secret scanning — catches API keys, tokens, AWS creds in git history\ngitleaks detect --no-banner --redact -s .\n\n# dependency CVE scan — multi-ecosystem (npm, pip, cargo, go...)\nosv-scanner -r .\n\n# SAST patterns — known-bad code shapes\nsemgrep scan --config p/owasp-top-ten --config p/secrets .\n\n# ecosystem-specific fallbacks\nnpm audit --omit=dev      # Node\npip-audit                  # Python\nbundle audit               # Ruby", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "pc-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Triage the output. ", "styles": { "bold": true } },
+        { "type": "text", "text": "Tools are noisy — most findings are false positives or low-impact. For each hit, decide: real bug, real-but-acceptable risk, or noise. Write one line in your report for each category, including why you dismissed the dismissed ones.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "pc-warning",
+      "type": "callout",
+      "props": { "emoji": "⚠️", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Never run ", "styles": {} },
+        { "type": "text", "text": "--fix", "styles": { "code": true } },
+        { "type": "text", "text": " / ", "styles": {} },
+        { "type": "text", "text": "--autofix", "styles": { "code": true } },
+        { "type": "text", "text": " flags on these tools. Automated SAST fixes can silently change semantics. The audit reads; the fixing is a separate PR with eyes on it.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-4",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-adversarial",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Step 3: The One-Sentence Exploit Test", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "adv-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "This is the rule that separates a real finding from \"this code smells weird.\" For every finding you're about to write down, complete this sentence in one breath:", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "adv-quote",
+      "type": "callout",
+      "props": { "emoji": "🟡", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "\"An attacker who controls ", "styles": { "italic": true } },
+        { "type": "text", "text": "[X]", "styles": { "italic": true, "bold": true } },
+        { "type": "text", "text": " can make ", "styles": { "italic": true } },
+        { "type": "text", "text": "[Y]", "styles": { "italic": true, "bold": true } },
+        { "type": "text", "text": " do ", "styles": { "italic": true } },
+        { "type": "text", "text": "[Z]", "styles": { "italic": true, "bold": true } },
+        { "type": "text", "text": ", producing ", "styles": { "italic": true } },
+        { "type": "text", "text": "[bad outcome]", "styles": { "italic": true, "bold": true } },
+        { "type": "text", "text": ".\"", "styles": { "italic": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "adv-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "If you can't write that sentence, ", "styles": {} },
+        { "type": "text", "text": "downgrade the severity", "styles": { "bold": true } },
+        { "type": "text", "text": " (or drop the finding entirely — \"this seems sketchy\" is not a vulnerability). If you can, you've got a real one, and you've also written the most important line of the finding.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "adv-ex",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Example: ", "styles": { "bold": true } },
+        { "type": "text", "text": "\"An attacker who controls a user-supplied filename can make the file-serve endpoint read ", "styles": { "italic": true } },
+        { "type": "text", "text": "../../.env", "styles": { "italic": true, "code": true } },
+        { "type": "text", "text": ", producing disclosure of every secret in the app.\"", "styles": { "italic": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-5",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-ledger",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Step 4: Write the Findings Ledger", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "led-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Every finding gets the same schema. Use this template ", "styles": {} },
+        { "type": "text", "text": "exactly", "styles": { "italic": true } },
+        { "type": "text", "text": " — it's the same one professional firms use, and the consistency is the point. Each entry should fit on a screen.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "led-code",
+      "type": "codeBlock",
+      "props": { "language": "markdown" },
+      "content": [{ "type": "text", "text": "### <short title>\n- **Severity:** critical | high | medium | low | info\n- **CWE:** CWE-NNN <name>  (look it up: cwe.mitre.org)\n- **Status:** open | fixed in <sha> on YYYY-MM-DD | wontfix: <reason>\n- **Where:** <file:line or component>\n- **Issue:** <what's wrong, technically>\n- **Impact:** <the one-sentence exploit from Step 3>\n- **Recommendation:** <what to change, specifically>", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "led-2",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Severity rubric: ", "styles": { "bold": true } },
+        { "type": "text", "text": "Critical = remote, unauthenticated, full compromise. High = significant impact or requires only normal user privileges. Medium = needs some prerequisites or limited scope. Low = minor info disclosure or hardening gap. Info = not a vuln but worth noting.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-6",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-fix",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Step 5: Actually Fix the Bad Ones", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "fix-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Findings without fixes are just complaints. Triage the ledger by severity × exploitability, then ", "styles": {} },
+        { "type": "text", "text": "ship at least 2 PRs", "styles": { "bold": true } },
+        { "type": "text", "text": " that close the worst things you found.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "fix-b1",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Found a leaked secret? Rotate the key first, then add it to .gitignore and move it to env vars. Removing it from history doesn't help — anyone who cloned the repo already has it.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "fix-b2",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [{ "type": "text", "text": "Each fix is a separate PR with a description that links back to the finding ID in your ledger.", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "fix-b3",
+      "type": "bulletListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Update the ledger status: ", "styles": {} },
+        { "type": "text", "text": "open", "styles": { "code": true } },
+        { "type": "text", "text": " → ", "styles": {} },
+        { "type": "text", "text": "fixed in <sha> on YYYY-MM-DD", "styles": { "code": true } },
+        { "type": "text", "text": ". For anything you're not fixing, write ", "styles": {} },
+        { "type": "text", "text": "wontfix:", "styles": { "code": true } },
+        { "type": "text", "text": " with a real reason — \"low impact, out of scope for MVP\" is a valid reason; \"don't feel like it\" is not.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-7",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-report",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Step 6: Write the Security Report", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "rep-1",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Commit the whole thing into your repo at ", "styles": {} },
+        { "type": "text", "text": "/security/AUDIT-YYYY-MM-DD.md", "styles": { "code": true } },
+        { "type": "text", "text": ". This is the artifact you'd show a future employer, a co-founder, or the first real user who asks \"how do I know it's safe?\"", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "rep-code",
+      "type": "codeBlock",
+      "props": { "language": "markdown" },
+      "content": [{ "type": "text", "text": "# <Project> — Security Audit YYYY-MM-DD\n\n## Scope\n- Commit reviewed: <sha>\n- Reviewers: <team members>\n- Tools run: gitleaks, osv-scanner, semgrep\n- Out of scope: <what you didn't review and why>\n\n## Threat model summary\n<3–5 bullets: assets, adversaries, primary risks. Link to THREAT_MODEL.md for the long version.>\n\n## Findings\n<Use the ledger schema. Group by severity, highest first.>\n\n## Fixes shipped\n- PR #NN — <title> — closes finding <ID>\n- PR #NN — <title> — closes finding <ID>\n\n## Confirmed safe\n<What you checked and didn't find anything wrong with. This is real value — it tells the next reviewer where they don't have to look first.>\n\n## Watchlist for next audit\n<Areas to re-check every time. Future-you will thank you.>", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "spacer-8",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    },
+    {
+      "id": "h2-turnin",
+      "type": "heading",
+      "props": { "backgroundColor": "blue", "textColor": "default", "textAlignment": "left", "level": 2, "isToggleable": false },
+      "content": [{ "type": "text", "text": "Share", "styles": {} }],
+      "children": []
+    },
+    {
+      "id": "turnin-intro",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "🚀 Create a GitHub Issue titled ", "styles": {} },
+        { "type": "text", "text": "\"Security Review: [Team Name]\"", "styles": { "bold": true } },
+        { "type": "text", "text": " with the ", "styles": {} },
+        { "type": "text", "text": "documentation", "styles": { "code": true } },
+        { "type": "text", "text": " label, assigned to ", "styles": {} },
+        { "type": "text", "text": "@timofei7", "styles": { "code": true } },
+        { "type": "text", "text": ". Include links to:", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-1",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "THREAT_MODEL.md", "styles": { "code": true } },
+        { "type": "text", "text": " in your repo", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-2",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "The full security report at ", "styles": {} },
+        { "type": "text", "text": "/security/AUDIT-YYYY-MM-DD.md", "styles": { "code": true } }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-3",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "At least 2 merged PRs", "styles": { "bold": true } },
+        { "type": "text", "text": " that close findings from the ledger — link them, and reference the finding ID each one closes", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-4",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "Tooling output", "styles": { "bold": true } },
+        { "type": "text", "text": " (gitleaks / osv-scanner / semgrep) committed as an appendix", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "turnin-5",
+      "type": "numberedListItem",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "A short retrospective", "styles": { "bold": true } },
+        { "type": "text", "text": " (a paragraph is fine): what surprised you, what changed about how you'll write code next time", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "closing-callout",
+      "type": "callout",
+      "props": { "emoji": "🤝", "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [
+        { "type": "text", "text": "The point isn't to find every bug — even pro audits miss things. The point is that you now have the muscle. The next time you start a project, the threat-model lens will be on by default, and that's the real win.", "styles": {} }
+      ],
+      "children": []
+    },
+    {
+      "id": "spacer-end",
+      "type": "paragraph",
+      "props": { "textColor": "default", "backgroundColor": "default", "textAlignment": "left" },
+      "content": [],
+      "children": []
+    }
+  ]
+}
